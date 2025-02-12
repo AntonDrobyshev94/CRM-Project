@@ -1,0 +1,28 @@
+﻿@{
+    ViewData["Title"] = "Проекты";
+    Layout = "_Layout";
+}
+@model CompositeViewModel<ProjectModel>
+<link href="~/css/StyleSheet.css" rel="stylesheet" />
+@{
+    var projectModel = Model.ContentViewModel;
+    string str = "https://localhost:7037/api/image/ProjectModel/" + projectModel.ImageName;
+}
+
+<div class="block">
+    <div class="block-common-header">
+        <div class="block-header-title">
+            <h1>@projectModel.Name</h1>
+            <div class="project-details">
+                <div class="project-details-text">
+                    <h3 class="project-details-text-h3">@projectModel.Description</h3>
+                </div>
+            </div>
+        </div>
+        <div class="block-header-logo">
+            <a href="~/Web/ProjectDetails?id=@projectModel.Id">
+                <img style="width:200px" src=@str />
+            </a>
+        </div>
+    </div>
+</div>

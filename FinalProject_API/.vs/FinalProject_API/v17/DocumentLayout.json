@@ -1,0 +1,617 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "F:\\C#\\CRM\\FinalProject_API\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{E45DF41E-2485-4250-9B42-7C9D7AF1A0B7}|FinalProject_API\\FinalProject_API.csproj|f:\\c#\\crm\\finalproject_api\\finalproject_api\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{E45DF41E-2485-4250-9B42-7C9D7AF1A0B7}|FinalProject_API\\FinalProject_API.csproj|solutionrelative:finalproject_api\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E45DF41E-2485-4250-9B42-7C9D7AF1A0B7}|FinalProject_API\\FinalProject_API.csproj|f:\\c#\\crm\\finalproject_api\\finalproject_api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E45DF41E-2485-4250-9B42-7C9D7AF1A0B7}|FinalProject_API\\FinalProject_API.csproj|solutionrelative:finalproject_api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E45DF41E-2485-4250-9B42-7C9D7AF1A0B7}|FinalProject_API\\FinalProject_API.csproj|f:\\c#\\crm\\finalproject_api\\finalproject_api\\finalproject_api.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{E45DF41E-2485-4250-9B42-7C9D7AF1A0B7}|FinalProject_API\\FinalProject_API.csproj|solutionrelative:finalproject_api\\finalproject_api.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E45DF41E-2485-4250-9B42-7C9D7AF1A0B7}|FinalProject_API\\FinalProject_API.csproj|f:\\c#\\crm\\finalproject_api\\finalproject_api\\controllers\\imagecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E45DF41E-2485-4250-9B42-7C9D7AF1A0B7}|FinalProject_API\\FinalProject_API.csproj|solutionrelative:finalproject_api\\controllers\\imagecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E45DF41E-2485-4250-9B42-7C9D7AF1A0B7}|FinalProject_API\\FinalProject_API.csproj|f:\\c#\\crm\\finalproject_api\\finalproject_api\\data\\imagedata.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E45DF41E-2485-4250-9B42-7C9D7AF1A0B7}|FinalProject_API\\FinalProject_API.csproj|solutionrelative:finalproject_api\\data\\imagedata.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E45DF41E-2485-4250-9B42-7C9D7AF1A0B7}|FinalProject_API\\FinalProject_API.csproj|f:\\c#\\crm\\finalproject_api\\finalproject_api\\controllers\\contactcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E45DF41E-2485-4250-9B42-7C9D7AF1A0B7}|FinalProject_API\\FinalProject_API.csproj|solutionrelative:finalproject_api\\controllers\\contactcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E45DF41E-2485-4250-9B42-7C9D7AF1A0B7}|FinalProject_API\\FinalProject_API.csproj|f:\\c#\\crm\\finalproject_api\\finalproject_api\\controllers\\valuescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E45DF41E-2485-4250-9B42-7C9D7AF1A0B7}|FinalProject_API\\FinalProject_API.csproj|solutionrelative:finalproject_api\\controllers\\valuescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E45DF41E-2485-4250-9B42-7C9D7AF1A0B7}|FinalProject_API\\FinalProject_API.csproj|f:\\c#\\crm\\finalproject_api\\finalproject_api\\controllers\\accountcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E45DF41E-2485-4250-9B42-7C9D7AF1A0B7}|FinalProject_API\\FinalProject_API.csproj|solutionrelative:finalproject_api\\controllers\\accountcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E45DF41E-2485-4250-9B42-7C9D7AF1A0B7}|FinalProject_API\\FinalProject_API.csproj|f:\\c#\\crm\\finalproject_api\\finalproject_api\\data\\accountdata.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E45DF41E-2485-4250-9B42-7C9D7AF1A0B7}|FinalProject_API\\FinalProject_API.csproj|solutionrelative:finalproject_api\\data\\accountdata.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E45DF41E-2485-4250-9B42-7C9D7AF1A0B7}|FinalProject_API\\FinalProject_API.csproj|f:\\c#\\crm\\finalproject_api\\finalproject_api\\controllers\\blogcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E45DF41E-2485-4250-9B42-7C9D7AF1A0B7}|FinalProject_API\\FinalProject_API.csproj|solutionrelative:finalproject_api\\controllers\\blogcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E45DF41E-2485-4250-9B42-7C9D7AF1A0B7}|FinalProject_API\\FinalProject_API.csproj|f:\\c#\\crm\\finalproject_api\\finalproject_api\\attributes\\idempotencykeyattribute.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E45DF41E-2485-4250-9B42-7C9D7AF1A0B7}|FinalProject_API\\FinalProject_API.csproj|solutionrelative:finalproject_api\\attributes\\idempotencykeyattribute.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E45DF41E-2485-4250-9B42-7C9D7AF1A0B7}|FinalProject_API\\FinalProject_API.csproj|f:\\c#\\crm\\finalproject_api\\finalproject_api\\models\\commonwithimagemodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E45DF41E-2485-4250-9B42-7C9D7AF1A0B7}|FinalProject_API\\FinalProject_API.csproj|solutionrelative:finalproject_api\\models\\commonwithimagemodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E45DF41E-2485-4250-9B42-7C9D7AF1A0B7}|FinalProject_API\\FinalProject_API.csproj|f:\\c#\\crm\\finalproject_api\\finalproject_api\\data\\applicationdata.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E45DF41E-2485-4250-9B42-7C9D7AF1A0B7}|FinalProject_API\\FinalProject_API.csproj|solutionrelative:finalproject_api\\data\\applicationdata.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E45DF41E-2485-4250-9B42-7C9D7AF1A0B7}|FinalProject_API\\FinalProject_API.csproj|f:\\c#\\crm\\finalproject_api\\finalproject_api\\authfinalprojectapp\\userregistration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E45DF41E-2485-4250-9B42-7C9D7AF1A0B7}|FinalProject_API\\FinalProject_API.csproj|solutionrelative:finalproject_api\\authfinalprojectapp\\userregistration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E45DF41E-2485-4250-9B42-7C9D7AF1A0B7}|FinalProject_API\\FinalProject_API.csproj|f:\\c#\\crm\\finalproject_api\\finalproject_api\\models\\application.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E45DF41E-2485-4250-9B42-7C9D7AF1A0B7}|FinalProject_API\\FinalProject_API.csproj|solutionrelative:finalproject_api\\models\\application.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E45DF41E-2485-4250-9B42-7C9D7AF1A0B7}|FinalProject_API\\FinalProject_API.csproj|f:\\c#\\crm\\finalproject_api\\finalproject_api\\data\\contactdata.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E45DF41E-2485-4250-9B42-7C9D7AF1A0B7}|FinalProject_API\\FinalProject_API.csproj|solutionrelative:finalproject_api\\data\\contactdata.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E45DF41E-2485-4250-9B42-7C9D7AF1A0B7}|FinalProject_API\\FinalProject_API.csproj|f:\\c#\\crm\\finalproject_api\\finalproject_api\\data\\linkdata.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E45DF41E-2485-4250-9B42-7C9D7AF1A0B7}|FinalProject_API\\FinalProject_API.csproj|solutionrelative:finalproject_api\\data\\linkdata.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E45DF41E-2485-4250-9B42-7C9D7AF1A0B7}|FinalProject_API\\FinalProject_API.csproj|f:\\c#\\crm\\finalproject_api\\finalproject_api\\data\\menunavigationandtagdata.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E45DF41E-2485-4250-9B42-7C9D7AF1A0B7}|FinalProject_API\\FinalProject_API.csproj|solutionrelative:finalproject_api\\data\\menunavigationandtagdata.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E45DF41E-2485-4250-9B42-7C9D7AF1A0B7}|FinalProject_API\\FinalProject_API.csproj|f:\\c#\\crm\\finalproject_api\\finalproject_api\\data\\projectdata.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E45DF41E-2485-4250-9B42-7C9D7AF1A0B7}|FinalProject_API\\FinalProject_API.csproj|solutionrelative:finalproject_api\\data\\projectdata.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E45DF41E-2485-4250-9B42-7C9D7AF1A0B7}|FinalProject_API\\FinalProject_API.csproj|f:\\c#\\crm\\finalproject_api\\finalproject_api\\data\\servicedata.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E45DF41E-2485-4250-9B42-7C9D7AF1A0B7}|FinalProject_API\\FinalProject_API.csproj|solutionrelative:finalproject_api\\data\\servicedata.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E45DF41E-2485-4250-9B42-7C9D7AF1A0B7}|FinalProject_API\\FinalProject_API.csproj|f:\\c#\\crm\\finalproject_api\\finalproject_api\\controllers\\linkcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E45DF41E-2485-4250-9B42-7C9D7AF1A0B7}|FinalProject_API\\FinalProject_API.csproj|solutionrelative:finalproject_api\\controllers\\linkcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E45DF41E-2485-4250-9B42-7C9D7AF1A0B7}|FinalProject_API\\FinalProject_API.csproj|f:\\c#\\crm\\finalproject_api\\finalproject_api\\controllers\\servicecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E45DF41E-2485-4250-9B42-7C9D7AF1A0B7}|FinalProject_API\\FinalProject_API.csproj|solutionrelative:finalproject_api\\controllers\\servicecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E45DF41E-2485-4250-9B42-7C9D7AF1A0B7}|FinalProject_API\\FinalProject_API.csproj|f:\\c#\\crm\\finalproject_api\\finalproject_api\\controllers\\projectcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E45DF41E-2485-4250-9B42-7C9D7AF1A0B7}|FinalProject_API\\FinalProject_API.csproj|solutionrelative:finalproject_api\\controllers\\projectcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E45DF41E-2485-4250-9B42-7C9D7AF1A0B7}|FinalProject_API\\FinalProject_API.csproj|f:\\c#\\crm\\finalproject_api\\finalproject_api\\controllers\\navigationcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E45DF41E-2485-4250-9B42-7C9D7AF1A0B7}|FinalProject_API\\FinalProject_API.csproj|solutionrelative:finalproject_api\\controllers\\navigationcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E45DF41E-2485-4250-9B42-7C9D7AF1A0B7}|FinalProject_API\\FinalProject_API.csproj|f:\\c#\\crm\\finalproject_api\\finalproject_api\\temporary\\temporarydatabase.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E45DF41E-2485-4250-9B42-7C9D7AF1A0B7}|FinalProject_API\\FinalProject_API.csproj|solutionrelative:finalproject_api\\temporary\\temporarydatabase.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E45DF41E-2485-4250-9B42-7C9D7AF1A0B7}|FinalProject_API\\FinalProject_API.csproj|f:\\c#\\crm\\finalproject_api\\finalproject_api\\kafka\\tokenmodelhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E45DF41E-2485-4250-9B42-7C9D7AF1A0B7}|FinalProject_API\\FinalProject_API.csproj|solutionrelative:finalproject_api\\kafka\\tokenmodelhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E45DF41E-2485-4250-9B42-7C9D7AF1A0B7}|FinalProject_API\\FinalProject_API.csproj|f:\\c#\\crm\\finalproject_api\\finalproject_api\\kafka\\kafkaproducerservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E45DF41E-2485-4250-9B42-7C9D7AF1A0B7}|FinalProject_API\\FinalProject_API.csproj|solutionrelative:finalproject_api\\kafka\\kafkaproducerservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E45DF41E-2485-4250-9B42-7C9D7AF1A0B7}|FinalProject_API\\FinalProject_API.csproj|f:\\c#\\crm\\finalproject_api\\finalproject_api\\models\\interfaces\\iapplication.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E45DF41E-2485-4250-9B42-7C9D7AF1A0B7}|FinalProject_API\\FinalProject_API.csproj|solutionrelative:finalproject_api\\models\\interfaces\\iapplication.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E45DF41E-2485-4250-9B42-7C9D7AF1A0B7}|FinalProject_API\\FinalProject_API.csproj|f:\\c#\\crm\\finalproject_api\\finalproject_api\\startup.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E45DF41E-2485-4250-9B42-7C9D7AF1A0B7}|FinalProject_API\\FinalProject_API.csproj|solutionrelative:finalproject_api\\startup.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E45DF41E-2485-4250-9B42-7C9D7AF1A0B7}|FinalProject_API\\FinalProject_API.csproj|f:\\c#\\crm\\finalproject_api\\finalproject_api\\authfinalprojectapp\\userloginprop.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E45DF41E-2485-4250-9B42-7C9D7AF1A0B7}|FinalProject_API\\FinalProject_API.csproj|solutionrelative:finalproject_api\\authfinalprojectapp\\userloginprop.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E45DF41E-2485-4250-9B42-7C9D7AF1A0B7}|FinalProject_API\\FinalProject_API.csproj|f:\\c#\\crm\\finalproject_api\\finalproject_api\\kafka\\kafkaconsumerservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E45DF41E-2485-4250-9B42-7C9D7AF1A0B7}|FinalProject_API\\FinalProject_API.csproj|solutionrelative:finalproject_api\\kafka\\kafkaconsumerservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E45DF41E-2485-4250-9B42-7C9D7AF1A0B7}|FinalProject_API\\FinalProject_API.csproj|f:\\c#\\crm\\finalproject_api\\finalproject_api\\contextfolder\\datacontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E45DF41E-2485-4250-9B42-7C9D7AF1A0B7}|FinalProject_API\\FinalProject_API.csproj|solutionrelative:finalproject_api\\contextfolder\\datacontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E45DF41E-2485-4250-9B42-7C9D7AF1A0B7}|FinalProject_API\\FinalProject_API.csproj|f:\\c#\\crm\\finalproject_api\\finalproject_api\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{E45DF41E-2485-4250-9B42-7C9D7AF1A0B7}|FinalProject_API\\FinalProject_API.csproj|solutionrelative:finalproject_api\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E45DF41E-2485-4250-9B42-7C9D7AF1A0B7}|FinalProject_API\\FinalProject_API.csproj|f:\\c#\\crm\\finalproject_api\\finalproject_api\\authfinalprojectapp\\tokenresponsemodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E45DF41E-2485-4250-9B42-7C9D7AF1A0B7}|FinalProject_API\\FinalProject_API.csproj|solutionrelative:finalproject_api\\authfinalprojectapp\\tokenresponsemodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E45DF41E-2485-4250-9B42-7C9D7AF1A0B7}|FinalProject_API\\FinalProject_API.csproj|f:\\c#\\crm\\finalproject_api\\finalproject_api\\authfinalprojectapp\\commonmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E45DF41E-2485-4250-9B42-7C9D7AF1A0B7}|FinalProject_API\\FinalProject_API.csproj|solutionrelative:finalproject_api\\authfinalprojectapp\\commonmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\C#\\FinalProject_API\\FinalProject_API\\SignalR\\ChatHub.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E45DF41E-2485-4250-9B42-7C9D7AF1A0B7}|FinalProject_API\\FinalProject_API.csproj|f:\\c#\\crm\\finalproject_api\\finalproject_api\\migrations\\20240807130720_initialapidb.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E45DF41E-2485-4250-9B42-7C9D7AF1A0B7}|FinalProject_API\\FinalProject_API.csproj|solutionrelative:finalproject_api\\migrations\\20240807130720_initialapidb.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 7,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1c64b9c2-e352-428e-a56d-0ace190b99a6}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "AccountData.cs",
+              "DocumentMoniker": "F:\\C#\\CRM\\FinalProject_API\\FinalProject_API\\Data\\AccountData.cs",
+              "RelativeDocumentMoniker": "FinalProject_API\\Data\\AccountData.cs",
+              "ToolTip": "F:\\C#\\CRM\\FinalProject_API\\FinalProject_API\\Data\\AccountData.cs",
+              "RelativeToolTip": "FinalProject_API\\Data\\AccountData.cs",
+              "ViewState": "AQIAABEAAAAAAAAAAAAowB0AAAAfAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-18T10:53:14.031Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "ImageData.cs",
+              "DocumentMoniker": "F:\\C#\\CRM\\FinalProject_API\\FinalProject_API\\Data\\ImageData.cs",
+              "RelativeDocumentMoniker": "FinalProject_API\\Data\\ImageData.cs",
+              "ToolTip": "F:\\C#\\CRM\\FinalProject_API\\FinalProject_API\\Data\\ImageData.cs",
+              "RelativeToolTip": "FinalProject_API\\Data\\ImageData.cs",
+              "ViewState": "AQIAABMAAAAAAAAAAAAowDQAAAAgAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-13T15:50:02.086Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "BlogController.cs",
+              "DocumentMoniker": "F:\\C#\\CRM\\FinalProject_API\\FinalProject_API\\Controllers\\BlogController.cs",
+              "RelativeDocumentMoniker": "FinalProject_API\\Controllers\\BlogController.cs",
+              "ToolTip": "F:\\C#\\CRM\\FinalProject_API\\FinalProject_API\\Controllers\\BlogController.cs",
+              "RelativeToolTip": "FinalProject_API\\Controllers\\BlogController.cs",
+              "ViewState": "AQIAAB0AAAAAAAAAAAAgwCgAAAA8AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-18T10:54:10.728Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "CommonWithImageModel.cs",
+              "DocumentMoniker": "F:\\C#\\CRM\\FinalProject_API\\FinalProject_API\\Models\\CommonWithImageModel.cs",
+              "RelativeDocumentMoniker": "FinalProject_API\\Models\\CommonWithImageModel.cs",
+              "ToolTip": "F:\\C#\\CRM\\FinalProject_API\\FinalProject_API\\Models\\CommonWithImageModel.cs",
+              "RelativeToolTip": "FinalProject_API\\Models\\CommonWithImageModel.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAcAAAAwAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-17T11:21:35.848Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Program.cs",
+              "DocumentMoniker": "F:\\C#\\CRM\\FinalProject_API\\FinalProject_API\\Program.cs",
+              "RelativeDocumentMoniker": "FinalProject_API\\Program.cs",
+              "ToolTip": "F:\\C#\\CRM\\FinalProject_API\\FinalProject_API\\Program.cs",
+              "RelativeToolTip": "FinalProject_API\\Program.cs",
+              "ViewState": "AgIAAH4AAAAAAAAAAAAvwGgAAAATAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-31T15:52:53.395Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "F:\\C#\\CRM\\FinalProject_API\\FinalProject_API\\appsettings.json",
+              "RelativeDocumentMoniker": "FinalProject_API\\appsettings.json",
+              "ToolTip": "F:\\C#\\CRM\\FinalProject_API\\FinalProject_API\\appsettings.json",
+              "RelativeToolTip": "FinalProject_API\\appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAnAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-02-11T20:18:20.558Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "FinalProject_API.csproj",
+              "DocumentMoniker": "F:\\C#\\CRM\\FinalProject_API\\FinalProject_API\\FinalProject_API.csproj",
+              "RelativeDocumentMoniker": "FinalProject_API\\FinalProject_API.csproj",
+              "ToolTip": "F:\\C#\\CRM\\FinalProject_API\\FinalProject_API\\FinalProject_API.csproj",
+              "RelativeToolTip": "FinalProject_API\\FinalProject_API.csproj",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABMAAAAgAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2024-07-31T15:17:32.024Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "IdempotencyKeyAttribute.cs",
+              "DocumentMoniker": "F:\\C#\\CRM\\FinalProject_API\\FinalProject_API\\Attributes\\IdempotencyKeyAttribute.cs",
+              "RelativeDocumentMoniker": "FinalProject_API\\Attributes\\IdempotencyKeyAttribute.cs",
+              "ToolTip": "F:\\C#\\CRM\\FinalProject_API\\FinalProject_API\\Attributes\\IdempotencyKeyAttribute.cs",
+              "RelativeToolTip": "FinalProject_API\\Attributes\\IdempotencyKeyAttribute.cs",
+              "ViewState": "AQIAAAMAAAAAAAAAAIBJwBgAAABJAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-18T10:47:49.421Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "ImageController.cs",
+              "DocumentMoniker": "F:\\C#\\CRM\\FinalProject_API\\FinalProject_API\\Controllers\\ImageController.cs",
+              "RelativeDocumentMoniker": "FinalProject_API\\Controllers\\ImageController.cs",
+              "ToolTip": "F:\\C#\\CRM\\FinalProject_API\\FinalProject_API\\Controllers\\ImageController.cs",
+              "RelativeToolTip": "FinalProject_API\\Controllers\\ImageController.cs",
+              "ViewState": "AQIAABYAAAAAAAAAAAAgwB0AAAAWAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-11T13:17:18.858Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "ApplicationData.cs",
+              "DocumentMoniker": "F:\\C#\\CRM\\FinalProject_API\\FinalProject_API\\Data\\ApplicationData.cs",
+              "RelativeDocumentMoniker": "FinalProject_API\\Data\\ApplicationData.cs",
+              "ToolTip": "F:\\C#\\CRM\\FinalProject_API\\FinalProject_API\\Data\\ApplicationData.cs",
+              "RelativeToolTip": "FinalProject_API\\Data\\ApplicationData.cs",
+              "ViewState": "AQIAACAAAAAAAAAAAAAewDUAAAAxAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-02T16:15:11.57Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "ProjectData.cs",
+              "DocumentMoniker": "F:\\C#\\CRM\\FinalProject_API\\FinalProject_API\\Data\\ProjectData.cs",
+              "RelativeDocumentMoniker": "FinalProject_API\\Data\\ProjectData.cs",
+              "ToolTip": "F:\\C#\\CRM\\FinalProject_API\\FinalProject_API\\Data\\ProjectData.cs",
+              "RelativeToolTip": "FinalProject_API\\Data\\ProjectData.cs",
+              "ViewState": "AQIAACUAAAAAAAAAAAAgwD8AAAAVAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-17T16:24:50.792Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "ValuesController.cs",
+              "DocumentMoniker": "F:\\C#\\CRM\\FinalProject_API\\FinalProject_API\\Controllers\\ValuesController.cs",
+              "RelativeDocumentMoniker": "FinalProject_API\\Controllers\\ValuesController.cs",
+              "ToolTip": "F:\\C#\\CRM\\FinalProject_API\\FinalProject_API\\Controllers\\ValuesController.cs",
+              "RelativeToolTip": "FinalProject_API\\Controllers\\ValuesController.cs",
+              "ViewState": "AQIAAEEAAAAAAAAAAAAwwDMAAABSAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-18T11:35:59.249Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "ContactController.cs",
+              "DocumentMoniker": "F:\\C#\\CRM\\FinalProject_API\\FinalProject_API\\Controllers\\ContactController.cs",
+              "RelativeDocumentMoniker": "FinalProject_API\\Controllers\\ContactController.cs",
+              "ToolTip": "F:\\C#\\CRM\\FinalProject_API\\FinalProject_API\\Controllers\\ContactController.cs",
+              "RelativeToolTip": "FinalProject_API\\Controllers\\ContactController.cs",
+              "ViewState": "AQIAAB8AAAAAAAAAAAAgwBYAAAAJAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-02T16:24:26.955Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "AccountController.cs",
+              "DocumentMoniker": "F:\\C#\\CRM\\FinalProject_API\\FinalProject_API\\Controllers\\AccountController.cs",
+              "RelativeDocumentMoniker": "FinalProject_API\\Controllers\\AccountController.cs",
+              "ToolTip": "F:\\C#\\CRM\\FinalProject_API\\FinalProject_API\\Controllers\\AccountController.cs",
+              "RelativeToolTip": "FinalProject_API\\Controllers\\AccountController.cs",
+              "ViewState": "AQIAACUAAAAAAAAAAAAgwDQAAABqAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-17T12:13:01.281Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "ContactData.cs",
+              "DocumentMoniker": "F:\\C#\\CRM\\FinalProject_API\\FinalProject_API\\Data\\ContactData.cs",
+              "RelativeDocumentMoniker": "FinalProject_API\\Data\\ContactData.cs",
+              "ToolTip": "F:\\C#\\CRM\\FinalProject_API\\FinalProject_API\\Data\\ContactData.cs",
+              "RelativeToolTip": "FinalProject_API\\Data\\ContactData.cs",
+              "ViewState": "AQIAAAsAAAAAAAAAAAAxwEUAAAANAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-09T16:29:17.494Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "LinkData.cs",
+              "DocumentMoniker": "F:\\C#\\CRM\\FinalProject_API\\FinalProject_API\\Data\\LinkData.cs",
+              "RelativeDocumentMoniker": "FinalProject_API\\Data\\LinkData.cs",
+              "ToolTip": "F:\\C#\\CRM\\FinalProject_API\\FinalProject_API\\Data\\LinkData.cs",
+              "RelativeToolTip": "FinalProject_API\\Data\\LinkData.cs",
+              "ViewState": "AQIAAF0AAAAAAAAAAADwv0IAAAAVAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-17T16:34:46.288Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "ServiceData.cs",
+              "DocumentMoniker": "F:\\C#\\CRM\\FinalProject_API\\FinalProject_API\\Data\\ServiceData.cs",
+              "RelativeDocumentMoniker": "FinalProject_API\\Data\\ServiceData.cs",
+              "ToolTip": "F:\\C#\\CRM\\FinalProject_API\\FinalProject_API\\Data\\ServiceData.cs",
+              "RelativeToolTip": "FinalProject_API\\Data\\ServiceData.cs",
+              "ViewState": "AQIAAA4AAAAAAAAAAAAQwD0AAAA4AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-13T15:47:44.307Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "MenuNavigationAndTagData.cs",
+              "DocumentMoniker": "F:\\C#\\CRM\\FinalProject_API\\FinalProject_API\\Data\\MenuNavigationAndTagData.cs",
+              "RelativeDocumentMoniker": "FinalProject_API\\Data\\MenuNavigationAndTagData.cs",
+              "ToolTip": "F:\\C#\\CRM\\FinalProject_API\\FinalProject_API\\Data\\MenuNavigationAndTagData.cs",
+              "RelativeToolTip": "FinalProject_API\\Data\\MenuNavigationAndTagData.cs",
+              "ViewState": "AQIAADEAAAAAAAAAAAAcwEQAAAARAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-08T14:01:54.558Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "UserRegistration.cs",
+              "DocumentMoniker": "F:\\C#\\CRM\\FinalProject_API\\FinalProject_API\\AuthFinalProjectApp\\UserRegistration.cs",
+              "RelativeDocumentMoniker": "FinalProject_API\\AuthFinalProjectApp\\UserRegistration.cs",
+              "ToolTip": "F:\\C#\\CRM\\FinalProject_API\\FinalProject_API\\AuthFinalProjectApp\\UserRegistration.cs",
+              "RelativeToolTip": "FinalProject_API\\AuthFinalProjectApp\\UserRegistration.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA4AAAAtAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-08T11:25:35.52Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "Application.cs",
+              "DocumentMoniker": "F:\\C#\\CRM\\FinalProject_API\\FinalProject_API\\Models\\Application.cs",
+              "RelativeDocumentMoniker": "FinalProject_API\\Models\\Application.cs",
+              "ToolTip": "F:\\C#\\CRM\\FinalProject_API\\FinalProject_API\\Models\\Application.cs",
+              "RelativeToolTip": "FinalProject_API\\Models\\Application.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAAAiAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-18T09:25:29.257Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "ServiceController.cs",
+              "DocumentMoniker": "F:\\C#\\CRM\\FinalProject_API\\FinalProject_API\\Controllers\\ServiceController.cs",
+              "RelativeDocumentMoniker": "FinalProject_API\\Controllers\\ServiceController.cs",
+              "ToolTip": "F:\\C#\\CRM\\FinalProject_API\\FinalProject_API\\Controllers\\ServiceController.cs",
+              "RelativeToolTip": "FinalProject_API\\Controllers\\ServiceController.cs",
+              "ViewState": "AQIAAEcAAAAAAAAAAAAwwB0AAAAVAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-02T16:35:21.457Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 23,
+              "Title": "NavigationController.cs",
+              "DocumentMoniker": "F:\\C#\\CRM\\FinalProject_API\\FinalProject_API\\Controllers\\NavigationController.cs",
+              "RelativeDocumentMoniker": "FinalProject_API\\Controllers\\NavigationController.cs",
+              "ToolTip": "F:\\C#\\CRM\\FinalProject_API\\FinalProject_API\\Controllers\\NavigationController.cs",
+              "RelativeToolTip": "FinalProject_API\\Controllers\\NavigationController.cs",
+              "ViewState": "AQIAAFIAAAAAAAAAAAAcwDYAAAAVAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-02T16:32:19.916Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 22,
+              "Title": "ProjectController.cs",
+              "DocumentMoniker": "F:\\C#\\CRM\\FinalProject_API\\FinalProject_API\\Controllers\\ProjectController.cs",
+              "RelativeDocumentMoniker": "FinalProject_API\\Controllers\\ProjectController.cs",
+              "ToolTip": "F:\\C#\\CRM\\FinalProject_API\\FinalProject_API\\Controllers\\ProjectController.cs",
+              "RelativeToolTip": "FinalProject_API\\Controllers\\ProjectController.cs",
+              "ViewState": "AQIAAEQAAAAAAAAAAAAIwBsAAAAIAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-02T16:34:08.022Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "LinkController.cs",
+              "DocumentMoniker": "F:\\C#\\CRM\\FinalProject_API\\FinalProject_API\\Controllers\\LinkController.cs",
+              "RelativeDocumentMoniker": "FinalProject_API\\Controllers\\LinkController.cs",
+              "ToolTip": "F:\\C#\\CRM\\FinalProject_API\\FinalProject_API\\Controllers\\LinkController.cs",
+              "RelativeToolTip": "FinalProject_API\\Controllers\\LinkController.cs",
+              "ViewState": "AQIAACIAAAAAAAAAAAAgwD0AAAAJAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-02T16:30:56.209Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 28,
+              "Title": "Startup.cs",
+              "DocumentMoniker": "F:\\C#\\CRM\\FinalProject_API\\FinalProject_API\\Startup.cs",
+              "RelativeDocumentMoniker": "FinalProject_API\\Startup.cs",
+              "ToolTip": "F:\\C#\\CRM\\FinalProject_API\\FinalProject_API\\Startup.cs",
+              "RelativeToolTip": "FinalProject_API\\Startup.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAAAUAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-06T16:24:02.333Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 24,
+              "Title": "TemporaryDatabase.cs",
+              "DocumentMoniker": "F:\\C#\\CRM\\FinalProject_API\\FinalProject_API\\Temporary\\TemporaryDatabase.cs",
+              "RelativeDocumentMoniker": "FinalProject_API\\Temporary\\TemporaryDatabase.cs",
+              "ToolTip": "F:\\C#\\CRM\\FinalProject_API\\FinalProject_API\\Temporary\\TemporaryDatabase.cs",
+              "RelativeToolTip": "FinalProject_API\\Temporary\\TemporaryDatabase.cs",
+              "ViewState": "AQIAAAgAAAAAAAAAAAAQwBYAAAA+AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-16T15:56:41.792Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 25,
+              "Title": "TokenModelHandler.cs",
+              "DocumentMoniker": "F:\\C#\\CRM\\FinalProject_API\\FinalProject_API\\Kafka\\TokenModelHandler.cs",
+              "RelativeDocumentMoniker": "FinalProject_API\\Kafka\\TokenModelHandler.cs",
+              "ToolTip": "F:\\C#\\CRM\\FinalProject_API\\FinalProject_API\\Kafka\\TokenModelHandler.cs",
+              "RelativeToolTip": "FinalProject_API\\Kafka\\TokenModelHandler.cs",
+              "ViewState": "AQIAAAQAAAAAAAAAAAAIwBUAAAAlAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-08T17:52:45.935Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 26,
+              "Title": "KafkaProducerService.cs",
+              "DocumentMoniker": "F:\\C#\\CRM\\FinalProject_API\\FinalProject_API\\Kafka\\KafkaProducerService.cs",
+              "RelativeDocumentMoniker": "FinalProject_API\\Kafka\\KafkaProducerService.cs",
+              "ToolTip": "F:\\C#\\CRM\\FinalProject_API\\FinalProject_API\\Kafka\\KafkaProducerService.cs",
+              "RelativeToolTip": "FinalProject_API\\Kafka\\KafkaProducerService.cs",
+              "ViewState": "AQIAAAsAAAAAAAAAAAAxwBgAAAAiAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-06T17:00:24.055Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 27,
+              "Title": "IApplication.cs",
+              "DocumentMoniker": "F:\\C#\\CRM\\FinalProject_API\\FinalProject_API\\Models\\Interfaces\\IApplication.cs",
+              "RelativeDocumentMoniker": "FinalProject_API\\Models\\Interfaces\\IApplication.cs",
+              "ToolTip": "F:\\C#\\CRM\\FinalProject_API\\FinalProject_API\\Models\\Interfaces\\IApplication.cs",
+              "RelativeToolTip": "FinalProject_API\\Models\\Interfaces\\IApplication.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAcAAAAkAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-17T11:22:15.84Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 29,
+              "Title": "UserLoginProp.cs",
+              "DocumentMoniker": "F:\\C#\\CRM\\FinalProject_API\\FinalProject_API\\AuthFinalProjectApp\\UserLoginProp.cs",
+              "RelativeDocumentMoniker": "FinalProject_API\\AuthFinalProjectApp\\UserLoginProp.cs",
+              "ToolTip": "F:\\C#\\CRM\\FinalProject_API\\FinalProject_API\\AuthFinalProjectApp\\UserLoginProp.cs",
+              "RelativeToolTip": "FinalProject_API\\AuthFinalProjectApp\\UserLoginProp.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAAABAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-06T17:24:06.278Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 30,
+              "Title": "KafkaConsumerService.cs",
+              "DocumentMoniker": "F:\\C#\\CRM\\FinalProject_API\\FinalProject_API\\Kafka\\KafkaConsumerService.cs",
+              "RelativeDocumentMoniker": "FinalProject_API\\Kafka\\KafkaConsumerService.cs",
+              "ToolTip": "F:\\C#\\CRM\\FinalProject_API\\FinalProject_API\\Kafka\\KafkaConsumerService.cs",
+              "RelativeToolTip": "FinalProject_API\\Kafka\\KafkaConsumerService.cs",
+              "ViewState": "AQIAABQAAAAAAAAAAADwvyEAAAA0AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-06T17:00:01.168Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 32,
+              "Title": "launchSettings.json",
+              "DocumentMoniker": "F:\\C#\\CRM\\FinalProject_API\\FinalProject_API\\Properties\\launchSettings.json",
+              "RelativeDocumentMoniker": "FinalProject_API\\Properties\\launchSettings.json",
+              "ToolTip": "F:\\C#\\CRM\\FinalProject_API\\FinalProject_API\\Properties\\launchSettings.json",
+              "RelativeToolTip": "FinalProject_API\\Properties\\launchSettings.json",
+              "ViewState": "AQIAAAAAAAAAAAAAAIBZwBkAAAArAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2024-08-07T13:24:29.531Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 31,
+              "Title": "DataContext.cs",
+              "DocumentMoniker": "F:\\C#\\CRM\\FinalProject_API\\FinalProject_API\\ContextFolder\\DataContext.cs",
+              "RelativeDocumentMoniker": "FinalProject_API\\ContextFolder\\DataContext.cs",
+              "ToolTip": "F:\\C#\\CRM\\FinalProject_API\\FinalProject_API\\ContextFolder\\DataContext.cs",
+              "RelativeToolTip": "FinalProject_API\\ContextFolder\\DataContext.cs",
+              "ViewState": "AQIAAAgAAAAAAAAAAIBZwCUAAAAVAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-06T16:30:45.605Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 33,
+              "Title": "TokenResponseModel.cs",
+              "DocumentMoniker": "F:\\C#\\CRM\\FinalProject_API\\FinalProject_API\\AuthFinalProjectApp\\TokenResponseModel.cs",
+              "RelativeDocumentMoniker": "FinalProject_API\\AuthFinalProjectApp\\TokenResponseModel.cs",
+              "ToolTip": "F:\\C#\\CRM\\FinalProject_API\\FinalProject_API\\AuthFinalProjectApp\\TokenResponseModel.cs",
+              "RelativeToolTip": "FinalProject_API\\AuthFinalProjectApp\\TokenResponseModel.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-06T17:24:15.391Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 36,
+              "Title": "20240807130720_InitialAPIDb.cs",
+              "DocumentMoniker": "F:\\C#\\CRM\\FinalProject_API\\FinalProject_API\\Migrations\\20240807130720_InitialAPIDb.cs",
+              "RelativeDocumentMoniker": "FinalProject_API\\Migrations\\20240807130720_InitialAPIDb.cs",
+              "ToolTip": "F:\\C#\\CRM\\FinalProject_API\\FinalProject_API\\Migrations\\20240807130720_InitialAPIDb.cs",
+              "RelativeToolTip": "FinalProject_API\\Migrations\\20240807130720_InitialAPIDb.cs",
+              "ViewState": "AQIAAAsAAAAAAAAAAAAQwCoAAAAhAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-07T13:07:21.075Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 34,
+              "Title": "CommonModel.cs",
+              "DocumentMoniker": "F:\\C#\\CRM\\FinalProject_API\\FinalProject_API\\AuthFinalProjectApp\\CommonModel.cs",
+              "RelativeDocumentMoniker": "FinalProject_API\\AuthFinalProjectApp\\CommonModel.cs",
+              "ToolTip": "F:\\C#\\CRM\\FinalProject_API\\FinalProject_API\\AuthFinalProjectApp\\CommonModel.cs",
+              "RelativeToolTip": "FinalProject_API\\AuthFinalProjectApp\\CommonModel.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAQAAAAcAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-06T17:22:30.912Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 35,
+              "Title": "ChatHub.cs",
+              "DocumentMoniker": "D:\\C#\\FinalProject_API\\FinalProject_API\\SignalR\\ChatHub.cs",
+              "ToolTip": "D:\\C#\\FinalProject_API\\FinalProject_API\\SignalR\\ChatHub.cs",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-31T15:33:46.988Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

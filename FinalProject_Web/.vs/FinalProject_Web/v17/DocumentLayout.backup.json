@@ -1,0 +1,1837 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "F:\\C#\\CRM\\FinalProject_Web\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{AAB0BFD2-9598-4B0C-9531-F96B4C68D282}|FinalProject_Web\\FinalProject_Web.csproj|f:\\c#\\crm\\finalproject_web\\finalproject_web\\views\\web\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{AAB0BFD2-9598-4B0C-9531-F96B4C68D282}|FinalProject_Web\\FinalProject_Web.csproj|solutionrelative:finalproject_web\\views\\web\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AAB0BFD2-9598-4B0C-9531-F96B4C68D282}|FinalProject_Web\\FinalProject_Web.csproj|f:\\c#\\crm\\finalproject_web\\finalproject_web\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{AAB0BFD2-9598-4B0C-9531-F96B4C68D282}|FinalProject_Web\\FinalProject_Web.csproj|solutionrelative:finalproject_web\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AAB0BFD2-9598-4B0C-9531-F96B4C68D282}|FinalProject_Web\\FinalProject_Web.csproj|f:\\c#\\crm\\finalproject_web\\finalproject_web\\startup.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AAB0BFD2-9598-4B0C-9531-F96B4C68D282}|FinalProject_Web\\FinalProject_Web.csproj|solutionrelative:finalproject_web\\startup.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AAB0BFD2-9598-4B0C-9531-F96B4C68D282}|FinalProject_Web\\FinalProject_Web.csproj|f:\\c#\\crm\\finalproject_web\\finalproject_web\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AAB0BFD2-9598-4B0C-9531-F96B4C68D282}|FinalProject_Web\\FinalProject_Web.csproj|solutionrelative:finalproject_web\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AAB0BFD2-9598-4B0C-9531-F96B4C68D282}|FinalProject_Web\\FinalProject_Web.csproj|f:\\c#\\crm\\finalproject_web\\finalproject_web\\views\\shared\\components\\logoutview\\default.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{AAB0BFD2-9598-4B0C-9531-F96B4C68D282}|FinalProject_Web\\FinalProject_Web.csproj|solutionrelative:finalproject_web\\views\\shared\\components\\logoutview\\default.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AAB0BFD2-9598-4B0C-9531-F96B4C68D282}|FinalProject_Web\\FinalProject_Web.csproj|f:\\c#\\crm\\finalproject_web\\finalproject_web\\views\\_viewstart.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{AAB0BFD2-9598-4B0C-9531-F96B4C68D282}|FinalProject_Web\\FinalProject_Web.csproj|solutionrelative:finalproject_web\\views\\_viewstart.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AAB0BFD2-9598-4B0C-9531-F96B4C68D282}|FinalProject_Web\\FinalProject_Web.csproj|f:\\c#\\crm\\finalproject_web\\finalproject_web\\views\\_viewimports.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{AAB0BFD2-9598-4B0C-9531-F96B4C68D282}|FinalProject_Web\\FinalProject_Web.csproj|solutionrelative:finalproject_web\\views\\_viewimports.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AAB0BFD2-9598-4B0C-9531-F96B4C68D282}|FinalProject_Web\\FinalProject_Web.csproj|f:\\c#\\crm\\finalproject_web\\finalproject_web\\wwwroot\\js\\scripts.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
+      "RelativeMoniker": "D:0:0:{AAB0BFD2-9598-4B0C-9531-F96B4C68D282}|FinalProject_Web\\FinalProject_Web.csproj|solutionrelative:finalproject_web\\wwwroot\\js\\scripts.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AAB0BFD2-9598-4B0C-9531-F96B4C68D282}|FinalProject_Web\\FinalProject_Web.csproj|f:\\c#\\crm\\finalproject_web\\finalproject_web\\signalrchat\\chathub.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AAB0BFD2-9598-4B0C-9531-F96B4C68D282}|FinalProject_Web\\FinalProject_Web.csproj|solutionrelative:finalproject_web\\signalrchat\\chathub.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AAB0BFD2-9598-4B0C-9531-F96B4C68D282}|FinalProject_Web\\FinalProject_Web.csproj|f:\\c#\\crm\\finalproject_web\\finalproject_web\\finalproject_web.csproj||{04B8AB82-A572-4FEF-95CE-5222444B6B64}|",
+      "RelativeMoniker": "D:0:0:{AAB0BFD2-9598-4B0C-9531-F96B4C68D282}|FinalProject_Web\\FinalProject_Web.csproj|solutionrelative:finalproject_web\\finalproject_web.csproj||{04B8AB82-A572-4FEF-95CE-5222444B6B64}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EDE4007E-E740-4C7B-8F78-319ACB4A208B}|BusinessLogicService\\BusinessLogicService.csproj|f:\\c#\\crm\\finalproject_web\\businesslogicservice\\data\\basedataservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EDE4007E-E740-4C7B-8F78-319ACB4A208B}|BusinessLogicService\\BusinessLogicService.csproj|solutionrelative:businesslogicservice\\data\\basedataservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B5B06BC7-6416-4F00-9CCA-9B08CB260B0C}|Services\\ServicesLibrary.csproj|f:\\c#\\crm\\finalproject_web\\services\\services\\interfaces\\iauthservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B5B06BC7-6416-4F00-9CCA-9B08CB260B0C}|Services\\ServicesLibrary.csproj|solutionrelative:services\\services\\interfaces\\iauthservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AAB0BFD2-9598-4B0C-9531-F96B4C68D282}|FinalProject_Web\\FinalProject_Web.csproj|f:\\c#\\crm\\finalproject_web\\finalproject_web\\wwwroot\\js\\chat.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
+      "RelativeMoniker": "D:0:0:{AAB0BFD2-9598-4B0C-9531-F96B4C68D282}|FinalProject_Web\\FinalProject_Web.csproj|solutionrelative:finalproject_web\\wwwroot\\js\\chat.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AAB0BFD2-9598-4B0C-9531-F96B4C68D282}|FinalProject_Web\\FinalProject_Web.csproj|f:\\c#\\crm\\finalproject_web\\finalproject_web\\wwwroot\\js\\exception_script.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
+      "RelativeMoniker": "D:0:0:{AAB0BFD2-9598-4B0C-9531-F96B4C68D282}|FinalProject_Web\\FinalProject_Web.csproj|solutionrelative:finalproject_web\\wwwroot\\js\\exception_script.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AAB0BFD2-9598-4B0C-9531-F96B4C68D282}|FinalProject_Web\\FinalProject_Web.csproj|f:\\c#\\crm\\finalproject_web\\finalproject_web\\wwwroot\\js\\slider_script.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
+      "RelativeMoniker": "D:0:0:{AAB0BFD2-9598-4B0C-9531-F96B4C68D282}|FinalProject_Web\\FinalProject_Web.csproj|solutionrelative:finalproject_web\\wwwroot\\js\\slider_script.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AAB0BFD2-9598-4B0C-9531-F96B4C68D282}|FinalProject_Web\\FinalProject_Web.csproj|f:\\c#\\crm\\finalproject_web\\finalproject_web\\wwwroot\\js\\requestid_script.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
+      "RelativeMoniker": "D:0:0:{AAB0BFD2-9598-4B0C-9531-F96B4C68D282}|FinalProject_Web\\FinalProject_Web.csproj|solutionrelative:finalproject_web\\wwwroot\\js\\requestid_script.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AAB0BFD2-9598-4B0C-9531-F96B4C68D282}|FinalProject_Web\\FinalProject_Web.csproj|f:\\c#\\crm\\finalproject_web\\finalproject_web\\wwwroot\\js\\signalr\\dist\\browser\\signalr.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
+      "RelativeMoniker": "D:0:0:{AAB0BFD2-9598-4B0C-9531-F96B4C68D282}|FinalProject_Web\\FinalProject_Web.csproj|solutionrelative:finalproject_web\\wwwroot\\js\\signalr\\dist\\browser\\signalr.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EDE4007E-E740-4C7B-8F78-319ACB4A208B}|BusinessLogicService\\BusinessLogicService.csproj|f:\\c#\\crm\\finalproject_web\\businesslogicservice\\data\\contactdataservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EDE4007E-E740-4C7B-8F78-319ACB4A208B}|BusinessLogicService\\BusinessLogicService.csproj|solutionrelative:businesslogicservice\\data\\contactdataservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EDE4007E-E740-4C7B-8F78-319ACB4A208B}|BusinessLogicService\\BusinessLogicService.csproj|f:\\c#\\crm\\finalproject_web\\businesslogicservice\\data\\servicedataservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EDE4007E-E740-4C7B-8F78-319ACB4A208B}|BusinessLogicService\\BusinessLogicService.csproj|solutionrelative:businesslogicservice\\data\\servicedataservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AAB0BFD2-9598-4B0C-9531-F96B4C68D282}|FinalProject_Web\\FinalProject_Web.csproj|f:\\c#\\crm\\finalproject_web\\finalproject_web\\views\\service\\services.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{AAB0BFD2-9598-4B0C-9531-F96B4C68D282}|FinalProject_Web\\FinalProject_Web.csproj|solutionrelative:finalproject_web\\views\\service\\services.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5D6AFDF5-8ADA-4750-B7D4-A4DFBAC1E924}|Models\\Models.csproj|f:\\c#\\crm\\finalproject_web\\models\\dataservicemodels\\compositeviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5D6AFDF5-8ADA-4750-B7D4-A4DFBAC1E924}|Models\\Models.csproj|solutionrelative:models\\dataservicemodels\\compositeviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EDE4007E-E740-4C7B-8F78-319ACB4A208B}|BusinessLogicService\\BusinessLogicService.csproj|f:\\c#\\crm\\finalproject_web\\businesslogicservice\\interfaces\\iimagedataservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EDE4007E-E740-4C7B-8F78-319ACB4A208B}|BusinessLogicService\\BusinessLogicService.csproj|solutionrelative:businesslogicservice\\interfaces\\iimagedataservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EDE4007E-E740-4C7B-8F78-319ACB4A208B}|BusinessLogicService\\BusinessLogicService.csproj|f:\\c#\\crm\\finalproject_web\\businesslogicservice\\interfaces\\inavigationdata.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EDE4007E-E740-4C7B-8F78-319ACB4A208B}|BusinessLogicService\\BusinessLogicService.csproj|solutionrelative:businesslogicservice\\interfaces\\inavigationdata.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EDE4007E-E740-4C7B-8F78-319ACB4A208B}|BusinessLogicService\\BusinessLogicService.csproj|f:\\c#\\crm\\finalproject_web\\businesslogicservice\\interfaces\\iapplicationdata.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EDE4007E-E740-4C7B-8F78-319ACB4A208B}|BusinessLogicService\\BusinessLogicService.csproj|solutionrelative:businesslogicservice\\interfaces\\iapplicationdata.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AAB0BFD2-9598-4B0C-9531-F96B4C68D282}|FinalProject_Web\\FinalProject_Web.csproj|f:\\c#\\crm\\finalproject_web\\finalproject_web\\controllers\\imagecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AAB0BFD2-9598-4B0C-9531-F96B4C68D282}|FinalProject_Web\\FinalProject_Web.csproj|solutionrelative:finalproject_web\\controllers\\imagecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EDE4007E-E740-4C7B-8F78-319ACB4A208B}|BusinessLogicService\\BusinessLogicService.csproj|f:\\c#\\crm\\finalproject_web\\businesslogicservice\\data\\imagedataservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EDE4007E-E740-4C7B-8F78-319ACB4A208B}|BusinessLogicService\\BusinessLogicService.csproj|solutionrelative:businesslogicservice\\data\\imagedataservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AAB0BFD2-9598-4B0C-9531-F96B4C68D282}|FinalProject_Web\\FinalProject_Web.csproj|f:\\c#\\crm\\finalproject_web\\finalproject_web\\controllers\\contactcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AAB0BFD2-9598-4B0C-9531-F96B4C68D282}|FinalProject_Web\\FinalProject_Web.csproj|solutionrelative:finalproject_web\\controllers\\contactcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AAB0BFD2-9598-4B0C-9531-F96B4C68D282}|FinalProject_Web\\FinalProject_Web.csproj|f:\\c#\\crm\\finalproject_web\\finalproject_web\\filters\\unauthorizedexceptionfilter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AAB0BFD2-9598-4B0C-9531-F96B4C68D282}|FinalProject_Web\\FinalProject_Web.csproj|solutionrelative:finalproject_web\\filters\\unauthorizedexceptionfilter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AAB0BFD2-9598-4B0C-9531-F96B4C68D282}|FinalProject_Web\\FinalProject_Web.csproj|f:\\c#\\crm\\finalproject_web\\finalproject_web\\filters\\checktokenfilter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AAB0BFD2-9598-4B0C-9531-F96B4C68D282}|FinalProject_Web\\FinalProject_Web.csproj|solutionrelative:finalproject_web\\filters\\checktokenfilter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AAB0BFD2-9598-4B0C-9531-F96B4C68D282}|FinalProject_Web\\FinalProject_Web.csproj|f:\\c#\\crm\\finalproject_web\\finalproject_web\\filters\\checktokenattribute.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AAB0BFD2-9598-4B0C-9531-F96B4C68D282}|FinalProject_Web\\FinalProject_Web.csproj|solutionrelative:finalproject_web\\filters\\checktokenattribute.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AAB0BFD2-9598-4B0C-9531-F96B4C68D282}|FinalProject_Web\\FinalProject_Web.csproj|f:\\c#\\crm\\finalproject_web\\finalproject_web\\controllers\\servicecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AAB0BFD2-9598-4B0C-9531-F96B4C68D282}|FinalProject_Web\\FinalProject_Web.csproj|solutionrelative:finalproject_web\\controllers\\servicecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AAB0BFD2-9598-4B0C-9531-F96B4C68D282}|FinalProject_Web\\FinalProject_Web.csproj|f:\\c#\\crm\\finalproject_web\\finalproject_web\\controllers\\webcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AAB0BFD2-9598-4B0C-9531-F96B4C68D282}|FinalProject_Web\\FinalProject_Web.csproj|solutionrelative:finalproject_web\\controllers\\webcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AAB0BFD2-9598-4B0C-9531-F96B4C68D282}|FinalProject_Web\\FinalProject_Web.csproj|f:\\c#\\crm\\finalproject_web\\finalproject_web\\views\\service\\addservicewindow.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{AAB0BFD2-9598-4B0C-9531-F96B4C68D282}|FinalProject_Web\\FinalProject_Web.csproj|solutionrelative:finalproject_web\\views\\service\\addservicewindow.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EDE4007E-E740-4C7B-8F78-319ACB4A208B}|BusinessLogicService\\BusinessLogicService.csproj|f:\\c#\\crm\\finalproject_web\\businesslogicservice\\data\\projectdataservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EDE4007E-E740-4C7B-8F78-319ACB4A208B}|BusinessLogicService\\BusinessLogicService.csproj|solutionrelative:businesslogicservice\\data\\projectdataservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EDE4007E-E740-4C7B-8F78-319ACB4A208B}|BusinessLogicService\\BusinessLogicService.csproj|f:\\c#\\crm\\finalproject_web\\businesslogicservice\\data\\navigationdataservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EDE4007E-E740-4C7B-8F78-319ACB4A208B}|BusinessLogicService\\BusinessLogicService.csproj|solutionrelative:businesslogicservice\\data\\navigationdataservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EDE4007E-E740-4C7B-8F78-319ACB4A208B}|BusinessLogicService\\BusinessLogicService.csproj|f:\\c#\\crm\\finalproject_web\\businesslogicservice\\data\\linkdataservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EDE4007E-E740-4C7B-8F78-319ACB4A208B}|BusinessLogicService\\BusinessLogicService.csproj|solutionrelative:businesslogicservice\\data\\linkdataservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EDE4007E-E740-4C7B-8F78-319ACB4A208B}|BusinessLogicService\\BusinessLogicService.csproj|f:\\c#\\crm\\finalproject_web\\businesslogicservice\\data\\applicationdataservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EDE4007E-E740-4C7B-8F78-319ACB4A208B}|BusinessLogicService\\BusinessLogicService.csproj|solutionrelative:businesslogicservice\\data\\applicationdataservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EDE4007E-E740-4C7B-8F78-319ACB4A208B}|BusinessLogicService\\BusinessLogicService.csproj|f:\\c#\\crm\\finalproject_web\\businesslogicservice\\data\\blogdataservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EDE4007E-E740-4C7B-8F78-319ACB4A208B}|BusinessLogicService\\BusinessLogicService.csproj|solutionrelative:businesslogicservice\\data\\blogdataservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AAB0BFD2-9598-4B0C-9531-F96B4C68D282}|FinalProject_Web\\FinalProject_Web.csproj|f:\\c#\\crm\\finalproject_web\\finalproject_web\\views\\account\\login.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{AAB0BFD2-9598-4B0C-9531-F96B4C68D282}|FinalProject_Web\\FinalProject_Web.csproj|solutionrelative:finalproject_web\\views\\account\\login.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AAB0BFD2-9598-4B0C-9531-F96B4C68D282}|FinalProject_Web\\FinalProject_Web.csproj|f:\\c#\\crm\\finalproject_web\\finalproject_web\\controllers\\accountcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AAB0BFD2-9598-4B0C-9531-F96B4C68D282}|FinalProject_Web\\FinalProject_Web.csproj|solutionrelative:finalproject_web\\controllers\\accountcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EDE4007E-E740-4C7B-8F78-319ACB4A208B}|BusinessLogicService\\BusinessLogicService.csproj|f:\\c#\\crm\\finalproject_web\\businesslogicservice\\data\\accountdataservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EDE4007E-E740-4C7B-8F78-319ACB4A208B}|BusinessLogicService\\BusinessLogicService.csproj|solutionrelative:businesslogicservice\\data\\accountdataservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AAB0BFD2-9598-4B0C-9531-F96B4C68D282}|FinalProject_Web\\FinalProject_Web.csproj|f:\\c#\\crm\\finalproject_web\\finalproject_web\\controllers\\blogcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AAB0BFD2-9598-4B0C-9531-F96B4C68D282}|FinalProject_Web\\FinalProject_Web.csproj|solutionrelative:finalproject_web\\controllers\\blogcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EDE4007E-E740-4C7B-8F78-319ACB4A208B}|BusinessLogicService\\BusinessLogicService.csproj|f:\\c#\\crm\\finalproject_web\\businesslogicservice\\interfaces\\iblogdata.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EDE4007E-E740-4C7B-8F78-319ACB4A208B}|BusinessLogicService\\BusinessLogicService.csproj|solutionrelative:businesslogicservice\\interfaces\\iblogdata.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5D6AFDF5-8ADA-4750-B7D4-A4DFBAC1E924}|Models\\Models.csproj|f:\\c#\\crm\\finalproject_web\\models\\dataservicemodels\\commonwithimagemodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5D6AFDF5-8ADA-4750-B7D4-A4DFBAC1E924}|Models\\Models.csproj|solutionrelative:models\\dataservicemodels\\commonwithimagemodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5D6AFDF5-8ADA-4750-B7D4-A4DFBAC1E924}|Models\\Models.csproj|f:\\c#\\crm\\finalproject_web\\models\\dataservicemodels\\linklistmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5D6AFDF5-8ADA-4750-B7D4-A4DFBAC1E924}|Models\\Models.csproj|solutionrelative:models\\dataservicemodels\\linklistmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EDE4007E-E740-4C7B-8F78-319ACB4A208B}|BusinessLogicService\\BusinessLogicService.csproj|f:\\c#\\crm\\finalproject_web\\businesslogicservice\\interfaces\\iaccountdata.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EDE4007E-E740-4C7B-8F78-319ACB4A208B}|BusinessLogicService\\BusinessLogicService.csproj|solutionrelative:businesslogicservice\\interfaces\\iaccountdata.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AAB0BFD2-9598-4B0C-9531-F96B4C68D282}|FinalProject_Web\\FinalProject_Web.csproj|f:\\c#\\crm\\finalproject_web\\finalproject_web\\views\\account\\registration.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{AAB0BFD2-9598-4B0C-9531-F96B4C68D282}|FinalProject_Web\\FinalProject_Web.csproj|solutionrelative:finalproject_web\\views\\account\\registration.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B5B06BC7-6416-4F00-9CCA-9B08CB260B0C}|Services\\ServicesLibrary.csproj|f:\\c#\\crm\\finalproject_web\\services\\services\\authservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B5B06BC7-6416-4F00-9CCA-9B08CB260B0C}|Services\\ServicesLibrary.csproj|solutionrelative:services\\services\\authservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AAB0BFD2-9598-4B0C-9531-F96B4C68D282}|FinalProject_Web\\FinalProject_Web.csproj|f:\\c#\\crm\\finalproject_web\\finalproject_web\\views\\blog\\changeblogpostwindow.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{AAB0BFD2-9598-4B0C-9531-F96B4C68D282}|FinalProject_Web\\FinalProject_Web.csproj|solutionrelative:finalproject_web\\views\\blog\\changeblogpostwindow.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AAB0BFD2-9598-4B0C-9531-F96B4C68D282}|FinalProject_Web\\FinalProject_Web.csproj|f:\\c#\\crm\\finalproject_web\\finalproject_web\\controllers\\dekstopcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AAB0BFD2-9598-4B0C-9531-F96B4C68D282}|FinalProject_Web\\FinalProject_Web.csproj|solutionrelative:finalproject_web\\controllers\\dekstopcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AAB0BFD2-9598-4B0C-9531-F96B4C68D282}|FinalProject_Web\\FinalProject_Web.csproj|f:\\c#\\crm\\finalproject_web\\finalproject_web\\controllers\\navigationcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AAB0BFD2-9598-4B0C-9531-F96B4C68D282}|FinalProject_Web\\FinalProject_Web.csproj|solutionrelative:finalproject_web\\controllers\\navigationcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5D6AFDF5-8ADA-4750-B7D4-A4DFBAC1E924}|Models\\Models.csproj|f:\\c#\\crm\\finalproject_web\\models\\dataservicemodels\\simpleviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5D6AFDF5-8ADA-4750-B7D4-A4DFBAC1E924}|Models\\Models.csproj|solutionrelative:models\\dataservicemodels\\simpleviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5D6AFDF5-8ADA-4750-B7D4-A4DFBAC1E924}|Models\\Models.csproj|f:\\c#\\crm\\finalproject_web\\models\\dataservicemodels\\interfaces\\baseviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5D6AFDF5-8ADA-4750-B7D4-A4DFBAC1E924}|Models\\Models.csproj|solutionrelative:models\\dataservicemodels\\interfaces\\baseviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5D6AFDF5-8ADA-4750-B7D4-A4DFBAC1E924}|Models\\Models.csproj|f:\\c#\\crm\\finalproject_web\\models\\dataservicemodels\\interfaces\\ibaseviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5D6AFDF5-8ADA-4750-B7D4-A4DFBAC1E924}|Models\\Models.csproj|solutionrelative:models\\dataservicemodels\\interfaces\\ibaseviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5D6AFDF5-8ADA-4750-B7D4-A4DFBAC1E924}|Models\\Models.csproj|f:\\c#\\crm\\finalproject_web\\models\\dataservicemodels\\interfaces\\icommon.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5D6AFDF5-8ADA-4750-B7D4-A4DFBAC1E924}|Models\\Models.csproj|solutionrelative:models\\dataservicemodels\\interfaces\\icommon.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AAB0BFD2-9598-4B0C-9531-F96B4C68D282}|FinalProject_Web\\FinalProject_Web.csproj|f:\\c#\\crm\\finalproject_web\\finalproject_web\\services\\cookiesservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AAB0BFD2-9598-4B0C-9531-F96B4C68D282}|FinalProject_Web\\FinalProject_Web.csproj|solutionrelative:finalproject_web\\services\\cookiesservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AAB0BFD2-9598-4B0C-9531-F96B4C68D282}|FinalProject_Web\\FinalProject_Web.csproj|f:\\c#\\crm\\finalproject_web\\finalproject_web\\viewcomponent\\logoutviewviewcomponent.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AAB0BFD2-9598-4B0C-9531-F96B4C68D282}|FinalProject_Web\\FinalProject_Web.csproj|solutionrelative:finalproject_web\\viewcomponent\\logoutviewviewcomponent.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AAB0BFD2-9598-4B0C-9531-F96B4C68D282}|FinalProject_Web\\FinalProject_Web.csproj|f:\\c#\\crm\\finalproject_web\\finalproject_web\\controllers\\linkcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AAB0BFD2-9598-4B0C-9531-F96B4C68D282}|FinalProject_Web\\FinalProject_Web.csproj|solutionrelative:finalproject_web\\controllers\\linkcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AAB0BFD2-9598-4B0C-9531-F96B4C68D282}|FinalProject_Web\\FinalProject_Web.csproj|f:\\c#\\crm\\finalproject_web\\finalproject_web\\controllers\\projectcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AAB0BFD2-9598-4B0C-9531-F96B4C68D282}|FinalProject_Web\\FinalProject_Web.csproj|solutionrelative:finalproject_web\\controllers\\projectcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AAB0BFD2-9598-4B0C-9531-F96B4C68D282}|FinalProject_Web\\FinalProject_Web.csproj|f:\\c#\\crm\\finalproject_web\\finalproject_web\\services\\interfaces\\ilayoutviewmodelservicecreate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AAB0BFD2-9598-4B0C-9531-F96B4C68D282}|FinalProject_Web\\FinalProject_Web.csproj|solutionrelative:finalproject_web\\services\\interfaces\\ilayoutviewmodelservicecreate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AAB0BFD2-9598-4B0C-9531-F96B4C68D282}|FinalProject_Web\\FinalProject_Web.csproj|f:\\c#\\crm\\finalproject_web\\finalproject_web\\finalproject_web.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{AAB0BFD2-9598-4B0C-9531-F96B4C68D282}|FinalProject_Web\\FinalProject_Web.csproj|solutionrelative:finalproject_web\\finalproject_web.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AAB0BFD2-9598-4B0C-9531-F96B4C68D282}|FinalProject_Web\\FinalProject_Web.csproj|f:\\c#\\crm\\finalproject_web\\finalproject_web\\data\\imagedata.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AAB0BFD2-9598-4B0C-9531-F96B4C68D282}|FinalProject_Web\\FinalProject_Web.csproj|solutionrelative:finalproject_web\\data\\imagedata.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AAB0BFD2-9598-4B0C-9531-F96B4C68D282}|FinalProject_Web\\FinalProject_Web.csproj|f:\\c#\\crm\\finalproject_web\\finalproject_web\\filters\\apiendpointattribute.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AAB0BFD2-9598-4B0C-9531-F96B4C68D282}|FinalProject_Web\\FinalProject_Web.csproj|solutionrelative:finalproject_web\\filters\\apiendpointattribute.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B5B06BC7-6416-4F00-9CCA-9B08CB260B0C}|Services\\ServicesLibrary.csproj|f:\\c#\\crm\\finalproject_web\\services\\vars\\variables.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B5B06BC7-6416-4F00-9CCA-9B08CB260B0C}|Services\\ServicesLibrary.csproj|solutionrelative:services\\vars\\variables.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B5B06BC7-6416-4F00-9CCA-9B08CB260B0C}|Services\\ServicesLibrary.csproj|f:\\c#\\crm\\finalproject_web\\services\\helpers\\jsonhelper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B5B06BC7-6416-4F00-9CCA-9B08CB260B0C}|Services\\ServicesLibrary.csproj|solutionrelative:services\\helpers\\jsonhelper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B5B06BC7-6416-4F00-9CCA-9B08CB260B0C}|Services\\ServicesLibrary.csproj|f:\\c#\\crm\\finalproject_web\\services\\enums\\uploadimageresult.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B5B06BC7-6416-4F00-9CCA-9B08CB260B0C}|Services\\ServicesLibrary.csproj|solutionrelative:services\\enums\\uploadimageresult.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B5B06BC7-6416-4F00-9CCA-9B08CB260B0C}|Services\\ServicesLibrary.csproj|f:\\c#\\crm\\finalproject_web\\services\\enums\\changecontactsresult.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B5B06BC7-6416-4F00-9CCA-9B08CB260B0C}|Services\\ServicesLibrary.csproj|solutionrelative:services\\enums\\changecontactsresult.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AAB0BFD2-9598-4B0C-9531-F96B4C68D282}|FinalProject_Web\\FinalProject_Web.csproj|f:\\c#\\crm\\finalproject_web\\finalproject_web\\services\\startuptaskservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AAB0BFD2-9598-4B0C-9531-F96B4C68D282}|FinalProject_Web\\FinalProject_Web.csproj|solutionrelative:finalproject_web\\services\\startuptaskservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AAB0BFD2-9598-4B0C-9531-F96B4C68D282}|FinalProject_Web\\FinalProject_Web.csproj|f:\\c#\\crm\\finalproject_web\\finalproject_web\\interfaces\\iimagedata.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AAB0BFD2-9598-4B0C-9531-F96B4C68D282}|FinalProject_Web\\FinalProject_Web.csproj|solutionrelative:finalproject_web\\interfaces\\iimagedata.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AAB0BFD2-9598-4B0C-9531-F96B4C68D282}|FinalProject_Web\\FinalProject_Web.csproj|f:\\c#\\crm\\finalproject_web\\finalproject_web\\views\\service\\changeservicewindow.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{AAB0BFD2-9598-4B0C-9531-F96B4C68D282}|FinalProject_Web\\FinalProject_Web.csproj|solutionrelative:finalproject_web\\views\\service\\changeservicewindow.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AAB0BFD2-9598-4B0C-9531-F96B4C68D282}|FinalProject_Web\\FinalProject_Web.csproj|f:\\c#\\crm\\finalproject_web\\finalproject_web\\views\\project\\projects.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{AAB0BFD2-9598-4B0C-9531-F96B4C68D282}|FinalProject_Web\\FinalProject_Web.csproj|solutionrelative:finalproject_web\\views\\project\\projects.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AAB0BFD2-9598-4B0C-9531-F96B4C68D282}|FinalProject_Web\\FinalProject_Web.csproj|f:\\c#\\crm\\finalproject_web\\finalproject_web\\views\\project\\projectdetails.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{AAB0BFD2-9598-4B0C-9531-F96B4C68D282}|FinalProject_Web\\FinalProject_Web.csproj|solutionrelative:finalproject_web\\views\\project\\projectdetails.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AAB0BFD2-9598-4B0C-9531-F96B4C68D282}|FinalProject_Web\\FinalProject_Web.csproj|f:\\c#\\crm\\finalproject_web\\finalproject_web\\views\\project\\changeprojectwindow.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{AAB0BFD2-9598-4B0C-9531-F96B4C68D282}|FinalProject_Web\\FinalProject_Web.csproj|solutionrelative:finalproject_web\\views\\project\\changeprojectwindow.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AAB0BFD2-9598-4B0C-9531-F96B4C68D282}|FinalProject_Web\\FinalProject_Web.csproj|f:\\c#\\crm\\finalproject_web\\finalproject_web\\views\\project\\addprojectwindow.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{AAB0BFD2-9598-4B0C-9531-F96B4C68D282}|FinalProject_Web\\FinalProject_Web.csproj|solutionrelative:finalproject_web\\views\\project\\addprojectwindow.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AAB0BFD2-9598-4B0C-9531-F96B4C68D282}|FinalProject_Web\\FinalProject_Web.csproj|f:\\c#\\crm\\finalproject_web\\finalproject_web\\views\\link\\changelinkwindow.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{AAB0BFD2-9598-4B0C-9531-F96B4C68D282}|FinalProject_Web\\FinalProject_Web.csproj|solutionrelative:finalproject_web\\views\\link\\changelinkwindow.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AAB0BFD2-9598-4B0C-9531-F96B4C68D282}|FinalProject_Web\\FinalProject_Web.csproj|f:\\c#\\crm\\finalproject_web\\finalproject_web\\views\\link\\addlinkwindow.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{AAB0BFD2-9598-4B0C-9531-F96B4C68D282}|FinalProject_Web\\FinalProject_Web.csproj|solutionrelative:finalproject_web\\views\\link\\addlinkwindow.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AAB0BFD2-9598-4B0C-9531-F96B4C68D282}|FinalProject_Web\\FinalProject_Web.csproj|f:\\c#\\crm\\finalproject_web\\finalproject_web\\views\\dekstop\\dekstopwindow.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{AAB0BFD2-9598-4B0C-9531-F96B4C68D282}|FinalProject_Web\\FinalProject_Web.csproj|solutionrelative:finalproject_web\\views\\dekstop\\dekstopwindow.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AAB0BFD2-9598-4B0C-9531-F96B4C68D282}|FinalProject_Web\\FinalProject_Web.csproj|f:\\c#\\crm\\finalproject_web\\finalproject_web\\views\\contact\\contacts.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{AAB0BFD2-9598-4B0C-9531-F96B4C68D282}|FinalProject_Web\\FinalProject_Web.csproj|solutionrelative:finalproject_web\\views\\contact\\contacts.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AAB0BFD2-9598-4B0C-9531-F96B4C68D282}|FinalProject_Web\\FinalProject_Web.csproj|f:\\c#\\crm\\finalproject_web\\finalproject_web\\views\\contact\\changecontactwindow.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{AAB0BFD2-9598-4B0C-9531-F96B4C68D282}|FinalProject_Web\\FinalProject_Web.csproj|solutionrelative:finalproject_web\\views\\contact\\changecontactwindow.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AAB0BFD2-9598-4B0C-9531-F96B4C68D282}|FinalProject_Web\\FinalProject_Web.csproj|f:\\c#\\crm\\finalproject_web\\finalproject_web\\views\\blog\\blogpostdetails.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{AAB0BFD2-9598-4B0C-9531-F96B4C68D282}|FinalProject_Web\\FinalProject_Web.csproj|solutionrelative:finalproject_web\\views\\blog\\blogpostdetails.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AAB0BFD2-9598-4B0C-9531-F96B4C68D282}|FinalProject_Web\\FinalProject_Web.csproj|f:\\c#\\crm\\finalproject_web\\finalproject_web\\views\\blog\\blog.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{AAB0BFD2-9598-4B0C-9531-F96B4C68D282}|FinalProject_Web\\FinalProject_Web.csproj|solutionrelative:finalproject_web\\views\\blog\\blog.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EDE4007E-E740-4C7B-8F78-319ACB4A208B}|BusinessLogicService\\BusinessLogicService.csproj|f:\\c#\\crm\\finalproject_web\\businesslogicservice\\interfaces\\ilinkdata.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EDE4007E-E740-4C7B-8F78-319ACB4A208B}|BusinessLogicService\\BusinessLogicService.csproj|solutionrelative:businesslogicservice\\interfaces\\ilinkdata.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EDE4007E-E740-4C7B-8F78-319ACB4A208B}|BusinessLogicService\\BusinessLogicService.csproj|f:\\c#\\crm\\finalproject_web\\businesslogicservice\\interfaces\\iprojectdata.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EDE4007E-E740-4C7B-8F78-319ACB4A208B}|BusinessLogicService\\BusinessLogicService.csproj|solutionrelative:businesslogicservice\\interfaces\\iprojectdata.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EDE4007E-E740-4C7B-8F78-319ACB4A208B}|BusinessLogicService\\BusinessLogicService.csproj|f:\\c#\\crm\\finalproject_web\\businesslogicservice\\interfaces\\icontactdata.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EDE4007E-E740-4C7B-8F78-319ACB4A208B}|BusinessLogicService\\BusinessLogicService.csproj|solutionrelative:businesslogicservice\\interfaces\\icontactdata.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5D6AFDF5-8ADA-4750-B7D4-A4DFBAC1E924}|Models\\Models.csproj|f:\\c#\\crm\\finalproject_web\\models\\dataservicemodels\\compositeviewnumerablemodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5D6AFDF5-8ADA-4750-B7D4-A4DFBAC1E924}|Models\\Models.csproj|solutionrelative:models\\dataservicemodels\\compositeviewnumerablemodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5D6AFDF5-8ADA-4750-B7D4-A4DFBAC1E924}|Models\\Models.csproj|f:\\c#\\crm\\finalproject_web\\models\\dataservicemodels\\blogmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5D6AFDF5-8ADA-4750-B7D4-A4DFBAC1E924}|Models\\Models.csproj|solutionrelative:models\\dataservicemodels\\blogmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5D6AFDF5-8ADA-4750-B7D4-A4DFBAC1E924}|Models\\Models.csproj|f:\\c#\\crm\\finalproject_web\\models\\dataservicemodels\\bloglistmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5D6AFDF5-8ADA-4750-B7D4-A4DFBAC1E924}|Models\\Models.csproj|solutionrelative:models\\dataservicemodels\\bloglistmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5D6AFDF5-8ADA-4750-B7D4-A4DFBAC1E924}|Models\\Models.csproj|f:\\c#\\crm\\finalproject_web\\models\\dataservicemodels\\application.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5D6AFDF5-8ADA-4750-B7D4-A4DFBAC1E924}|Models\\Models.csproj|solutionrelative:models\\dataservicemodels\\application.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5D6AFDF5-8ADA-4750-B7D4-A4DFBAC1E924}|Models\\Models.csproj|f:\\c#\\crm\\finalproject_web\\models\\authmodels\\userregistration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5D6AFDF5-8ADA-4750-B7D4-A4DFBAC1E924}|Models\\Models.csproj|solutionrelative:models\\authmodels\\userregistration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5D6AFDF5-8ADA-4750-B7D4-A4DFBAC1E924}|Models\\Models.csproj|f:\\c#\\crm\\finalproject_web\\models\\authmodels\\userloginprop.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5D6AFDF5-8ADA-4750-B7D4-A4DFBAC1E924}|Models\\Models.csproj|solutionrelative:models\\authmodels\\userloginprop.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5D6AFDF5-8ADA-4750-B7D4-A4DFBAC1E924}|Models\\Models.csproj|f:\\c#\\crm\\finalproject_web\\models\\authmodels\\userlogin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5D6AFDF5-8ADA-4750-B7D4-A4DFBAC1E924}|Models\\Models.csproj|solutionrelative:models\\authmodels\\userlogin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5D6AFDF5-8ADA-4750-B7D4-A4DFBAC1E924}|Models\\Models.csproj|f:\\c#\\crm\\finalproject_web\\models\\authmodels\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5D6AFDF5-8ADA-4750-B7D4-A4DFBAC1E924}|Models\\Models.csproj|solutionrelative:models\\authmodels\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5D6AFDF5-8ADA-4750-B7D4-A4DFBAC1E924}|Models\\Models.csproj|f:\\c#\\crm\\finalproject_web\\models\\authmodels\\tokenresponsemodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5D6AFDF5-8ADA-4750-B7D4-A4DFBAC1E924}|Models\\Models.csproj|solutionrelative:models\\authmodels\\tokenresponsemodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5D6AFDF5-8ADA-4750-B7D4-A4DFBAC1E924}|Models\\Models.csproj|f:\\c#\\crm\\finalproject_web\\models\\authmodels\\rolemodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5D6AFDF5-8ADA-4750-B7D4-A4DFBAC1E924}|Models\\Models.csproj|solutionrelative:models\\authmodels\\rolemodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5D6AFDF5-8ADA-4750-B7D4-A4DFBAC1E924}|Models\\Models.csproj|f:\\c#\\crm\\finalproject_web\\models\\authmodels\\registrationviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5D6AFDF5-8ADA-4750-B7D4-A4DFBAC1E924}|Models\\Models.csproj|solutionrelative:models\\authmodels\\registrationviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5D6AFDF5-8ADA-4750-B7D4-A4DFBAC1E924}|Models\\Models.csproj|f:\\c#\\crm\\finalproject_web\\models\\authmodels\\loginviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5D6AFDF5-8ADA-4750-B7D4-A4DFBAC1E924}|Models\\Models.csproj|solutionrelative:models\\authmodels\\loginviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5D6AFDF5-8ADA-4750-B7D4-A4DFBAC1E924}|Models\\Models.csproj|f:\\c#\\crm\\finalproject_web\\models\\dataservicemodels\\titlemodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5D6AFDF5-8ADA-4750-B7D4-A4DFBAC1E924}|Models\\Models.csproj|solutionrelative:models\\dataservicemodels\\titlemodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5D6AFDF5-8ADA-4750-B7D4-A4DFBAC1E924}|Models\\Models.csproj|f:\\c#\\crm\\finalproject_web\\models\\dataservicemodels\\tagmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5D6AFDF5-8ADA-4750-B7D4-A4DFBAC1E924}|Models\\Models.csproj|solutionrelative:models\\dataservicemodels\\tagmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5D6AFDF5-8ADA-4750-B7D4-A4DFBAC1E924}|Models\\Models.csproj|f:\\c#\\crm\\finalproject_web\\models\\dataservicemodels\\taglistmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5D6AFDF5-8ADA-4750-B7D4-A4DFBAC1E924}|Models\\Models.csproj|solutionrelative:models\\dataservicemodels\\taglistmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5D6AFDF5-8ADA-4750-B7D4-A4DFBAC1E924}|Models\\Models.csproj|f:\\c#\\crm\\finalproject_web\\models\\dataservicemodels\\servicelistmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5D6AFDF5-8ADA-4750-B7D4-A4DFBAC1E924}|Models\\Models.csproj|solutionrelative:models\\dataservicemodels\\servicelistmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5D6AFDF5-8ADA-4750-B7D4-A4DFBAC1E924}|Models\\Models.csproj|f:\\c#\\crm\\finalproject_web\\models\\dataservicemodels\\service.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5D6AFDF5-8ADA-4750-B7D4-A4DFBAC1E924}|Models\\Models.csproj|solutionrelative:models\\dataservicemodels\\service.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5D6AFDF5-8ADA-4750-B7D4-A4DFBAC1E924}|Models\\Models.csproj|f:\\c#\\crm\\finalproject_web\\models\\dataservicemodels\\projectmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5D6AFDF5-8ADA-4750-B7D4-A4DFBAC1E924}|Models\\Models.csproj|solutionrelative:models\\dataservicemodels\\projectmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5D6AFDF5-8ADA-4750-B7D4-A4DFBAC1E924}|Models\\Models.csproj|f:\\c#\\crm\\finalproject_web\\models\\dataservicemodels\\projectlistmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5D6AFDF5-8ADA-4750-B7D4-A4DFBAC1E924}|Models\\Models.csproj|solutionrelative:models\\dataservicemodels\\projectlistmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5D6AFDF5-8ADA-4750-B7D4-A4DFBAC1E924}|Models\\Models.csproj|f:\\c#\\crm\\finalproject_web\\models\\dataservicemodels\\linkmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5D6AFDF5-8ADA-4750-B7D4-A4DFBAC1E924}|Models\\Models.csproj|solutionrelative:models\\dataservicemodels\\linkmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5D6AFDF5-8ADA-4750-B7D4-A4DFBAC1E924}|Models\\Models.csproj|f:\\c#\\crm\\finalproject_web\\models\\dataservicemodels\\layoutviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5D6AFDF5-8ADA-4750-B7D4-A4DFBAC1E924}|Models\\Models.csproj|solutionrelative:models\\dataservicemodels\\layoutviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5D6AFDF5-8ADA-4750-B7D4-A4DFBAC1E924}|Models\\Models.csproj|f:\\c#\\crm\\finalproject_web\\models\\dataservicemodels\\imagemodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5D6AFDF5-8ADA-4750-B7D4-A4DFBAC1E924}|Models\\Models.csproj|solutionrelative:models\\dataservicemodels\\imagemodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5D6AFDF5-8ADA-4750-B7D4-A4DFBAC1E924}|Models\\Models.csproj|f:\\c#\\crm\\finalproject_web\\models\\dataservicemodels\\contactslistmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5D6AFDF5-8ADA-4750-B7D4-A4DFBAC1E924}|Models\\Models.csproj|solutionrelative:models\\dataservicemodels\\contactslistmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5D6AFDF5-8ADA-4750-B7D4-A4DFBAC1E924}|Models\\Models.csproj|f:\\c#\\crm\\finalproject_web\\models\\dataservicemodels\\contacts.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5D6AFDF5-8ADA-4750-B7D4-A4DFBAC1E924}|Models\\Models.csproj|solutionrelative:models\\dataservicemodels\\contacts.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EDE4007E-E740-4C7B-8F78-319ACB4A208B}|BusinessLogicService\\BusinessLogicService.csproj|f:\\c#\\crm\\finalproject_web\\businesslogicservice\\businesslogicservice.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{EDE4007E-E740-4C7B-8F78-319ACB4A208B}|BusinessLogicService\\BusinessLogicService.csproj|solutionrelative:businesslogicservice\\businesslogicservice.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AAB0BFD2-9598-4B0C-9531-F96B4C68D282}|FinalProject_Web\\FinalProject_Web.csproj|f:\\c#\\crm\\finalproject_web\\finalproject_web\\wwwroot\\css\\indexstyle.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "RelativeMoniker": "D:0:0:{AAB0BFD2-9598-4B0C-9531-F96B4C68D282}|FinalProject_Web\\FinalProject_Web.csproj|solutionrelative:finalproject_web\\wwwroot\\css\\indexstyle.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AAB0BFD2-9598-4B0C-9531-F96B4C68D282}|FinalProject_Web\\FinalProject_Web.csproj|f:\\c#\\crm\\finalproject_web\\finalproject_web\\libman.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{AAB0BFD2-9598-4B0C-9531-F96B4C68D282}|FinalProject_Web\\FinalProject_Web.csproj|solutionrelative:finalproject_web\\libman.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AAB0BFD2-9598-4B0C-9531-F96B4C68D282}|FinalProject_Web\\FinalProject_Web.csproj|f:\\c#\\crm\\finalproject_web\\finalproject_web\\wwwroot\\css\\adminstyle.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "RelativeMoniker": "D:0:0:{AAB0BFD2-9598-4B0C-9531-F96B4C68D282}|FinalProject_Web\\FinalProject_Web.csproj|solutionrelative:finalproject_web\\wwwroot\\css\\adminstyle.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AAB0BFD2-9598-4B0C-9531-F96B4C68D282}|FinalProject_Web\\FinalProject_Web.csproj|f:\\c#\\crm\\finalproject_web\\finalproject_web\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{AAB0BFD2-9598-4B0C-9531-F96B4C68D282}|FinalProject_Web\\FinalProject_Web.csproj|solutionrelative:finalproject_web\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 2,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1c64b9c2-e352-428e-a56d-0ace190b99a6}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "F:\\C#\\CRM\\FinalProject_Web\\FinalProject_Web\\Views\\Web\\Index.cshtml",
+              "RelativeDocumentMoniker": "FinalProject_Web\\Views\\Web\\Index.cshtml",
+              "ToolTip": "F:\\C#\\CRM\\FinalProject_Web\\FinalProject_Web\\Views\\Web\\Index.cshtml",
+              "RelativeToolTip": "FinalProject_Web\\Views\\Web\\Index.cshtml",
+              "ViewState": "AgIAACEAAAAAAAAAAAAAACMAAAATAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-08-01T13:16:23.591Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "scripts.js",
+              "DocumentMoniker": "F:\\C#\\CRM\\FinalProject_Web\\FinalProject_Web\\wwwroot\\js\\scripts.js",
+              "RelativeDocumentMoniker": "FinalProject_Web\\wwwroot\\js\\scripts.js",
+              "ToolTip": "F:\\C#\\CRM\\FinalProject_Web\\FinalProject_Web\\wwwroot\\js\\scripts.js",
+              "RelativeToolTip": "FinalProject_Web\\wwwroot\\js\\scripts.js",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAADAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
+              "WhenOpened": "2024-07-21T17:28:17.003Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "_ViewImports.cshtml",
+              "DocumentMoniker": "F:\\C#\\CRM\\FinalProject_Web\\FinalProject_Web\\Views\\_ViewImports.cshtml",
+              "RelativeDocumentMoniker": "FinalProject_Web\\Views\\_ViewImports.cshtml",
+              "ToolTip": "F:\\C#\\CRM\\FinalProject_Web\\FinalProject_Web\\Views\\_ViewImports.cshtml",
+              "RelativeToolTip": "FinalProject_Web\\Views\\_ViewImports.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-07-19T16:42:35.526Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "_ViewStart.cshtml",
+              "DocumentMoniker": "F:\\C#\\CRM\\FinalProject_Web\\FinalProject_Web\\Views\\_ViewStart.cshtml",
+              "RelativeDocumentMoniker": "FinalProject_Web\\Views\\_ViewStart.cshtml",
+              "ToolTip": "F:\\C#\\CRM\\FinalProject_Web\\FinalProject_Web\\Views\\_ViewStart.cshtml",
+              "RelativeToolTip": "FinalProject_Web\\Views\\_ViewStart.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-07-19T16:42:31.751Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "_Layout.cshtml",
+              "DocumentMoniker": "F:\\C#\\CRM\\FinalProject_Web\\FinalProject_Web\\Views\\Shared\\_Layout.cshtml",
+              "RelativeDocumentMoniker": "FinalProject_Web\\Views\\Shared\\_Layout.cshtml",
+              "ToolTip": "F:\\C#\\CRM\\FinalProject_Web\\FinalProject_Web\\Views\\Shared\\_Layout.cshtml",
+              "RelativeToolTip": "FinalProject_Web\\Views\\Shared\\_Layout.cshtml",
+              "ViewState": "AgIAADkAAAAAAAAAAAAAAAAAAAAVAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-07-18T22:14:28.081Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Default.cshtml",
+              "DocumentMoniker": "F:\\C#\\CRM\\FinalProject_Web\\FinalProject_Web\\Views\\Shared\\Components\\LogoutView\\Default.cshtml",
+              "RelativeDocumentMoniker": "FinalProject_Web\\Views\\Shared\\Components\\LogoutView\\Default.cshtml",
+              "ToolTip": "F:\\C#\\CRM\\FinalProject_Web\\FinalProject_Web\\Views\\Shared\\Components\\LogoutView\\Default.cshtml",
+              "RelativeToolTip": "FinalProject_Web\\Views\\Shared\\Components\\LogoutView\\Default.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAGUAAAA1AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-07-18T22:16:24.756Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Program.cs",
+              "DocumentMoniker": "F:\\C#\\CRM\\FinalProject_Web\\FinalProject_Web\\Program.cs",
+              "RelativeDocumentMoniker": "FinalProject_Web\\Program.cs",
+              "ToolTip": "F:\\C#\\CRM\\FinalProject_Web\\FinalProject_Web\\Program.cs",
+              "RelativeToolTip": "FinalProject_Web\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAA9AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-22T23:44:58.274Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Startup.cs",
+              "DocumentMoniker": "F:\\C#\\CRM\\FinalProject_Web\\FinalProject_Web\\Startup.cs",
+              "RelativeDocumentMoniker": "FinalProject_Web\\Startup.cs",
+              "ToolTip": "F:\\C#\\CRM\\FinalProject_Web\\FinalProject_Web\\Startup.cs",
+              "RelativeToolTip": "FinalProject_Web\\Startup.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABkAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-12T14:50:40.263Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "ChatHub.cs",
+              "DocumentMoniker": "F:\\C#\\CRM\\FinalProject_Web\\FinalProject_Web\\SignalRChat\\ChatHub.cs",
+              "RelativeDocumentMoniker": "FinalProject_Web\\SignalRChat\\ChatHub.cs",
+              "ToolTip": "F:\\C#\\CRM\\FinalProject_Web\\FinalProject_Web\\SignalRChat\\ChatHub.cs",
+              "RelativeToolTip": "FinalProject_Web\\SignalRChat\\ChatHub.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-01T10:53:55.205Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "signalr.js",
+              "DocumentMoniker": "F:\\C#\\CRM\\FinalProject_Web\\FinalProject_Web\\wwwroot\\js\\signalr\\dist\\browser\\signalr.js",
+              "RelativeDocumentMoniker": "FinalProject_Web\\wwwroot\\js\\signalr\\dist\\browser\\signalr.js",
+              "ToolTip": "F:\\C#\\CRM\\FinalProject_Web\\FinalProject_Web\\wwwroot\\js\\signalr\\dist\\browser\\signalr.js",
+              "RelativeToolTip": "FinalProject_Web\\wwwroot\\js\\signalr\\dist\\browser\\signalr.js",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAqwAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
+              "WhenOpened": "2025-02-06T14:56:53.925Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "ContactDataService.cs",
+              "DocumentMoniker": "F:\\C#\\CRM\\FinalProject_Web\\BusinessLogicService\\Data\\ContactDataService.cs",
+              "RelativeDocumentMoniker": "BusinessLogicService\\Data\\ContactDataService.cs",
+              "ToolTip": "F:\\C#\\CRM\\FinalProject_Web\\BusinessLogicService\\Data\\ContactDataService.cs",
+              "RelativeToolTip": "BusinessLogicService\\Data\\ContactDataService.cs",
+              "ViewState": "AQIAABUAAAAAAAAAAAA5wCkAAAAkAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-11T16:05:27.152Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "IAuthService.cs",
+              "DocumentMoniker": "F:\\C#\\CRM\\FinalProject_Web\\Services\\Services\\Interfaces\\IAuthService.cs",
+              "RelativeDocumentMoniker": "Services\\Services\\Interfaces\\IAuthService.cs",
+              "ToolTip": "F:\\C#\\CRM\\FinalProject_Web\\Services\\Services\\Interfaces\\IAuthService.cs",
+              "RelativeToolTip": "Services\\Services\\Interfaces\\IAuthService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-18T10:03:00.644Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "chat.js",
+              "DocumentMoniker": "F:\\C#\\CRM\\FinalProject_Web\\FinalProject_Web\\wwwroot\\js\\chat.js",
+              "RelativeDocumentMoniker": "FinalProject_Web\\wwwroot\\js\\chat.js",
+              "ToolTip": "F:\\C#\\CRM\\FinalProject_Web\\FinalProject_Web\\wwwroot\\js\\chat.js",
+              "RelativeToolTip": "FinalProject_Web\\wwwroot\\js\\chat.js",
+              "ViewState": "AQIAAC8AAAAAAAAAAAA9wB0AAAAhAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
+              "WhenOpened": "2024-08-02T14:39:38.186Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "FinalProject_Web",
+              "DocumentMoniker": "F:\\C#\\CRM\\FinalProject_Web\\FinalProject_Web\\FinalProject_Web.csproj",
+              "RelativeDocumentMoniker": "FinalProject_Web\\FinalProject_Web.csproj",
+              "ToolTip": "F:\\C#\\CRM\\FinalProject_Web\\FinalProject_Web\\FinalProject_Web.csproj",
+              "RelativeToolTip": "FinalProject_Web\\FinalProject_Web.csproj",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2025-02-12T07:33:19.199Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "BaseDataService.cs",
+              "DocumentMoniker": "F:\\C#\\CRM\\FinalProject_Web\\BusinessLogicService\\Data\\BaseDataService.cs",
+              "RelativeDocumentMoniker": "BusinessLogicService\\Data\\BaseDataService.cs",
+              "ToolTip": "F:\\C#\\CRM\\FinalProject_Web\\BusinessLogicService\\Data\\BaseDataService.cs",
+              "RelativeToolTip": "BusinessLogicService\\Data\\BaseDataService.cs",
+              "ViewState": "AgIAAGUAAAAAAAAAAAArwH0AAAAMAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-18T12:12:23.429Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "exception_script.js",
+              "DocumentMoniker": "F:\\C#\\CRM\\FinalProject_Web\\FinalProject_Web\\wwwroot\\js\\exception_script.js",
+              "RelativeDocumentMoniker": "FinalProject_Web\\wwwroot\\js\\exception_script.js",
+              "ToolTip": "F:\\C#\\CRM\\FinalProject_Web\\FinalProject_Web\\wwwroot\\js\\exception_script.js",
+              "RelativeToolTip": "FinalProject_Web\\wwwroot\\js\\exception_script.js",
+              "ViewState": "AQIAAAMAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
+              "WhenOpened": "2024-08-17T15:56:29.108Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "requestId_script.js",
+              "DocumentMoniker": "F:\\C#\\CRM\\FinalProject_Web\\FinalProject_Web\\wwwroot\\js\\requestId_script.js",
+              "RelativeDocumentMoniker": "FinalProject_Web\\wwwroot\\js\\requestId_script.js",
+              "ToolTip": "F:\\C#\\CRM\\FinalProject_Web\\FinalProject_Web\\wwwroot\\js\\requestId_script.js",
+              "RelativeToolTip": "FinalProject_Web\\wwwroot\\js\\requestId_script.js",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA0AAAADAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
+              "WhenOpened": "2024-08-17T11:27:24.623Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "slider_script.js",
+              "DocumentMoniker": "F:\\C#\\CRM\\FinalProject_Web\\FinalProject_Web\\wwwroot\\js\\slider_script.js",
+              "RelativeDocumentMoniker": "FinalProject_Web\\wwwroot\\js\\slider_script.js",
+              "ToolTip": "F:\\C#\\CRM\\FinalProject_Web\\FinalProject_Web\\wwwroot\\js\\slider_script.js",
+              "RelativeToolTip": "FinalProject_Web\\wwwroot\\js\\slider_script.js",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
+              "WhenOpened": "2024-07-21T17:28:14.384Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "CompositeViewModel.cs",
+              "DocumentMoniker": "F:\\C#\\CRM\\FinalProject_Web\\Models\\DataServiceModels\\CompositeViewModel.cs",
+              "RelativeDocumentMoniker": "Models\\DataServiceModels\\CompositeViewModel.cs",
+              "ToolTip": "F:\\C#\\CRM\\FinalProject_Web\\Models\\DataServiceModels\\CompositeViewModel.cs",
+              "RelativeToolTip": "Models\\DataServiceModels\\CompositeViewModel.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAIAAAAiAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-11T16:08:23.912Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "ServiceDataService.cs",
+              "DocumentMoniker": "F:\\C#\\CRM\\FinalProject_Web\\BusinessLogicService\\Data\\ServiceDataService.cs",
+              "RelativeDocumentMoniker": "BusinessLogicService\\Data\\ServiceDataService.cs",
+              "ToolTip": "F:\\C#\\CRM\\FinalProject_Web\\BusinessLogicService\\Data\\ServiceDataService.cs",
+              "RelativeToolTip": "BusinessLogicService\\Data\\ServiceDataService.cs",
+              "ViewState": "AQIAAB4AAAAAAAAAAAAowBUAAAAeAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-11T16:05:40.619Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "Services.cshtml",
+              "DocumentMoniker": "F:\\C#\\CRM\\FinalProject_Web\\FinalProject_Web\\Views\\Service\\Services.cshtml",
+              "RelativeDocumentMoniker": "FinalProject_Web\\Views\\Service\\Services.cshtml",
+              "ToolTip": "F:\\C#\\CRM\\FinalProject_Web\\FinalProject_Web\\Views\\Service\\Services.cshtml",
+              "RelativeToolTip": "FinalProject_Web\\Views\\Service\\Services.cshtml",
+              "ViewState": "AQIAACUAAAAAAAAAAAAAACUAAAA5AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-07-20T16:21:13.267Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "IImageDataService.cs",
+              "DocumentMoniker": "F:\\C#\\CRM\\FinalProject_Web\\BusinessLogicService\\Interfaces\\IImageDataService.cs",
+              "RelativeDocumentMoniker": "BusinessLogicService\\Interfaces\\IImageDataService.cs",
+              "ToolTip": "F:\\C#\\CRM\\FinalProject_Web\\BusinessLogicService\\Interfaces\\IImageDataService.cs",
+              "RelativeToolTip": "BusinessLogicService\\Interfaces\\IImageDataService.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAAAgAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-11T16:12:53.756Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 22,
+              "Title": "INavigationData.cs",
+              "DocumentMoniker": "F:\\C#\\CRM\\FinalProject_Web\\BusinessLogicService\\Interfaces\\INavigationData.cs",
+              "RelativeDocumentMoniker": "BusinessLogicService\\Interfaces\\INavigationData.cs",
+              "ToolTip": "F:\\C#\\CRM\\FinalProject_Web\\BusinessLogicService\\Interfaces\\INavigationData.cs",
+              "RelativeToolTip": "BusinessLogicService\\Interfaces\\INavigationData.cs",
+              "ViewState": "AQIAAAYAAAAAAAAAAAASwA8AAAATAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-12T10:37:07.374Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 23,
+              "Title": "IApplicationData.cs",
+              "DocumentMoniker": "F:\\C#\\CRM\\FinalProject_Web\\BusinessLogicService\\Interfaces\\IApplicationData.cs",
+              "RelativeDocumentMoniker": "BusinessLogicService\\Interfaces\\IApplicationData.cs",
+              "ToolTip": "F:\\C#\\CRM\\FinalProject_Web\\BusinessLogicService\\Interfaces\\IApplicationData.cs",
+              "RelativeToolTip": "BusinessLogicService\\Interfaces\\IApplicationData.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAABWAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-12T10:10:27.906Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 38,
+              "Title": "Login.cshtml",
+              "DocumentMoniker": "F:\\C#\\CRM\\FinalProject_Web\\FinalProject_Web\\Views\\Account\\Login.cshtml",
+              "RelativeDocumentMoniker": "FinalProject_Web\\Views\\Account\\Login.cshtml",
+              "ToolTip": "F:\\C#\\CRM\\FinalProject_Web\\FinalProject_Web\\Views\\Account\\Login.cshtml",
+              "RelativeToolTip": "FinalProject_Web\\Views\\Account\\Login.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAAAnAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-08-16T14:12:50.839Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 29,
+              "Title": "CheckTokenAttribute.cs",
+              "DocumentMoniker": "F:\\C#\\CRM\\FinalProject_Web\\FinalProject_Web\\Filters\\CheckTokenAttribute.cs",
+              "RelativeDocumentMoniker": "FinalProject_Web\\Filters\\CheckTokenAttribute.cs",
+              "ToolTip": "F:\\C#\\CRM\\FinalProject_Web\\FinalProject_Web\\Filters\\CheckTokenAttribute.cs",
+              "RelativeToolTip": "FinalProject_Web\\Filters\\CheckTokenAttribute.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAVAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-09T14:59:44.372Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 28,
+              "Title": "CheckTokenFilter.cs",
+              "DocumentMoniker": "F:\\C#\\CRM\\FinalProject_Web\\FinalProject_Web\\Filters\\CheckTokenFilter.cs",
+              "RelativeDocumentMoniker": "FinalProject_Web\\Filters\\CheckTokenFilter.cs",
+              "ToolTip": "F:\\C#\\CRM\\FinalProject_Web\\FinalProject_Web\\Filters\\CheckTokenFilter.cs",
+              "RelativeToolTip": "FinalProject_Web\\Filters\\CheckTokenFilter.cs",
+              "ViewState": "AQIAAAYAAAAAAAAAAADwvxoAAAAtAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-16T12:50:41.95Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 27,
+              "Title": "UnauthorizedExceptionFilter.cs",
+              "DocumentMoniker": "F:\\C#\\CRM\\FinalProject_Web\\FinalProject_Web\\Filters\\UnauthorizedExceptionFilter.cs",
+              "RelativeDocumentMoniker": "FinalProject_Web\\Filters\\UnauthorizedExceptionFilter.cs",
+              "ToolTip": "F:\\C#\\CRM\\FinalProject_Web\\FinalProject_Web\\Filters\\UnauthorizedExceptionFilter.cs",
+              "RelativeToolTip": "FinalProject_Web\\Filters\\UnauthorizedExceptionFilter.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA0AAAANAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-16T12:52:36.477Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 24,
+              "Title": "ImageController.cs",
+              "DocumentMoniker": "F:\\C#\\CRM\\FinalProject_Web\\FinalProject_Web\\Controllers\\ImageController.cs",
+              "RelativeDocumentMoniker": "FinalProject_Web\\Controllers\\ImageController.cs",
+              "ToolTip": "F:\\C#\\CRM\\FinalProject_Web\\FinalProject_Web\\Controllers\\ImageController.cs",
+              "RelativeToolTip": "FinalProject_Web\\Controllers\\ImageController.cs",
+              "ViewState": "AQIAAAcAAAAAAAAAAAAAABgAAAASAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-12T11:08:12.502Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 26,
+              "Title": "ContactController.cs",
+              "DocumentMoniker": "F:\\C#\\CRM\\FinalProject_Web\\FinalProject_Web\\Controllers\\ContactController.cs",
+              "RelativeDocumentMoniker": "FinalProject_Web\\Controllers\\ContactController.cs",
+              "ToolTip": "F:\\C#\\CRM\\FinalProject_Web\\FinalProject_Web\\Controllers\\ContactController.cs",
+              "RelativeToolTip": "FinalProject_Web\\Controllers\\ContactController.cs",
+              "ViewState": "AQIAAFwAAAAAAAAAAAAkwGEAAAANAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-22T16:11:33.004Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 25,
+              "Title": "ImageDataService.cs",
+              "DocumentMoniker": "F:\\C#\\CRM\\FinalProject_Web\\BusinessLogicService\\Data\\ImageDataService.cs",
+              "RelativeDocumentMoniker": "BusinessLogicService\\Data\\ImageDataService.cs",
+              "ToolTip": "F:\\C#\\CRM\\FinalProject_Web\\BusinessLogicService\\Data\\ImageDataService.cs",
+              "RelativeToolTip": "BusinessLogicService\\Data\\ImageDataService.cs",
+              "ViewState": "AQIAAAoAAAAAAAAAAAAUwBgAAAAMAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-11T16:05:29.77Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 37,
+              "Title": "BlogDataService.cs",
+              "DocumentMoniker": "F:\\C#\\CRM\\FinalProject_Web\\BusinessLogicService\\Data\\BlogDataService.cs",
+              "RelativeDocumentMoniker": "BusinessLogicService\\Data\\BlogDataService.cs",
+              "ToolTip": "F:\\C#\\CRM\\FinalProject_Web\\BusinessLogicService\\Data\\BlogDataService.cs",
+              "RelativeToolTip": "BusinessLogicService\\Data\\BlogDataService.cs",
+              "ViewState": "AQIAACYAAAAAAAAAAAAwwFEAAAAJAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-18T11:40:28.166Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 33,
+              "Title": "ProjectDataService.cs",
+              "DocumentMoniker": "F:\\C#\\CRM\\FinalProject_Web\\BusinessLogicService\\Data\\ProjectDataService.cs",
+              "RelativeDocumentMoniker": "BusinessLogicService\\Data\\ProjectDataService.cs",
+              "ToolTip": "F:\\C#\\CRM\\FinalProject_Web\\BusinessLogicService\\Data\\ProjectDataService.cs",
+              "RelativeToolTip": "BusinessLogicService\\Data\\ProjectDataService.cs",
+              "ViewState": "AQIAABsAAAAAAAAAAAAowE0AAAAJAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-11T16:05:38.159Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 41,
+              "Title": "BlogController.cs",
+              "DocumentMoniker": "F:\\C#\\CRM\\FinalProject_Web\\FinalProject_Web\\Controllers\\BlogController.cs",
+              "RelativeDocumentMoniker": "FinalProject_Web\\Controllers\\BlogController.cs",
+              "ToolTip": "F:\\C#\\CRM\\FinalProject_Web\\FinalProject_Web\\Controllers\\BlogController.cs",
+              "RelativeToolTip": "FinalProject_Web\\Controllers\\BlogController.cs",
+              "ViewState": "AQIAAFUAAAAAAAAAAAAowGIAAAASAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-22T16:10:41.057Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 31,
+              "Title": "WebController.cs",
+              "DocumentMoniker": "F:\\C#\\CRM\\FinalProject_Web\\FinalProject_Web\\Controllers\\WebController.cs",
+              "RelativeDocumentMoniker": "FinalProject_Web\\Controllers\\WebController.cs",
+              "ToolTip": "F:\\C#\\CRM\\FinalProject_Web\\FinalProject_Web\\Controllers\\WebController.cs",
+              "RelativeToolTip": "FinalProject_Web\\Controllers\\WebController.cs",
+              "ViewState": "AQIAADQAAAAAAAAAAAAewEcAAAAnAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-18T10:28:25.67Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 30,
+              "Title": "ServiceController.cs",
+              "DocumentMoniker": "F:\\C#\\CRM\\FinalProject_Web\\FinalProject_Web\\Controllers\\ServiceController.cs",
+              "RelativeDocumentMoniker": "FinalProject_Web\\Controllers\\ServiceController.cs",
+              "ToolTip": "F:\\C#\\CRM\\FinalProject_Web\\FinalProject_Web\\Controllers\\ServiceController.cs",
+              "RelativeToolTip": "FinalProject_Web\\Controllers\\ServiceController.cs",
+              "ViewState": "AQIAABYAAAAAAAAAAAAgwCsAAAARAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-22T16:11:16.279Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 34,
+              "Title": "NavigationDataService.cs",
+              "DocumentMoniker": "F:\\C#\\CRM\\FinalProject_Web\\BusinessLogicService\\Data\\NavigationDataService.cs",
+              "RelativeDocumentMoniker": "BusinessLogicService\\Data\\NavigationDataService.cs",
+              "ToolTip": "F:\\C#\\CRM\\FinalProject_Web\\BusinessLogicService\\Data\\NavigationDataService.cs",
+              "RelativeToolTip": "BusinessLogicService\\Data\\NavigationDataService.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAI4AAAAJAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-11T16:05:35.745Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 32,
+              "Title": "AddServiceWindow.cshtml",
+              "DocumentMoniker": "F:\\C#\\CRM\\FinalProject_Web\\FinalProject_Web\\Views\\Service\\AddServiceWindow.cshtml",
+              "RelativeDocumentMoniker": "FinalProject_Web\\Views\\Service\\AddServiceWindow.cshtml",
+              "ToolTip": "F:\\C#\\CRM\\FinalProject_Web\\FinalProject_Web\\Views\\Service\\AddServiceWindow.cshtml",
+              "RelativeToolTip": "FinalProject_Web\\Views\\Service\\AddServiceWindow.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAAAMAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-07-20T21:16:33.45Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 35,
+              "Title": "LinkDataService.cs",
+              "DocumentMoniker": "F:\\C#\\CRM\\FinalProject_Web\\BusinessLogicService\\Data\\LinkDataService.cs",
+              "RelativeDocumentMoniker": "BusinessLogicService\\Data\\LinkDataService.cs",
+              "ToolTip": "F:\\C#\\CRM\\FinalProject_Web\\BusinessLogicService\\Data\\LinkDataService.cs",
+              "RelativeToolTip": "BusinessLogicService\\Data\\LinkDataService.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAcAAAAFAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-11T16:05:32.588Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 36,
+              "Title": "ApplicationDataService.cs",
+              "DocumentMoniker": "F:\\C#\\CRM\\FinalProject_Web\\BusinessLogicService\\Data\\ApplicationDataService.cs",
+              "RelativeDocumentMoniker": "BusinessLogicService\\Data\\ApplicationDataService.cs",
+              "ToolTip": "F:\\C#\\CRM\\FinalProject_Web\\BusinessLogicService\\Data\\ApplicationDataService.cs",
+              "RelativeToolTip": "BusinessLogicService\\Data\\ApplicationDataService.cs",
+              "ViewState": "AQIAAB4AAAAAAAAAAAAowE4AAAAkAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-18T11:37:15.011Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 39,
+              "Title": "AccountController.cs",
+              "DocumentMoniker": "F:\\C#\\CRM\\FinalProject_Web\\FinalProject_Web\\Controllers\\AccountController.cs",
+              "RelativeDocumentMoniker": "FinalProject_Web\\Controllers\\AccountController.cs",
+              "ToolTip": "F:\\C#\\CRM\\FinalProject_Web\\FinalProject_Web\\Controllers\\AccountController.cs",
+              "RelativeToolTip": "FinalProject_Web\\Controllers\\AccountController.cs",
+              "ViewState": "AQIAADAAAAAAAAAAAAAowDoAAAASAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-16T14:42:12.133Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 40,
+              "Title": "AccountDataService.cs",
+              "DocumentMoniker": "F:\\C#\\CRM\\FinalProject_Web\\BusinessLogicService\\Data\\AccountDataService.cs",
+              "RelativeDocumentMoniker": "BusinessLogicService\\Data\\AccountDataService.cs",
+              "ToolTip": "F:\\C#\\CRM\\FinalProject_Web\\BusinessLogicService\\Data\\AccountDataService.cs",
+              "RelativeToolTip": "BusinessLogicService\\Data\\AccountDataService.cs",
+              "ViewState": "AQIAAAgAAAAAAAAAAAAQwBcAAAAzAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-11T16:04:53.309Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 44,
+              "Title": "LinkListModel.cs",
+              "DocumentMoniker": "F:\\C#\\CRM\\FinalProject_Web\\Models\\DataServiceModels\\LinkListModel.cs",
+              "RelativeDocumentMoniker": "Models\\DataServiceModels\\LinkListModel.cs",
+              "ToolTip": "F:\\C#\\CRM\\FinalProject_Web\\Models\\DataServiceModels\\LinkListModel.cs",
+              "RelativeToolTip": "Models\\DataServiceModels\\LinkListModel.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAiAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-11T16:08:49.193Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 43,
+              "Title": "CommonWithImageModel.cs",
+              "DocumentMoniker": "F:\\C#\\CRM\\FinalProject_Web\\Models\\DataServiceModels\\CommonWithImageModel.cs",
+              "RelativeDocumentMoniker": "Models\\DataServiceModels\\CommonWithImageModel.cs",
+              "ToolTip": "F:\\C#\\CRM\\FinalProject_Web\\Models\\DataServiceModels\\CommonWithImageModel.cs",
+              "RelativeToolTip": "Models\\DataServiceModels\\CommonWithImageModel.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAcAAAAwAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-11T16:08:20.804Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 42,
+              "Title": "IBlogData.cs",
+              "DocumentMoniker": "F:\\C#\\CRM\\FinalProject_Web\\BusinessLogicService\\Interfaces\\IBlogData.cs",
+              "RelativeDocumentMoniker": "BusinessLogicService\\Interfaces\\IBlogData.cs",
+              "ToolTip": "F:\\C#\\CRM\\FinalProject_Web\\BusinessLogicService\\Interfaces\\IBlogData.cs",
+              "RelativeToolTip": "BusinessLogicService\\Interfaces\\IBlogData.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAAAyAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-11T16:12:45.38Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 45,
+              "Title": "IAccountData.cs",
+              "DocumentMoniker": "F:\\C#\\CRM\\FinalProject_Web\\BusinessLogicService\\Interfaces\\IAccountData.cs",
+              "RelativeDocumentMoniker": "BusinessLogicService\\Interfaces\\IAccountData.cs",
+              "ToolTip": "F:\\C#\\CRM\\FinalProject_Web\\BusinessLogicService\\Interfaces\\IAccountData.cs",
+              "RelativeToolTip": "BusinessLogicService\\Interfaces\\IAccountData.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAAASAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-11T16:12:30.14Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 47,
+              "Title": "AuthService.cs",
+              "DocumentMoniker": "F:\\C#\\CRM\\FinalProject_Web\\Services\\Services\\AuthService.cs",
+              "RelativeDocumentMoniker": "Services\\Services\\AuthService.cs",
+              "ToolTip": "F:\\C#\\CRM\\FinalProject_Web\\Services\\Services\\AuthService.cs",
+              "RelativeToolTip": "Services\\Services\\AuthService.cs",
+              "ViewState": "AQIAAAwAAAAAAAAAAAAQwBsAAAAJAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-17T15:59:37.895Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 48,
+              "Title": "ChangeBlogPostWindow.cshtml",
+              "DocumentMoniker": "F:\\C#\\CRM\\FinalProject_Web\\FinalProject_Web\\Views\\Blog\\ChangeBlogPostWindow.cshtml",
+              "RelativeDocumentMoniker": "FinalProject_Web\\Views\\Blog\\ChangeBlogPostWindow.cshtml",
+              "ToolTip": "F:\\C#\\CRM\\FinalProject_Web\\FinalProject_Web\\Views\\Blog\\ChangeBlogPostWindow.cshtml",
+              "RelativeToolTip": "FinalProject_Web\\Views\\Blog\\ChangeBlogPostWindow.cshtml",
+              "ViewState": "AQIAAAkAAAAAAAAAAAAAAA8AAAACAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-07-20T21:18:01.838Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 46,
+              "Title": "Registration.cshtml",
+              "DocumentMoniker": "F:\\C#\\CRM\\FinalProject_Web\\FinalProject_Web\\Views\\Account\\Registration.cshtml",
+              "RelativeDocumentMoniker": "FinalProject_Web\\Views\\Account\\Registration.cshtml",
+              "ToolTip": "F:\\C#\\CRM\\FinalProject_Web\\FinalProject_Web\\Views\\Account\\Registration.cshtml",
+              "RelativeToolTip": "FinalProject_Web\\Views\\Account\\Registration.cshtml",
+              "ViewState": "AQIAAB4AAAAAAAAAAAAAADEAAAAwAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-08-17T11:37:49.341Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 49,
+              "Title": "DekstopController.cs",
+              "DocumentMoniker": "F:\\C#\\CRM\\FinalProject_Web\\FinalProject_Web\\Controllers\\DekstopController.cs",
+              "RelativeDocumentMoniker": "FinalProject_Web\\Controllers\\DekstopController.cs",
+              "ToolTip": "F:\\C#\\CRM\\FinalProject_Web\\FinalProject_Web\\Controllers\\DekstopController.cs",
+              "RelativeToolTip": "FinalProject_Web\\Controllers\\DekstopController.cs",
+              "ViewState": "AQIAAEEAAAAAAAAAAAAIwAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-17T15:57:04.728Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 50,
+              "Title": "NavigationController.cs",
+              "DocumentMoniker": "F:\\C#\\CRM\\FinalProject_Web\\FinalProject_Web\\Controllers\\NavigationController.cs",
+              "RelativeDocumentMoniker": "FinalProject_Web\\Controllers\\NavigationController.cs",
+              "ToolTip": "F:\\C#\\CRM\\FinalProject_Web\\FinalProject_Web\\Controllers\\NavigationController.cs",
+              "RelativeToolTip": "FinalProject_Web\\Controllers\\NavigationController.cs",
+              "ViewState": "AQIAAB4AAAAAAAAAAAAowEoAAAAfAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-22T16:12:35.73Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 52,
+              "Title": "BaseViewModel.cs",
+              "DocumentMoniker": "F:\\C#\\CRM\\FinalProject_Web\\Models\\DataServiceModels\\Interfaces\\BaseViewModel.cs",
+              "RelativeDocumentMoniker": "Models\\DataServiceModels\\Interfaces\\BaseViewModel.cs",
+              "ToolTip": "F:\\C#\\CRM\\FinalProject_Web\\Models\\DataServiceModels\\Interfaces\\BaseViewModel.cs",
+              "RelativeToolTip": "Models\\DataServiceModels\\Interfaces\\BaseViewModel.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAiAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-11T16:09:55.366Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 53,
+              "Title": "IBaseViewModel.cs",
+              "DocumentMoniker": "F:\\C#\\CRM\\FinalProject_Web\\Models\\DataServiceModels\\Interfaces\\IBaseViewModel.cs",
+              "RelativeDocumentMoniker": "Models\\DataServiceModels\\Interfaces\\IBaseViewModel.cs",
+              "ToolTip": "F:\\C#\\CRM\\FinalProject_Web\\Models\\DataServiceModels\\Interfaces\\IBaseViewModel.cs",
+              "RelativeToolTip": "Models\\DataServiceModels\\Interfaces\\IBaseViewModel.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAiAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-11T16:10:00.233Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 54,
+              "Title": "ICommon.cs",
+              "DocumentMoniker": "F:\\C#\\CRM\\FinalProject_Web\\Models\\DataServiceModels\\Interfaces\\ICommon.cs",
+              "RelativeDocumentMoniker": "Models\\DataServiceModels\\Interfaces\\ICommon.cs",
+              "ToolTip": "F:\\C#\\CRM\\FinalProject_Web\\Models\\DataServiceModels\\Interfaces\\ICommon.cs",
+              "RelativeToolTip": "Models\\DataServiceModels\\Interfaces\\ICommon.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAiAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-11T16:10:04.164Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 51,
+              "Title": "SimpleViewModel.cs",
+              "DocumentMoniker": "F:\\C#\\CRM\\FinalProject_Web\\Models\\DataServiceModels\\SimpleViewModel.cs",
+              "RelativeDocumentMoniker": "Models\\DataServiceModels\\SimpleViewModel.cs",
+              "ToolTip": "F:\\C#\\CRM\\FinalProject_Web\\Models\\DataServiceModels\\SimpleViewModel.cs",
+              "RelativeToolTip": "Models\\DataServiceModels\\SimpleViewModel.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAIAAAAiAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-11T16:09:13.436Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 57,
+              "Title": "LinkController.cs",
+              "DocumentMoniker": "F:\\C#\\CRM\\FinalProject_Web\\FinalProject_Web\\Controllers\\LinkController.cs",
+              "RelativeDocumentMoniker": "FinalProject_Web\\Controllers\\LinkController.cs",
+              "ToolTip": "F:\\C#\\CRM\\FinalProject_Web\\FinalProject_Web\\Controllers\\LinkController.cs",
+              "RelativeToolTip": "FinalProject_Web\\Controllers\\LinkController.cs",
+              "ViewState": "AQIAAE4AAAAAAAAAAAAvwF0AAAAuAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-22T16:11:52.686Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 55,
+              "Title": "CookiesService.cs",
+              "DocumentMoniker": "F:\\C#\\CRM\\FinalProject_Web\\FinalProject_Web\\Services\\CookiesService.cs",
+              "RelativeDocumentMoniker": "FinalProject_Web\\Services\\CookiesService.cs",
+              "ToolTip": "F:\\C#\\CRM\\FinalProject_Web\\FinalProject_Web\\Services\\CookiesService.cs",
+              "RelativeToolTip": "FinalProject_Web\\Services\\CookiesService.cs",
+              "ViewState": "AQIAACgAAAAAAAAAAAAgwAAAAAArAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-24T11:09:53.724Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 56,
+              "Title": "LogoutViewViewComponent.cs",
+              "DocumentMoniker": "F:\\C#\\CRM\\FinalProject_Web\\FinalProject_Web\\ViewComponent\\LogoutViewViewComponent.cs",
+              "RelativeDocumentMoniker": "FinalProject_Web\\ViewComponent\\LogoutViewViewComponent.cs",
+              "ToolTip": "F:\\C#\\CRM\\FinalProject_Web\\FinalProject_Web\\ViewComponent\\LogoutViewViewComponent.cs",
+              "RelativeToolTip": "FinalProject_Web\\ViewComponent\\LogoutViewViewComponent.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAQAAAARAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-19T16:35:37.766Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 58,
+              "Title": "ProjectController.cs",
+              "DocumentMoniker": "F:\\C#\\CRM\\FinalProject_Web\\FinalProject_Web\\Controllers\\ProjectController.cs",
+              "RelativeDocumentMoniker": "FinalProject_Web\\Controllers\\ProjectController.cs",
+              "ToolTip": "F:\\C#\\CRM\\FinalProject_Web\\FinalProject_Web\\Controllers\\ProjectController.cs",
+              "RelativeToolTip": "FinalProject_Web\\Controllers\\ProjectController.cs",
+              "ViewState": "AQIAAO8AAAAAAAAAAAAuwAEBAAAfAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-22T16:11:02.873Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 59,
+              "Title": "ILayoutViewModelServiceCreate.cs",
+              "DocumentMoniker": "F:\\C#\\CRM\\FinalProject_Web\\FinalProject_Web\\Services\\Interfaces\\ILayoutViewModelServiceCreate.cs",
+              "RelativeDocumentMoniker": "FinalProject_Web\\Services\\Interfaces\\ILayoutViewModelServiceCreate.cs",
+              "ToolTip": "F:\\C#\\CRM\\FinalProject_Web\\FinalProject_Web\\Services\\Interfaces\\ILayoutViewModelServiceCreate.cs",
+              "RelativeToolTip": "FinalProject_Web\\Services\\Interfaces\\ILayoutViewModelServiceCreate.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAQAAAAXAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-22T17:28:13.429Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 62,
+              "Title": "ApiEndpointAttribute.cs",
+              "DocumentMoniker": "F:\\C#\\CRM\\FinalProject_Web\\FinalProject_Web\\Filters\\ApiEndpointAttribute.cs",
+              "RelativeDocumentMoniker": "FinalProject_Web\\Filters\\ApiEndpointAttribute.cs",
+              "ToolTip": "F:\\C#\\CRM\\FinalProject_Web\\FinalProject_Web\\Filters\\ApiEndpointAttribute.cs",
+              "RelativeToolTip": "FinalProject_Web\\Filters\\ApiEndpointAttribute.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA0AAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-26T16:31:42.98Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 60,
+              "Title": "FinalProject_Web.csproj",
+              "DocumentMoniker": "F:\\C#\\CRM\\FinalProject_Web\\FinalProject_Web\\FinalProject_Web.csproj",
+              "RelativeDocumentMoniker": "FinalProject_Web\\FinalProject_Web.csproj",
+              "ToolTip": "F:\\C#\\CRM\\FinalProject_Web\\FinalProject_Web\\FinalProject_Web.csproj",
+              "RelativeToolTip": "FinalProject_Web\\FinalProject_Web.csproj",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAUAAAArAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2024-07-18T16:23:56.063Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 63,
+              "Title": "Variables.cs",
+              "DocumentMoniker": "F:\\C#\\CRM\\FinalProject_Web\\Services\\Vars\\Variables.cs",
+              "RelativeDocumentMoniker": "Services\\Vars\\Variables.cs",
+              "ToolTip": "F:\\C#\\CRM\\FinalProject_Web\\Services\\Vars\\Variables.cs",
+              "RelativeToolTip": "Services\\Vars\\Variables.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAMAAAABAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-12T10:37:43.141Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 61,
+              "Title": "ImageData.cs",
+              "DocumentMoniker": "F:\\C#\\CRM\\FinalProject_Web\\FinalProject_Web\\Data\\ImageData.cs",
+              "RelativeDocumentMoniker": "FinalProject_Web\\Data\\ImageData.cs",
+              "ToolTip": "F:\\C#\\CRM\\FinalProject_Web\\FinalProject_Web\\Data\\ImageData.cs",
+              "RelativeToolTip": "FinalProject_Web\\Data\\ImageData.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAACIAAAAJAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-12T11:08:30.511Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 64,
+              "Title": "JsonHelper.cs",
+              "DocumentMoniker": "F:\\C#\\CRM\\FinalProject_Web\\Services\\Helpers\\JsonHelper.cs",
+              "RelativeDocumentMoniker": "Services\\Helpers\\JsonHelper.cs",
+              "ToolTip": "F:\\C#\\CRM\\FinalProject_Web\\Services\\Helpers\\JsonHelper.cs",
+              "RelativeToolTip": "Services\\Helpers\\JsonHelper.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAIAAAAhAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-11T16:48:11.7Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 65,
+              "Title": "UploadImageResult.cs",
+              "DocumentMoniker": "F:\\C#\\CRM\\FinalProject_Web\\Services\\Enums\\UploadImageResult.cs",
+              "RelativeDocumentMoniker": "Services\\Enums\\UploadImageResult.cs",
+              "ToolTip": "F:\\C#\\CRM\\FinalProject_Web\\Services\\Enums\\UploadImageResult.cs",
+              "RelativeToolTip": "Services\\Enums\\UploadImageResult.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAfAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-11T16:51:04.193Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 66,
+              "Title": "ChangeContactsResult.cs",
+              "DocumentMoniker": "F:\\C#\\CRM\\FinalProject_Web\\Services\\Enums\\ChangeContactsResult.cs",
+              "RelativeDocumentMoniker": "Services\\Enums\\ChangeContactsResult.cs",
+              "ToolTip": "F:\\C#\\CRM\\FinalProject_Web\\Services\\Enums\\ChangeContactsResult.cs",
+              "RelativeToolTip": "Services\\Enums\\ChangeContactsResult.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAKAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-11T16:51:03.286Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 67,
+              "Title": "StartupTaskService.cs",
+              "DocumentMoniker": "F:\\C#\\CRM\\FinalProject_Web\\FinalProject_Web\\Services\\StartupTaskService.cs",
+              "RelativeDocumentMoniker": "FinalProject_Web\\Services\\StartupTaskService.cs",
+              "ToolTip": "F:\\C#\\CRM\\FinalProject_Web\\FinalProject_Web\\Services\\StartupTaskService.cs",
+              "RelativeToolTip": "FinalProject_Web\\Services\\StartupTaskService.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAIAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-22T20:26:29.012Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 68,
+              "Title": "IImageData.cs",
+              "DocumentMoniker": "F:\\C#\\CRM\\FinalProject_Web\\FinalProject_Web\\Interfaces\\IImageData.cs",
+              "RelativeDocumentMoniker": "FinalProject_Web\\Interfaces\\IImageData.cs",
+              "ToolTip": "F:\\C#\\CRM\\FinalProject_Web\\FinalProject_Web\\Interfaces\\IImageData.cs",
+              "RelativeToolTip": "FinalProject_Web\\Interfaces\\IImageData.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAqwAIAAAAVAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-11T13:16:33.937Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 69,
+              "Title": "ChangeServiceWindow.cshtml",
+              "DocumentMoniker": "F:\\C#\\CRM\\FinalProject_Web\\FinalProject_Web\\Views\\Service\\ChangeServiceWindow.cshtml",
+              "RelativeDocumentMoniker": "FinalProject_Web\\Views\\Service\\ChangeServiceWindow.cshtml",
+              "ToolTip": "F:\\C#\\CRM\\FinalProject_Web\\FinalProject_Web\\Views\\Service\\ChangeServiceWindow.cshtml",
+              "RelativeToolTip": "FinalProject_Web\\Views\\Service\\ChangeServiceWindow.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAQAAAA0AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-07-20T21:18:20.362Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 70,
+              "Title": "Projects.cshtml",
+              "DocumentMoniker": "F:\\C#\\CRM\\FinalProject_Web\\FinalProject_Web\\Views\\Project\\Projects.cshtml",
+              "RelativeDocumentMoniker": "FinalProject_Web\\Views\\Project\\Projects.cshtml",
+              "ToolTip": "F:\\C#\\CRM\\FinalProject_Web\\FinalProject_Web\\Views\\Project\\Projects.cshtml",
+              "RelativeToolTip": "FinalProject_Web\\Views\\Project\\Projects.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAMAAAABAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-07-22T13:47:16.506Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 71,
+              "Title": "ProjectDetails.cshtml",
+              "DocumentMoniker": "F:\\C#\\CRM\\FinalProject_Web\\FinalProject_Web\\Views\\Project\\ProjectDetails.cshtml",
+              "RelativeDocumentMoniker": "FinalProject_Web\\Views\\Project\\ProjectDetails.cshtml",
+              "ToolTip": "F:\\C#\\CRM\\FinalProject_Web\\FinalProject_Web\\Views\\Project\\ProjectDetails.cshtml",
+              "RelativeToolTip": "FinalProject_Web\\Views\\Project\\ProjectDetails.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAMAAAABAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-07-20T21:13:57.742Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 72,
+              "Title": "ChangeProjectWindow.cshtml",
+              "DocumentMoniker": "F:\\C#\\CRM\\FinalProject_Web\\FinalProject_Web\\Views\\Project\\ChangeProjectWindow.cshtml",
+              "RelativeDocumentMoniker": "FinalProject_Web\\Views\\Project\\ChangeProjectWindow.cshtml",
+              "ToolTip": "F:\\C#\\CRM\\FinalProject_Web\\FinalProject_Web\\Views\\Project\\ChangeProjectWindow.cshtml",
+              "RelativeToolTip": "FinalProject_Web\\Views\\Project\\ChangeProjectWindow.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAQAAAA1AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-08-12T11:50:16.004Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 73,
+              "Title": "AddProjectWindow.cshtml",
+              "DocumentMoniker": "F:\\C#\\CRM\\FinalProject_Web\\FinalProject_Web\\Views\\Project\\AddProjectWindow.cshtml",
+              "RelativeDocumentMoniker": "FinalProject_Web\\Views\\Project\\AddProjectWindow.cshtml",
+              "ToolTip": "F:\\C#\\CRM\\FinalProject_Web\\FinalProject_Web\\Views\\Project\\AddProjectWindow.cshtml",
+              "RelativeToolTip": "FinalProject_Web\\Views\\Project\\AddProjectWindow.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAQAAAA1AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-07-22T13:50:05.638Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 74,
+              "Title": "ChangeLinkWindow.cshtml",
+              "DocumentMoniker": "F:\\C#\\CRM\\FinalProject_Web\\FinalProject_Web\\Views\\Link\\ChangeLinkWindow.cshtml",
+              "RelativeDocumentMoniker": "FinalProject_Web\\Views\\Link\\ChangeLinkWindow.cshtml",
+              "ToolTip": "F:\\C#\\CRM\\FinalProject_Web\\FinalProject_Web\\Views\\Link\\ChangeLinkWindow.cshtml",
+              "RelativeToolTip": "FinalProject_Web\\Views\\Link\\ChangeLinkWindow.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAQAAAA1AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-08-12T11:50:00.186Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 75,
+              "Title": "AddLinkWindow.cshtml",
+              "DocumentMoniker": "F:\\C#\\CRM\\FinalProject_Web\\FinalProject_Web\\Views\\Link\\AddLinkWindow.cshtml",
+              "RelativeDocumentMoniker": "FinalProject_Web\\Views\\Link\\AddLinkWindow.cshtml",
+              "ToolTip": "F:\\C#\\CRM\\FinalProject_Web\\FinalProject_Web\\Views\\Link\\AddLinkWindow.cshtml",
+              "RelativeToolTip": "FinalProject_Web\\Views\\Link\\AddLinkWindow.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAQAAAA1AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-07-20T21:16:42.764Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 76,
+              "Title": "DekstopWindow.cshtml",
+              "DocumentMoniker": "F:\\C#\\CRM\\FinalProject_Web\\FinalProject_Web\\Views\\Dekstop\\DekstopWindow.cshtml",
+              "RelativeDocumentMoniker": "FinalProject_Web\\Views\\Dekstop\\DekstopWindow.cshtml",
+              "ToolTip": "F:\\C#\\CRM\\FinalProject_Web\\FinalProject_Web\\Views\\Dekstop\\DekstopWindow.cshtml",
+              "RelativeToolTip": "FinalProject_Web\\Views\\Dekstop\\DekstopWindow.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-08-12T11:49:42.192Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 77,
+              "Title": "Contacts.cshtml",
+              "DocumentMoniker": "F:\\C#\\CRM\\FinalProject_Web\\FinalProject_Web\\Views\\Contact\\Contacts.cshtml",
+              "RelativeDocumentMoniker": "FinalProject_Web\\Views\\Contact\\Contacts.cshtml",
+              "ToolTip": "F:\\C#\\CRM\\FinalProject_Web\\FinalProject_Web\\Views\\Contact\\Contacts.cshtml",
+              "RelativeToolTip": "FinalProject_Web\\Views\\Contact\\Contacts.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAMAAAABAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-08-12T11:48:47.973Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 78,
+              "Title": "ChangeContactWindow.cshtml",
+              "DocumentMoniker": "F:\\C#\\CRM\\FinalProject_Web\\FinalProject_Web\\Views\\Contact\\ChangeContactWindow.cshtml",
+              "RelativeDocumentMoniker": "FinalProject_Web\\Views\\Contact\\ChangeContactWindow.cshtml",
+              "ToolTip": "F:\\C#\\CRM\\FinalProject_Web\\FinalProject_Web\\Views\\Contact\\ChangeContactWindow.cshtml",
+              "RelativeToolTip": "FinalProject_Web\\Views\\Contact\\ChangeContactWindow.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAQAAAA1AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-07-20T21:18:08.581Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 79,
+              "Title": "BlogPostDetails.cshtml",
+              "DocumentMoniker": "F:\\C#\\CRM\\FinalProject_Web\\FinalProject_Web\\Views\\Blog\\BlogPostDetails.cshtml",
+              "RelativeDocumentMoniker": "FinalProject_Web\\Views\\Blog\\BlogPostDetails.cshtml",
+              "ToolTip": "F:\\C#\\CRM\\FinalProject_Web\\FinalProject_Web\\Views\\Blog\\BlogPostDetails.cshtml",
+              "RelativeToolTip": "FinalProject_Web\\Views\\Blog\\BlogPostDetails.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAMAAAABAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-07-20T21:18:30.806Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 80,
+              "Title": "Blog.cshtml",
+              "DocumentMoniker": "F:\\C#\\CRM\\FinalProject_Web\\FinalProject_Web\\Views\\Blog\\Blog.cshtml",
+              "RelativeDocumentMoniker": "FinalProject_Web\\Views\\Blog\\Blog.cshtml",
+              "ToolTip": "F:\\C#\\CRM\\FinalProject_Web\\FinalProject_Web\\Views\\Blog\\Blog.cshtml",
+              "RelativeToolTip": "FinalProject_Web\\Views\\Blog\\Blog.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAMAAAABAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-07-21T22:21:38.668Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 81,
+              "Title": "ILinkData.cs",
+              "DocumentMoniker": "F:\\C#\\CRM\\FinalProject_Web\\BusinessLogicService\\Interfaces\\ILinkData.cs",
+              "RelativeDocumentMoniker": "BusinessLogicService\\Interfaces\\ILinkData.cs",
+              "ToolTip": "F:\\C#\\CRM\\FinalProject_Web\\BusinessLogicService\\Interfaces\\ILinkData.cs",
+              "RelativeToolTip": "BusinessLogicService\\Interfaces\\ILinkData.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-12T10:33:01.667Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 82,
+              "Title": "IProjectData.cs",
+              "DocumentMoniker": "F:\\C#\\CRM\\FinalProject_Web\\BusinessLogicService\\Interfaces\\IProjectData.cs",
+              "RelativeDocumentMoniker": "BusinessLogicService\\Interfaces\\IProjectData.cs",
+              "ToolTip": "F:\\C#\\CRM\\FinalProject_Web\\BusinessLogicService\\Interfaces\\IProjectData.cs",
+              "RelativeToolTip": "BusinessLogicService\\Interfaces\\IProjectData.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-12T11:06:10.488Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 83,
+              "Title": "IContactData.cs",
+              "DocumentMoniker": "F:\\C#\\CRM\\FinalProject_Web\\BusinessLogicService\\Interfaces\\IContactData.cs",
+              "RelativeDocumentMoniker": "BusinessLogicService\\Interfaces\\IContactData.cs",
+              "ToolTip": "F:\\C#\\CRM\\FinalProject_Web\\BusinessLogicService\\Interfaces\\IContactData.cs",
+              "RelativeToolTip": "BusinessLogicService\\Interfaces\\IContactData.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-11T16:12:50.612Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 86,
+              "Title": "BlogListModel.cs",
+              "DocumentMoniker": "F:\\C#\\CRM\\FinalProject_Web\\Models\\DataServiceModels\\BlogListModel.cs",
+              "RelativeDocumentMoniker": "Models\\DataServiceModels\\BlogListModel.cs",
+              "ToolTip": "F:\\C#\\CRM\\FinalProject_Web\\Models\\DataServiceModels\\BlogListModel.cs",
+              "RelativeToolTip": "Models\\DataServiceModels\\BlogListModel.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAARAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-11T16:08:06.971Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 85,
+              "Title": "BlogModel.cs",
+              "DocumentMoniker": "F:\\C#\\CRM\\FinalProject_Web\\Models\\DataServiceModels\\BlogModel.cs",
+              "RelativeDocumentMoniker": "Models\\DataServiceModels\\BlogModel.cs",
+              "ToolTip": "F:\\C#\\CRM\\FinalProject_Web\\Models\\DataServiceModels\\BlogModel.cs",
+              "RelativeToolTip": "Models\\DataServiceModels\\BlogModel.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAIAAAAiAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-11T16:08:09.963Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 84,
+              "Title": "CompositeViewNumerableModel.cs",
+              "DocumentMoniker": "F:\\C#\\CRM\\FinalProject_Web\\Models\\DataServiceModels\\CompositeViewNumerableModel.cs",
+              "RelativeDocumentMoniker": "Models\\DataServiceModels\\CompositeViewNumerableModel.cs",
+              "ToolTip": "F:\\C#\\CRM\\FinalProject_Web\\Models\\DataServiceModels\\CompositeViewNumerableModel.cs",
+              "RelativeToolTip": "Models\\DataServiceModels\\CompositeViewNumerableModel.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAIAAAAiAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-11T16:08:27.049Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 87,
+              "Title": "Application.cs",
+              "DocumentMoniker": "F:\\C#\\CRM\\FinalProject_Web\\Models\\DataServiceModels\\Application.cs",
+              "RelativeDocumentMoniker": "Models\\DataServiceModels\\Application.cs",
+              "ToolTip": "F:\\C#\\CRM\\FinalProject_Web\\Models\\DataServiceModels\\Application.cs",
+              "RelativeToolTip": "Models\\DataServiceModels\\Application.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAiAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-11T16:07:53.096Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 88,
+              "Title": "UserRegistration.cs",
+              "DocumentMoniker": "F:\\C#\\CRM\\FinalProject_Web\\Models\\AuthModels\\UserRegistration.cs",
+              "RelativeDocumentMoniker": "Models\\AuthModels\\UserRegistration.cs",
+              "ToolTip": "F:\\C#\\CRM\\FinalProject_Web\\Models\\AuthModels\\UserRegistration.cs",
+              "RelativeToolTip": "Models\\AuthModels\\UserRegistration.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-11T16:18:41.22Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 89,
+              "Title": "UserLoginProp.cs",
+              "DocumentMoniker": "F:\\C#\\CRM\\FinalProject_Web\\Models\\AuthModels\\UserLoginProp.cs",
+              "RelativeDocumentMoniker": "Models\\AuthModels\\UserLoginProp.cs",
+              "ToolTip": "F:\\C#\\CRM\\FinalProject_Web\\Models\\AuthModels\\UserLoginProp.cs",
+              "RelativeToolTip": "Models\\AuthModels\\UserLoginProp.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-11T16:18:40.025Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 90,
+              "Title": "UserLogin.cs",
+              "DocumentMoniker": "F:\\C#\\CRM\\FinalProject_Web\\Models\\AuthModels\\UserLogin.cs",
+              "RelativeDocumentMoniker": "Models\\AuthModels\\UserLogin.cs",
+              "ToolTip": "F:\\C#\\CRM\\FinalProject_Web\\Models\\AuthModels\\UserLogin.cs",
+              "RelativeToolTip": "Models\\AuthModels\\UserLogin.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-11T16:18:39.3Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 91,
+              "Title": "User.cs",
+              "DocumentMoniker": "F:\\C#\\CRM\\FinalProject_Web\\Models\\AuthModels\\User.cs",
+              "RelativeDocumentMoniker": "Models\\AuthModels\\User.cs",
+              "ToolTip": "F:\\C#\\CRM\\FinalProject_Web\\Models\\AuthModels\\User.cs",
+              "RelativeToolTip": "Models\\AuthModels\\User.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAEAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-11T16:18:38.319Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 92,
+              "Title": "TokenResponseModel.cs",
+              "DocumentMoniker": "F:\\C#\\CRM\\FinalProject_Web\\Models\\AuthModels\\TokenResponseModel.cs",
+              "RelativeDocumentMoniker": "Models\\AuthModels\\TokenResponseModel.cs",
+              "ToolTip": "F:\\C#\\CRM\\FinalProject_Web\\Models\\AuthModels\\TokenResponseModel.cs",
+              "RelativeToolTip": "Models\\AuthModels\\TokenResponseModel.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-11T16:18:37.515Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 93,
+              "Title": "RoleModel.cs",
+              "DocumentMoniker": "F:\\C#\\CRM\\FinalProject_Web\\Models\\AuthModels\\RoleModel.cs",
+              "RelativeDocumentMoniker": "Models\\AuthModels\\RoleModel.cs",
+              "ToolTip": "F:\\C#\\CRM\\FinalProject_Web\\Models\\AuthModels\\RoleModel.cs",
+              "RelativeToolTip": "Models\\AuthModels\\RoleModel.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-11T16:18:36.036Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 94,
+              "Title": "RegistrationViewModel.cs",
+              "DocumentMoniker": "F:\\C#\\CRM\\FinalProject_Web\\Models\\AuthModels\\RegistrationViewModel.cs",
+              "RelativeDocumentMoniker": "Models\\AuthModels\\RegistrationViewModel.cs",
+              "ToolTip": "F:\\C#\\CRM\\FinalProject_Web\\Models\\AuthModels\\RegistrationViewModel.cs",
+              "RelativeToolTip": "Models\\AuthModels\\RegistrationViewModel.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAEAAAAfAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-11T16:18:34.643Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 95,
+              "Title": "LoginViewModel.cs",
+              "DocumentMoniker": "F:\\C#\\CRM\\FinalProject_Web\\Models\\AuthModels\\LoginViewModel.cs",
+              "RelativeDocumentMoniker": "Models\\AuthModels\\LoginViewModel.cs",
+              "ToolTip": "F:\\C#\\CRM\\FinalProject_Web\\Models\\AuthModels\\LoginViewModel.cs",
+              "RelativeToolTip": "Models\\AuthModels\\LoginViewModel.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-11T16:15:13.693Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 98,
+              "Title": "TagListModel.cs",
+              "DocumentMoniker": "F:\\C#\\CRM\\FinalProject_Web\\Models\\DataServiceModels\\TagListModel.cs",
+              "RelativeDocumentMoniker": "Models\\DataServiceModels\\TagListModel.cs",
+              "ToolTip": "F:\\C#\\CRM\\FinalProject_Web\\Models\\DataServiceModels\\TagListModel.cs",
+              "RelativeToolTip": "Models\\DataServiceModels\\TagListModel.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAiAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-11T16:09:16.659Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 97,
+              "Title": "TagModel.cs",
+              "DocumentMoniker": "F:\\C#\\CRM\\FinalProject_Web\\Models\\DataServiceModels\\TagModel.cs",
+              "RelativeDocumentMoniker": "Models\\DataServiceModels\\TagModel.cs",
+              "ToolTip": "F:\\C#\\CRM\\FinalProject_Web\\Models\\DataServiceModels\\TagModel.cs",
+              "RelativeToolTip": "Models\\DataServiceModels\\TagModel.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAIAAAAiAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-11T16:09:20.236Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 96,
+              "Title": "TitleModel.cs",
+              "DocumentMoniker": "F:\\C#\\CRM\\FinalProject_Web\\Models\\DataServiceModels\\TitleModel.cs",
+              "RelativeDocumentMoniker": "Models\\DataServiceModels\\TitleModel.cs",
+              "ToolTip": "F:\\C#\\CRM\\FinalProject_Web\\Models\\DataServiceModels\\TitleModel.cs",
+              "RelativeToolTip": "Models\\DataServiceModels\\TitleModel.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAIAAAAiAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-11T16:09:23.839Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 99,
+              "Title": "ServiceListModel.cs",
+              "DocumentMoniker": "F:\\C#\\CRM\\FinalProject_Web\\Models\\DataServiceModels\\ServiceListModel.cs",
+              "RelativeDocumentMoniker": "Models\\DataServiceModels\\ServiceListModel.cs",
+              "ToolTip": "F:\\C#\\CRM\\FinalProject_Web\\Models\\DataServiceModels\\ServiceListModel.cs",
+              "RelativeToolTip": "Models\\DataServiceModels\\ServiceListModel.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAiAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-11T16:09:08.244Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 100,
+              "Title": "Service.cs",
+              "DocumentMoniker": "F:\\C#\\CRM\\FinalProject_Web\\Models\\DataServiceModels\\Service.cs",
+              "RelativeDocumentMoniker": "Models\\DataServiceModels\\Service.cs",
+              "ToolTip": "F:\\C#\\CRM\\FinalProject_Web\\Models\\DataServiceModels\\Service.cs",
+              "RelativeToolTip": "Models\\DataServiceModels\\Service.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAIAAAAiAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-11T16:09:04.146Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 101,
+              "Title": "ProjectModel.cs",
+              "DocumentMoniker": "F:\\C#\\CRM\\FinalProject_Web\\Models\\DataServiceModels\\ProjectModel.cs",
+              "RelativeDocumentMoniker": "Models\\DataServiceModels\\ProjectModel.cs",
+              "ToolTip": "F:\\C#\\CRM\\FinalProject_Web\\Models\\DataServiceModels\\ProjectModel.cs",
+              "RelativeToolTip": "Models\\DataServiceModels\\ProjectModel.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAeAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-11T16:08:59.74Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 102,
+              "Title": "ProjectListModel.cs",
+              "DocumentMoniker": "F:\\C#\\CRM\\FinalProject_Web\\Models\\DataServiceModels\\ProjectListModel.cs",
+              "RelativeDocumentMoniker": "Models\\DataServiceModels\\ProjectListModel.cs",
+              "ToolTip": "F:\\C#\\CRM\\FinalProject_Web\\Models\\DataServiceModels\\ProjectListModel.cs",
+              "RelativeToolTip": "Models\\DataServiceModels\\ProjectListModel.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAiAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-11T16:08:56.668Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 103,
+              "Title": "LinkModel.cs",
+              "DocumentMoniker": "F:\\C#\\CRM\\FinalProject_Web\\Models\\DataServiceModels\\LinkModel.cs",
+              "RelativeDocumentMoniker": "Models\\DataServiceModels\\LinkModel.cs",
+              "ToolTip": "F:\\C#\\CRM\\FinalProject_Web\\Models\\DataServiceModels\\LinkModel.cs",
+              "RelativeToolTip": "Models\\DataServiceModels\\LinkModel.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAeAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-11T16:08:52.884Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 104,
+              "Title": "LayoutViewModel.cs",
+              "DocumentMoniker": "F:\\C#\\CRM\\FinalProject_Web\\Models\\DataServiceModels\\LayoutViewModel.cs",
+              "RelativeDocumentMoniker": "Models\\DataServiceModels\\LayoutViewModel.cs",
+              "ToolTip": "F:\\C#\\CRM\\FinalProject_Web\\Models\\DataServiceModels\\LayoutViewModel.cs",
+              "RelativeToolTip": "Models\\DataServiceModels\\LayoutViewModel.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAIAAAAiAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-11T16:08:41.651Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 105,
+              "Title": "ImageModel.cs",
+              "DocumentMoniker": "F:\\C#\\CRM\\FinalProject_Web\\Models\\DataServiceModels\\ImageModel.cs",
+              "RelativeDocumentMoniker": "Models\\DataServiceModels\\ImageModel.cs",
+              "ToolTip": "F:\\C#\\CRM\\FinalProject_Web\\Models\\DataServiceModels\\ImageModel.cs",
+              "RelativeToolTip": "Models\\DataServiceModels\\ImageModel.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAiAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-11T16:08:37.871Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 106,
+              "Title": "ContactsListModel.cs",
+              "DocumentMoniker": "F:\\C#\\CRM\\FinalProject_Web\\Models\\DataServiceModels\\ContactsListModel.cs",
+              "RelativeDocumentMoniker": "Models\\DataServiceModels\\ContactsListModel.cs",
+              "ToolTip": "F:\\C#\\CRM\\FinalProject_Web\\Models\\DataServiceModels\\ContactsListModel.cs",
+              "RelativeToolTip": "Models\\DataServiceModels\\ContactsListModel.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAiAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-11T16:08:33.381Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 107,
+              "Title": "Contacts.cs",
+              "DocumentMoniker": "F:\\C#\\CRM\\FinalProject_Web\\Models\\DataServiceModels\\Contacts.cs",
+              "RelativeDocumentMoniker": "Models\\DataServiceModels\\Contacts.cs",
+              "ToolTip": "F:\\C#\\CRM\\FinalProject_Web\\Models\\DataServiceModels\\Contacts.cs",
+              "RelativeToolTip": "Models\\DataServiceModels\\Contacts.cs",
+              "ViewState": "AQIAAAUAAAAAAAAAAAAQwAIAAAAiAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-11T16:08:29.991Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 108,
+              "Title": "BusinessLogicService.csproj",
+              "DocumentMoniker": "F:\\C#\\CRM\\FinalProject_Web\\BusinessLogicService\\BusinessLogicService.csproj",
+              "RelativeDocumentMoniker": "BusinessLogicService\\BusinessLogicService.csproj",
+              "ToolTip": "F:\\C#\\CRM\\FinalProject_Web\\BusinessLogicService\\BusinessLogicService.csproj",
+              "RelativeToolTip": "BusinessLogicService\\BusinessLogicService.csproj",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA4AAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2024-08-11T15:56:12.533Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 109,
+              "Title": "IndexStyle.css",
+              "DocumentMoniker": "F:\\C#\\CRM\\FinalProject_Web\\FinalProject_Web\\wwwroot\\css\\IndexStyle.css",
+              "RelativeDocumentMoniker": "FinalProject_Web\\wwwroot\\css\\IndexStyle.css",
+              "ToolTip": "F:\\C#\\CRM\\FinalProject_Web\\FinalProject_Web\\wwwroot\\css\\IndexStyle.css",
+              "RelativeToolTip": "FinalProject_Web\\wwwroot\\css\\IndexStyle.css",
+              "ViewState": "AQIAAAMBAAAAAAAAAAAYwBABAAAFAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
+              "WhenOpened": "2024-07-24T19:01:42.12Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 110,
+              "Title": "libman.json",
+              "DocumentMoniker": "F:\\C#\\CRM\\FinalProject_Web\\FinalProject_Web\\libman.json",
+              "RelativeDocumentMoniker": "FinalProject_Web\\libman.json",
+              "ToolTip": "F:\\C#\\CRM\\FinalProject_Web\\FinalProject_Web\\libman.json",
+              "RelativeToolTip": "FinalProject_Web\\libman.json",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAAAiAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2024-07-31T16:27:44.876Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 111,
+              "Title": "AdminStyle.css",
+              "DocumentMoniker": "F:\\C#\\CRM\\FinalProject_Web\\FinalProject_Web\\wwwroot\\css\\AdminStyle.css",
+              "RelativeDocumentMoniker": "FinalProject_Web\\wwwroot\\css\\AdminStyle.css",
+              "ToolTip": "F:\\C#\\CRM\\FinalProject_Web\\FinalProject_Web\\wwwroot\\css\\AdminStyle.css",
+              "RelativeToolTip": "FinalProject_Web\\wwwroot\\css\\AdminStyle.css",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
+              "WhenOpened": "2024-07-21T17:46:33.592Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 112,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "F:\\C#\\CRM\\FinalProject_Web\\FinalProject_Web\\appsettings.json",
+              "RelativeDocumentMoniker": "FinalProject_Web\\appsettings.json",
+              "ToolTip": "F:\\C#\\CRM\\FinalProject_Web\\FinalProject_Web\\appsettings.json",
+              "RelativeToolTip": "FinalProject_Web\\appsettings.json",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2024-07-31T14:45:55.341Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

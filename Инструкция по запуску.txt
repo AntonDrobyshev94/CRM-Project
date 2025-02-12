@@ -1,0 +1,4 @@
+1. Перейти в папку kafka -> config -> заменить путь к zookeeper в файле zookeeper.properties.
+2. В FinalProject_API и в AuthService сделать update-database (обновление БД) через консоль диспетчера пакетов Nuget.
+3. В папке kafka_2.12-3.8.0 убедиться что папки kafka-logs и logs пустые (удалить содержимое) и запустить RunKafka.bat
+4. Запустить FinalProject_API, AuthService и FinalProject_Web.

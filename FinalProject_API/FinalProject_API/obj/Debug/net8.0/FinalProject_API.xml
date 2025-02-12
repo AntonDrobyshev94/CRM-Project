@@ -1,0 +1,1082 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>FinalProject_API</name>
+    </assembly>
+    <members>
+        <member name="T:FinalProject_API.Attributes.IdempotencyKeyAttribute">
+            <summary>
+            Атрибут проверки ключа идемпотентности
+            </summary>
+        </member>
+        <member name="M:FinalProject_API.Attributes.IdempotencyKeyAttribute.OnActionExecuting(Microsoft.AspNetCore.Mvc.Filters.ActionExecutingContext)">
+            <summary>
+            Осуществляет проверку заголовка на наличие ключа идемпотентности и
+            сохраняет его в Items для дальнейшего использования
+            </summary>
+            <param name="context"></param>
+        </member>
+        <member name="T:FinalProject_API.ContextFolder.DataContext">
+            <summary>
+            Класс контекста базы данных, используемый для конфигурации 
+            и взаимодействия с базой данных через ORM Entity Framework Core.
+            Наследуется от <see cref="T:Microsoft.AspNetCore.Identity.EntityFrameworkCore.IdentityDbContext`1"/>, что 
+            позволяет интегрировать Identity для управления пользователями.
+            </summary>
+        </member>
+        <member name="M:FinalProject_API.ContextFolder.DataContext.#ctor(Microsoft.EntityFrameworkCore.DbContextOptions{FinalProject_API.ContextFolder.DataContext})">
+            <summary>
+            Конструктор класса DataContext
+            </summary>
+            <param name="options"></param>
+        </member>
+        <member name="M:FinalProject_API.ContextFolder.DataContext.OnModelCreating(Microsoft.EntityFrameworkCore.ModelBuilder)">
+            <summary>
+            Метод добавления в БД моделей при
+            миграции.
+            </summary>
+            <param name="builder"></param>
+        </member>
+        <member name="M:FinalProject_API.ContextFolder.DataContext.SeedRoles(Microsoft.EntityFrameworkCore.ModelBuilder)">
+            <summary>
+            Метод создания аккаунтов пользователей
+            </summary>
+            <param name="builder"></param>
+        </member>
+        <member name="M:FinalProject_API.ContextFolder.DataContext.CreateContactsAndTittles(Microsoft.EntityFrameworkCore.ModelBuilder)">
+            <summary>
+            Метод создания контактов и навигационных меню
+            при миграции
+            </summary>
+            <param name="builder"></param>
+        </member>
+        <member name="T:FinalProject_API.Controllers.AccountController">
+            <summary>
+            Контроллер, осуществляющий взаимодействие с пользователями
+            </summary>
+        </member>
+        <member name="M:FinalProject_API.Controllers.AccountController.#ctor(FinalProject_API.Kafka.KafkaProducerService,FinalProject_API.Data.AccountData,FinalProject_API.Temporary.TemporaryDatabase)">
+            <summary>
+            Инициализирует новый экземпляр класса <see cref="T:FinalProject_API.Controllers.AccountController"/> с инжекцией 
+            зависимостей для классов <see cref="T:FinalProject_API.Kafka.KafkaProducerService"/> и <see cref="T:FinalProject_API.Data.AccountData"/>.
+            </summary>
+            <param name="kafkaProducerService">Экземпляр <see cref="T:FinalProject_API.Kafka.KafkaProducerService"/>, 
+            используемый для отправки сообщений в Kafka.</param>
+            <param name="accountData">Экземпляр <see cref="T:FinalProject_API.Data.AccountData"/>, 
+            используемый для взаимодействия с данными учетных записей.</param>
+            /// <param name="temporaryDatabase">Экземпляр <see cref="T:FinalProject_API.Temporary.TemporaryDatabase"/>, 
+            используемый для взаимодействия с кэшем ключей идемпотентности и 
+            возвращения моделей, хранимых в кэше.</param>
+        </member>
+        <member name="M:FinalProject_API.Controllers.AccountController.Registration(FinalProject_API.AuthFinalProjectApp.UserRegistration)">
+            <summary>
+            POST запрос для регистрации нового пользователя по
+            указанным в модели данным.
+            </summary>
+            <param name="regData">Модель регистрации пользователя</param>
+        </member>
+        <member name="M:FinalProject_API.Controllers.AccountController.Authenticate(FinalProject_API.AuthFinalProjectApp.UserLoginProp)">
+            <summary>
+            POST запрос на аутентификацию пользователя по указанным
+            аутентификационным данным
+            </summary>
+            <param name="loginData">Модель авторизации пользователя</param>
+        </member>
+        <member name="M:FinalProject_API.Controllers.AccountController.CheckToken">
+            <summary>
+            Запрос проверки токена
+            </summary>
+        </member>
+        <member name="T:FinalProject_API.Controllers.BlogController">
+            <summary>
+            Контроллер, осуществляющий взаимодействие с блогом
+            </summary>
+        </member>
+        <member name="M:FinalProject_API.Controllers.BlogController.#ctor(FinalProject_API.Data.BlogData,FinalProject_API.Temporary.TemporaryDatabase)">
+            <summary>
+            Инициализирует новый экземпляр класса <see cref="T:FinalProject_API.Controllers.BlogController"/> с инжекцией 
+            зависимостей для <see cref="T:FinalProject_API.Data.BlogData"/>.
+            </summary>
+            <param name="blogData">Экземпляр <see cref="T:FinalProject_API.Data.BlogData"/>, 
+            используемый для взаимодействия с данными блога.</param>
+            <param name="temporaryDatabase">Экземпляр <see cref="T:FinalProject_API.Temporary.TemporaryDatabase"/>, 
+            используемый для взаимодействия с временными данными (кэш).</param>
+        </member>
+        <member name="M:FinalProject_API.Controllers.BlogController.GetBlog">
+            <summary>
+            GET метод, возвращающий информацию о блоге
+            </summary>
+        </member>
+        <member name="M:FinalProject_API.Controllers.BlogController.AddBlog(FinalProject_API.Models.CommonWithImageModel{FinalProject_API.Models.BlogModel})">
+            <summary>
+            POST запрос с атрибутом авторизации с ролью администратора.
+            Метод добавления записи в блоге в базу данных
+            </summary>
+            <param name="blog">Объединённая модель блога и изображения</param>
+        </member>
+        <member name="M:FinalProject_API.Controllers.BlogController.ChangeBlog(FinalProject_API.Models.CommonWithImageModel{FinalProject_API.Models.BlogModel})">
+            <summary>
+            Post метод с атрибутом авторизации с ролью администратора, 
+            изменяющий блог
+            </summary>
+            <param name="blog">Объединённая модель блога и изображения</param>
+        </member>
+        <member name="M:FinalProject_API.Controllers.BlogController.DeleteBlog(System.Int32)">
+            <summary>
+            POST запрос с атрибутом авторизации с ролью администратора
+            Метод удаления блога из базы данных
+            </summary>
+            <param name="id">Идентификатор удаляемого блога</param>
+        </member>
+        <member name="M:FinalProject_API.Controllers.BlogController.BlogDetails(System.Int32)">
+            <summary>
+            Get Асинхронный метод, предоставляющий информацию о
+            выбранном блоге (возвращающий экземпляр BlogModel)
+            </summary>
+            <param name="id">Идентификатор вызываемого блога</param>
+        </member>
+        <member name="T:FinalProject_API.Controllers.ContactController">
+            <summary>
+            Контроллер, осуществляющий взаимодействие с контактами
+            </summary>
+        </member>
+        <member name="M:FinalProject_API.Controllers.ContactController.#ctor(FinalProject_API.Data.ContactData)">
+            <summary>
+            Инициализирует новый экземпляр класса <see cref="T:FinalProject_API.Controllers.ContactController"/> с инжекцией 
+            зависимостей для <see cref="T:FinalProject_API.Data.ContactData"/>.
+            </summary>
+            <param name="contactData">Экземпляр <see cref="T:FinalProject_API.Data.ContactData"/>, 
+            используемый для взаимодействия с данными контактов.</param>
+        </member>
+        <member name="M:FinalProject_API.Controllers.ContactController.GetContacts">
+            <summary>
+            GET метод, возвращающий информацию о контактах
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:FinalProject_API.Controllers.ContactController.ChangeContacts(FinalProject_API.Models.Contacts)">
+            <summary>
+            Post метод с атрибутом авторизации с ролью администратора, 
+            изменяющий контакты
+            </summary>
+            <param name="contacts">Модель контактов</param>
+        </member>
+        <member name="T:FinalProject_API.Controllers.ImageController">
+            <summary>
+            Контроллер, осуществляющий взаимодействие с изображениями
+            </summary>
+        </member>
+        <member name="M:FinalProject_API.Controllers.ImageController.#ctor(FinalProject_API.Data.ImageData)">
+            <summary>
+            Инициализирует новый экземпляр класса <see cref="T:FinalProject_API.Controllers.ImageController"/> с инжекцией 
+            зависимостей для <see cref="T:FinalProject_API.Data.ImageData"/>.
+            </summary>
+            <param name="imageData">Экземпляр <see cref="T:FinalProject_API.Data.ImageData"/>, 
+            используемый для взаимодействия с изображениями.</param>
+        </member>
+        <member name="M:FinalProject_API.Controllers.ImageController.ChangeImage(Microsoft.AspNetCore.Http.IFormFile)">
+            <summary>
+            POST запрос для изменения изображения
+            </summary>
+            <param name="imageFile">Модель файла формата IFormFile</param>
+        </member>
+        <member name="M:FinalProject_API.Controllers.ImageController.GetNoDBImage(System.String)">
+            <summary>
+            Метод, вызывающийся GET запросом, возвращающий массив битов, 
+            содержащий изображение
+            </summary>
+            <param name="fileName">Имя файла изображения</param>
+        </member>
+        <member name="M:FinalProject_API.Controllers.ImageController.GetByteImage(System.String,System.String)">
+            <summary>
+            Метод, вызывающийся GET запросом, возвращающий массив битов,
+            содержащий изображение
+            </summary>
+            <param name="typeOfModel">Тип модели</param>
+            <param name="uniqueName">Уникальное имя модели</param>
+        </member>
+        <member name="T:FinalProject_API.Controllers.LinkController">
+            <summary>
+            Контроллер, осуществляющий взаимодействие со ссылками
+            </summary>
+        </member>
+        <member name="M:FinalProject_API.Controllers.LinkController.#ctor(FinalProject_API.Data.LinkData)">
+            <summary>
+            Инициализирует новый экземпляр класса <see cref="T:FinalProject_API.Controllers.LinkController"/> с инжекцией 
+            зависимостей для <see cref="T:FinalProject_API.Data.LinkData"/>.
+            </summary>
+            <param name="linkData">Экземпляр <see cref="T:FinalProject_API.Data.LinkData"/>, 
+            используемый для взаимодействия с данными ссылок.</param>
+        </member>
+        <member name="M:FinalProject_API.Controllers.LinkController.GetLinks">
+            <summary>
+            GET метод, возвращающий информацию о ссылках
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:FinalProject_API.Controllers.LinkController.AddLink(FinalProject_API.Models.CommonWithImageModel{FinalProject_API.Models.LinkModel})">
+            <summary>
+            POST запрос с атрибутом авторизации с ролью администратора.
+            Метод добавления новой ссылки в базу данных
+            </summary>
+            <param name="link">Модель ссылки</param>
+        </member>
+        <member name="M:FinalProject_API.Controllers.LinkController.ChangeLink(FinalProject_API.Models.CommonWithImageModel{FinalProject_API.Models.LinkModel})">
+            <summary>
+            Post метод с атрибутом авторизации с ролью администратора, 
+            изменяющий ссылку 
+            </summary>
+            <param name="link">Модель ссылки</param>
+        </member>
+        <member name="M:FinalProject_API.Controllers.LinkController.DeleteLink(System.Int32)">
+            <summary>
+            POST запрос с атрибутом авторизации с ролью администратора
+            Метод удаления ссылки из базы данных
+            </summary>
+            <param name="id">Идентификатор удаляемой ссылки</param>
+        </member>
+        <member name="M:FinalProject_API.Controllers.LinkController.LinkDetails(System.Int32)">
+            <summary>
+            Get Асинхронный метод с атрибутом авторизации с ролью 
+            администратора, предоставляющий экземпляр запрошенной 
+            ссылки
+            </summary>
+            <param name="id">Идентификатор ссылки</param>
+            <returns></returns>
+        </member>
+        <member name="T:FinalProject_API.Controllers.NavigationController">
+            <summary>
+            Контроллер, осуществляющий взаимодействие с параметрами
+            меню навигации
+            </summary>
+        </member>
+        <member name="M:FinalProject_API.Controllers.NavigationController.#ctor(FinalProject_API.Data.MenuNavigationAndTagData)">
+            <summary>
+            Инициализирует новый экземпляр класса <see cref="T:FinalProject_API.Controllers.NavigationController"/> с инжекцией 
+            зависимостей для <see cref="T:FinalProject_API.Data.MenuNavigationAndTagData"/>.
+            </summary>
+            <param name="navigationAndTagData">Экземпляр <see cref="T:FinalProject_API.Data.MenuNavigationAndTagData"/>, 
+            используемый для взаимодействия с данными навигационного меню.</param>
+        </member>
+        <member name="M:FinalProject_API.Controllers.NavigationController.GetTitle">
+            <summary>
+            GET метод, возвращающий информацию о титульной странице
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:FinalProject_API.Controllers.NavigationController.ChangeTitle(FinalProject_API.Models.TitleModel)">
+            <summary>
+            Post метод с атрибутом авторизации с ролью администратора, 
+            изменяющий проект
+            </summary>
+            <param name="title">Модель титульного меню</param>
+        </member>
+        <member name="M:FinalProject_API.Controllers.NavigationController.GetRandomTagMethod">
+            <summary>
+            GET метод, возвращающий случайный тэг
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:FinalProject_API.Controllers.NavigationController.GetTagsMethod">
+            <summary>
+            GET метод, возвращающий информацию о тэгах
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:FinalProject_API.Controllers.NavigationController.AddTagMethod(FinalProject_API.Models.TagModel)">
+            <summary>
+            POST запрос с атрибутом авторизации с ролью администратора.
+            Метод добавления нового тэга в базу данных
+            </summary>
+            <param name="tag">Модель тэга</param>
+        </member>
+        <member name="M:FinalProject_API.Controllers.NavigationController.DeleteTag(System.Int32)">
+            <summary>
+            POST запрос с атрибутом авторизации с ролью администратора
+            Метод удаления тэга из базы данных
+            </summary>
+            <param name="id">Идентификатор удаляемого тэга</param>
+        </member>
+        <member name="T:FinalProject_API.Controllers.ProjectController">
+            <summary>
+            Контроллер, осуществляющий взаимодействие с проектами
+            </summary>
+        </member>
+        <member name="M:FinalProject_API.Controllers.ProjectController.#ctor(FinalProject_API.Data.ProjectData)">
+            <summary>
+            Инициализирует новый экземпляр класса <see cref="T:FinalProject_API.Controllers.ProjectController"/> с инжекцией 
+            зависимостей для <see cref="T:FinalProject_API.Data.ProjectData"/>.
+            </summary>
+            <param name="projectData">Экземпляр <see cref="T:FinalProject_API.Data.ProjectData"/>, 
+            используемый для взаимодействия с данными проектов.</param>
+        </member>
+        <member name="M:FinalProject_API.Controllers.ProjectController.GetProjects">
+            <summary>
+            GET метод, возвращающий информацию о проектах
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:FinalProject_API.Controllers.ProjectController.ChangeProject(FinalProject_API.Models.CommonWithImageModel{FinalProject_API.Models.ProjectModel})">
+            <summary>
+            Post метод с атрибутом авторизации с ролью администратора, 
+            принимающий модель проекта и изменяющий проект
+            </summary>
+            <param name="project">Модель проекта</param>
+        </member>
+        <member name="M:FinalProject_API.Controllers.ProjectController.AddProject(FinalProject_API.Models.CommonWithImageModel{FinalProject_API.Models.ProjectModel})">
+            <summary>
+            POST запрос с атрибутом авторизации с ролью администратора
+            Метод добавления нового проекта в базу данных
+            </summary>
+            <param name="project">Модель проекта</param>
+        </member>
+        <member name="M:FinalProject_API.Controllers.ProjectController.DeleteProject(System.Int32)">
+            <summary>
+            POST запрос с атрибутом авторизации с ролью администратора
+            Метод удаления проекта из базы данных
+            </summary>
+            <param name="id">Идентификатор удаляемого проекта</param>
+        </member>
+        <member name="M:FinalProject_API.Controllers.ProjectController.ProjectDetails(System.Int32)">
+            <summary>
+            Get Асинхронный метод, предоставляющий информацию о
+            выбранном проекте
+            </summary>
+            <param name="id">Идетнификатор запрашиваемого проекта</param>
+        </member>
+        <member name="T:FinalProject_API.Controllers.ServiceController">
+            <summary>
+            Контроллер, осуществляющий взаимодействие с услугами
+            </summary>
+        </member>
+        <member name="M:FinalProject_API.Controllers.ServiceController.#ctor(FinalProject_API.Data.ServiceData)">
+            <summary>
+            Инициализирует новый экземпляр класса <see cref="T:FinalProject_API.Controllers.ServiceController"/> с инжекцией 
+            зависимостей для <see cref="T:FinalProject_API.Data.ServiceData"/>.
+            </summary>
+            <param name="serviceData">Экземпляр <see cref="T:FinalProject_API.Data.AccountData"/>, 
+            используемый для взаимодействия с данными предоставляемых услуг.</param>
+        </member>
+        <member name="M:FinalProject_API.Controllers.ServiceController.GetServices">
+            <summary>
+            GET метод, возвращающий информацию об услугах
+            </summary>
+        </member>
+        <member name="M:FinalProject_API.Controllers.ServiceController.AddService(FinalProject_API.Models.Service)">
+            <summary>
+            POST запрос с атрибутом авторизации с ролью администратора.
+            Метод добавления новой услуги в базу данных
+            </summary>
+            <param name="service">Модель услуги</param>
+        </member>
+        <member name="M:FinalProject_API.Controllers.ServiceController.ChangeService(FinalProject_API.Models.Service)">
+            <summary>
+            Post метод с атрибутом авторизации с ролью администратора, 
+            изменяющий услугу
+            </summary>
+            <param name="service">Модель услуги</param>
+            <returns></returns>
+        </member>
+        <member name="M:FinalProject_API.Controllers.ServiceController.DeleteService(System.Int32)">
+            <summary>
+            POST запрос с атрибутом авторизации с ролью администратора
+            удаления услуги из базы данных
+            </summary>
+            <param name="id">Идентификатор удаляемой услуги</param>
+        </member>
+        <member name="M:FinalProject_API.Controllers.ServiceController.FindServiceById(System.Int32)">
+            <summary>
+            Get Асинхронный метод, предоставляющий информацию о
+            выбранной услуге
+            </summary>
+            <param name="id">Идентификатор запрашиваемой услуги</param>
+        </member>
+        <member name="T:FinalProject_API.Controllers.ValuesController">
+            <summary>
+            Контроллер, осуществляющий взаимодействие с заявками
+            </summary>
+        </member>
+        <member name="M:FinalProject_API.Controllers.ValuesController.#ctor(FinalProject_API.Data.ApplicationData,FinalProject_API.Temporary.TemporaryDatabase)">
+            <summary>
+            Инициализирует новый экземпляр класса <see cref="T:FinalProject_API.Controllers.ValuesController"/> с инжекцией 
+            зависимостей для <see cref="T:FinalProject_API.Data.ApplicationData"/>.
+            </summary>
+            <param name="repositoryData">Экземпляр <see cref="T:FinalProject_API.Data.ApplicationData"/>, 
+            используемый для взаимодействия с заявками.</param>
+        </member>
+        <member name="M:FinalProject_API.Controllers.ValuesController.GetApplications">
+            <summary>
+            GET метод, возвращающий информацию о заявках
+            </summary>
+        </member>
+        <member name="M:FinalProject_API.Controllers.ValuesController.AddRequest(FinalProject_API.Models.Application)">
+            <summary>
+            POST запрос добавления новой заявки в базу данных
+            </summary>
+            <param name="value">Модель заявки</param>
+        </member>
+        <member name="M:FinalProject_API.Controllers.ValuesController.Delete(System.Int32)">
+            <summary>
+            POST запрос с атрибутом авторизации с ролью администратора
+            Производит удаление заявки из базы данных
+            </summary>
+            <param name="id">Идентификатор удаляемой заявки</param>
+        </member>
+        <member name="M:FinalProject_API.Controllers.ValuesController.ChangeStatusApplication(FinalProject_API.Models.Application)">
+            <summary>
+            POST запрос с атрибутом авторизации с ролью администратора
+            Метод для изменения статуса заявки по указанному ID
+            </summary>
+            <param name="application">Модель заявки</param>
+        </member>
+        <member name="T:FinalProject_API.Data.AccountData">
+            <summary>
+            Репозиторий-бизнес логика приложения, 
+            осуществляющая операции по взаимодействию
+            микросервисом авторизации
+            </summary>
+        </member>
+        <member name="M:FinalProject_API.Data.AccountData.#ctor(System.Collections.Concurrent.ConcurrentDictionary{System.String,System.Threading.Tasks.TaskCompletionSource{FinalProject_API.AuthFinalProjectApp.TokenResponseModel}})">
+            <summary>
+            Инициализирует новый экземпляр класса <see cref="T:FinalProject_API.Data.AccountData"/> с инжекцией зависимостей для 
+            <see cref="T:System.Collections.Concurrent.ConcurrentDictionary`2"/>.
+            </summary>
+            <param name="pendingResponses">Экземпляр <see cref="T:System.Collections.Concurrent.ConcurrentDictionary`2"/>, 
+            используемый для хранения задач, ожидающих завершения, при взаимодействии с Kafka.</param>
+        </member>
+        <member name="M:FinalProject_API.Data.AccountData.WaitForResponse(System.String)">
+            <summary>
+            Метод ожидания ответа, использующий Concurrent словарь
+            </summary>
+            <param name="requestId"></param>
+            <returns></returns>
+        </member>
+        <member name="M:FinalProject_API.Data.AccountData.CommonModelCreate(System.String,System.Object)">
+            <summary>
+            Метод создания CommonModel
+            </summary>
+            <param name="nameOfType"></param>
+            <param name="modelObject"></param>
+            <returns></returns>
+        </member>
+        <member name="T:FinalProject_API.Data.ApplicationData">
+            <summary>
+            Репозиторий-бизнес логика приложения, 
+            осуществляющая операции по
+            взаимодействию с заявками через БД
+            </summary>
+        </member>
+        <member name="M:FinalProject_API.Data.ApplicationData.#ctor(FinalProject_API.ContextFolder.DataContext,Microsoft.EntityFrameworkCore.DbContextOptions{FinalProject_API.ContextFolder.DataContext})">
+            <summary>
+            Инициализирует новый экземпляр класса <see cref="T:FinalProject_API.Data.ServiceData"/> с инжекцией 
+            зависимостей для <see cref="T:FinalProject_API.ContextFolder.DataContext"/>.
+            </summary>
+            <param name="context">Экземпляр <see cref="T:FinalProject_API.ContextFolder.DataContext"/>, используемый 
+            для взаимодействия с базой данных.</param>
+            <param name="options">Экземпляр <see cref="T:Microsoft.EntityFrameworkCore.DbContextOptions`1"/>, 
+            используемый для для взаимодействия с базой данных</param>
+        </member>
+        <member name="M:FinalProject_API.Data.ApplicationData.AddApplications(FinalProject_API.Models.Application)">
+            <summary>
+            Метод добавления нового запроса (заявки), посредством
+            обращения к методу Add datacontext ApplicationData.
+            По окончанию производится сохранение методом
+            SaveChanges.
+            </summary>
+        </member>
+        <member name="M:FinalProject_API.Data.ApplicationData.GetApplications">
+            <summary>
+            Метод, возаращающий последовательность коллекции объектов, 
+            реализующих интерфейс IApplication с помощью интерфейса 
+            IEnumberable
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:FinalProject_API.Data.ApplicationData.DeleteApplication(System.Int32)">
+            <summary>
+            Асинхронный метод удаления заявки невозвращаемого
+            типа, который принимает в себя int значение Id 
+            удаляемой заявки. В методе используется
+            директива using для определения границ текущего
+            контекста для избежания ошибки ObjectDisposedException.
+            Происходит создание экземпляра Application, в которую
+            записывается результат перебора таблицы Requests
+            базы данных на предмет совпадения принимаемого id
+            с id заявки с помощью метода FirstOrDefaultAsync.
+            При условии, что экземпляр Application не равен нулю
+            из таблицы Requests происходит удаление полученного
+            экземпляра с помощью метода Remove с последующим
+            сохранением базы данных методом SaveChangesAsync.
+            </summary>
+            <param name="id"></param>
+        </member>
+        <member name="M:FinalProject_API.Data.ApplicationData.GetApplicationByID(System.Int32)">
+            <summary>
+            Асинхронный метод поиска заявки, принимающий int id
+            заявки и возвращающий экземпляр заявки Application. 
+            Метод представлен лямбда выражением, в котором 
+            происходит перебор таблицы Requests текущей базы данных
+            на предмет совпадения Id заявки с принимаемым Id с 
+            помощью метода FirstOrDefaultAsync. В итоге происходит
+            возвращение полученного экземпляра Appliacation.
+            </summary>
+            <param name="id"></param>
+            <returns></returns>
+        </member>
+        <member name="M:FinalProject_API.Data.ApplicationData.ChangeStatus(FinalProject_API.Models.Application)">
+            <summary>
+            Асинхронный метод изменения заявки невозвращаемого типа,
+            который принимает в экземпляр заявки.
+            В методе используется директива using для определения границ 
+            текущего контекста для избежания ошибки ObjectDisposedException.
+            Создается экземпляр Application, в который записывается результат
+            перебора таблицы Requests текущей базы данных на предмет
+            совпадения Id заявки с помощью метода FirstOrDefaultAsync.
+            Далее происходит изменение параметров полученной заявки
+            параметрами, которые были получены в принимаемом экземпляре
+            Application. Результат изменений сохраняется с помощью метода
+            SaveChangesAsync.
+            </summary>
+            <param name="application"></param>
+        </member>
+        <member name="T:FinalProject_API.Data.BlogData">
+            <summary>
+            Репозиторий-бизнес логика приложения, 
+            осуществляющая операции по
+            взаимодействию с блогом через БД
+            </summary>
+        </member>
+        <member name="M:FinalProject_API.Data.BlogData.#ctor(Microsoft.EntityFrameworkCore.DbContextOptions{FinalProject_API.ContextFolder.DataContext},FinalProject_API.ContextFolder.DataContext,FinalProject_API.Data.ImageData)">
+            <summary>
+            Инициализирует новый экземпляр класса <see cref="T:FinalProject_API.Data.ServiceData"/> с инжекцией 
+            зависимостей для <see cref="T:FinalProject_API.ContextFolder.DataContext"/>.
+            </summary>
+            <param name="context">Экземпляр <see cref="T:FinalProject_API.ContextFolder.DataContext"/>, используемый 
+            для взаимодействия с базой данных.</param>
+            <param name="options">Экземпляр <see cref="T:Microsoft.EntityFrameworkCore.DbContextOptions`1"/>, 
+            используемый для для взаимодействия с базой данных</param>
+            <param name="imageData">Экземпляр <see cref="T:FinalProject_API.Data.ImageData"/>, используемый 
+            для взаимодействия с репозиторием-логикой обработки изображений ImageData.</param>
+        </member>
+        <member name="M:FinalProject_API.Data.BlogData.AddBlog(FinalProject_API.Models.CommonWithImageModel{FinalProject_API.Models.BlogModel})">
+            <summary>
+            Метод добавления блога, посредством
+            обращения к методу Add datacontext BlogModel.
+            По окончанию производится сохранение методом
+            SaveChanges.
+            </summary>
+            <param name="blog"></param>
+        </member>
+        <member name="M:FinalProject_API.Data.BlogData.ChangeBlog(FinalProject_API.Models.CommonWithImageModel{FinalProject_API.Models.BlogModel})">
+            <summary>
+            Метод изменения блога, принимающий модель блога
+            BlogModel. В методе используется директива using 
+            для определения границ текущего контекста для избежания 
+            ошибки ObjectDisposedException. В директиве создаётся
+            экземпляр BlogModel, в который асинхронно, с помощью
+            метода FirstOrDefaultAsync, записывается результат
+            перебора таблицы Blogs на предмет совпадения id
+            принимаемой модели и id хранящегося в базе данных блога.
+            Параметры полученного экземпляра перезаписываются на 
+            параметры принимаемой методом модели.
+            По окончанию производится сохранение методом SaveChanges.
+            </summary>
+            <param name="blog"></param>
+        </member>
+        <member name="M:FinalProject_API.Data.BlogData.GetBlog">
+            <summary>
+            Метод, возаращающий последовательность коллекции объектов, 
+            реализующих интерфейс IBlogModel с помощью интерфейса 
+            IEnumberable
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:FinalProject_API.Data.BlogData.DeleteBlog(System.Int32)">
+            <summary>
+            Асинхронный метод удаления блога невозвращаемого
+            типа, который принимает в себя int значение Id 
+            удаляемого блога. В методе используется
+            директива using для определения границ текущего
+            контекста для избежания ошибки ObjectDisposedException.
+            Происходит создание экземпляра BlogModel, в который
+            записывается результат перебора таблицы Blogs
+            базы данных на предмет совпадения принимаемого id
+            с id блога с помощью метода FirstOrDefaultAsync.
+            При условии, что экземпляр blog не равен нулю
+            из таблицы Blogs происходит удаление полученного
+            экземпляра blog с помощью метода Remove с последующим
+            сохранением базы данных методом SaveChangesAsync.
+            </summary>
+            <param name="id"></param>
+        </member>
+        <member name="M:FinalProject_API.Data.BlogData.GetBlogByID(System.Int32)">
+            <summary>
+            Асинхронный метод поиска блога, принимающий int id
+            блога и возвращающий экземпляр блога BlogModel. 
+            Метод представлен лямбда выражением, в котором 
+            происходит перебор таблицы Blogs текущей базы данных
+            на предмет совпадения Id блога с принимаемым Id с 
+            помощью метода FirstOrDefaultAsync. В итоге происходит
+            возвращение полученного экземпляра BlogModel.
+            </summary>
+            <param name="id"></param>
+            <returns></returns>
+        </member>
+        <member name="T:FinalProject_API.Data.ContactData">
+            <summary>
+            Репозиторий-бизнес логика приложения, 
+            осуществляющая операции по
+            взаимодействию с контактами через БД
+            </summary>
+        </member>
+        <member name="M:FinalProject_API.Data.ContactData.#ctor(Microsoft.EntityFrameworkCore.DbContextOptions{FinalProject_API.ContextFolder.DataContext},FinalProject_API.ContextFolder.DataContext)">
+            <summary>
+            Инициализирует новый экземпляр класса <see cref="T:FinalProject_API.Data.ServiceData"/> с инжекцией 
+            зависимостей для <see cref="T:FinalProject_API.ContextFolder.DataContext"/>.
+            </summary>
+            <param name="context">Экземпляр <see cref="T:FinalProject_API.ContextFolder.DataContext"/>, используемый 
+            для взаимодействия с базой данных.</param>
+            <param name="options">Экземпляр <see cref="T:Microsoft.EntityFrameworkCore.DbContextOptions`1"/>, 
+            используемый для для взаимодействия с базой данных</param>
+        </member>
+        <member name="M:FinalProject_API.Data.ContactData.GetContacts">
+            <summary>
+            Метод, возаращающий экземпляр Contacts
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:FinalProject_API.Data.ContactData.ChangeContacts(FinalProject_API.Models.Contacts)">
+            <summary>
+            Метод изменения контактных данных, принимающий модель 
+            Contacts. В методе Создаётся экземпляр Contact. Далее,
+            в директиве using происходит перебор таблицы Contacts
+            базы данных в цикле foreach, в котором происходит 
+            кеширование полученного в цикле контакта в ранее
+            созданный экземпляр Contacts (условия в цикле 
+            отсутствуют, так как в таблице содержится только один
+            элемент, а создание других не предусмотрено логикой
+            программы). Параметры полученного экземпляра перезаписываются 
+            на параметры принимаемой методом модели.
+            По окончанию производится сохранение методом SaveChanges.
+            </summary>
+            <param name="contacts"></param>
+        </member>
+        <member name="T:FinalProject_API.Data.ImageData">
+            <summary>
+            Репозиторий-бизнес логика приложения, 
+            осуществляющая операции по
+            взаимодействию с изображениями через БД
+            </summary>
+        </member>
+        <member name="M:FinalProject_API.Data.ImageData.#ctor(Microsoft.EntityFrameworkCore.DbContextOptions{FinalProject_API.ContextFolder.DataContext})">
+            <summary>
+            Инициализирует новый экземпляр класса <see cref="T:FinalProject_API.Data.ServiceData"/> с инжекцией 
+            зависимостей для <see cref="T:Microsoft.EntityFrameworkCore.DbContextOptions`1"/>
+            </summary>
+            <param name="options">Экземпляр <see cref="T:Microsoft.EntityFrameworkCore.DbContextOptions`1"/>, 
+            используемый для для взаимодействия с базой данных</param>
+        </member>
+        <member name="M:FinalProject_API.Data.ImageData.GetNoDBImage(System.String)">
+            <summary>
+            Получение изображения из сетевой папки wwwroot в
+            виде массива байтов
+            </summary>
+            <param name="fileName"></param>
+            <returns></returns>
+        </member>
+        <member name="M:FinalProject_API.Data.ImageData.ChangeNoDBImage(Microsoft.AspNetCore.Http.IFormFile)">
+            <summary>
+            Изменение изображения из сетевой папки wwwroot
+            в виде массива байтов
+            </summary>
+            <param name="imageFile"></param>
+            <returns></returns>
+        </member>
+        <member name="M:FinalProject_API.Data.ImageData.AddToDBImage(FinalProject_API.Models.ImageModel,FinalProject_API.ContextFolder.DataContext)">
+            <summary>
+            Добавление изображения в БД
+            </summary>
+            <param name="imgModel"></param>
+            <param name="context"></param>
+            <returns></returns>
+        </member>
+        <member name="M:FinalProject_API.Data.ImageData.GetImageFromDB(System.String,System.String)">
+            <summary>
+            Получение изображения из БД в виде массива байтов
+            </summary>
+            <param name="type"></param>
+            <param name="uniqueName"></param>
+            <returns></returns>
+            <exception cref="T:System.Exception"></exception>
+        </member>
+        <member name="M:FinalProject_API.Data.ImageData.ChangeDBImage(FinalProject_API.Models.ImageModel,FinalProject_API.ContextFolder.DataContext)">
+            <summary>
+            Изменение изображения, находящегося в БД
+            </summary>
+            <param name="imgModel"></param>
+            <param name="context"></param>
+            <returns></returns>
+        </member>
+        <member name="T:FinalProject_API.Data.LinkData">
+            <summary>
+            Репозиторий-бизнес логика приложения, 
+            осуществляющая операции по
+            взаимодействию со ссылками через БД
+            </summary>
+        </member>
+        <member name="M:FinalProject_API.Data.LinkData.#ctor(Microsoft.EntityFrameworkCore.DbContextOptions{FinalProject_API.ContextFolder.DataContext},FinalProject_API.ContextFolder.DataContext,FinalProject_API.Data.ImageData)">
+            <summary>
+            Инициализирует новый экземпляр класса <see cref="T:FinalProject_API.Data.ServiceData"/> с инжекцией 
+            зависимостей для <see cref="T:FinalProject_API.ContextFolder.DataContext"/>.
+            </summary>
+            <param name="context">Экземпляр <see cref="T:FinalProject_API.ContextFolder.DataContext"/>, используемый 
+            для взаимодействия с базой данных.</param>
+            <param name="options">Экземпляр <see cref="T:Microsoft.EntityFrameworkCore.DbContextOptions`1"/>, 
+            используемый для для взаимодействия с базой данных</param>
+            <param name="imageData">Экземпляр <see cref="T:FinalProject_API.Data.ImageData"/>, используемый 
+            для взаимодействия с репозиторием-логикой обработки изображений ImageData.</param>
+        </member>
+        <member name="M:FinalProject_API.Data.LinkData.AddLink(FinalProject_API.Models.CommonWithImageModel{FinalProject_API.Models.LinkModel})">
+            <summary>
+            Метод добавления ссылки, посредством
+            обращения к методу Add datacontext LinkModel.
+            По окончанию производится сохранение методом
+            SaveChanges.
+            </summary>
+            <param name="link"></param>
+        </member>
+        <member name="M:FinalProject_API.Data.LinkData.ChangeLink(FinalProject_API.Models.CommonWithImageModel{FinalProject_API.Models.LinkModel})">
+            <summary>
+            Метод изменения ссылки, принимающий модель LinkModel.
+            В методе используется директива using для определения 
+            границ текущего контекста для избежания ошибки 
+            ObjectDisposedException. Внутри директивы using создается
+            экземпляр LinkModel и с помощью метода
+            FirstOrDefaultAsync осуществляется поиск по совпадению
+            Id принимаемой модели и элемента LinkModel таблицы Links.
+            Параметры полученного экземпляра перезаписываются на 
+            параметры принимаемой методом модели.
+            По окончанию производится сохранение методом
+            SaveChanges.
+            </summary>
+            <param name="link"></param>
+        </member>
+        <member name="M:FinalProject_API.Data.LinkData.GetLinks">
+            <summary>
+            Метод, возаращающий последовательность коллекции объектов, 
+            реализующих интерфейс ILinkModel с помощью интерфейса 
+            IEnumberable
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:FinalProject_API.Data.LinkData.DeleteLink(System.Int32)">
+            <summary>
+            Асинхронный метод удаления ссылки невозвращаемого
+            типа, который принимает в себя int значение Id 
+            удаляемой ссылки. В методе используется
+            директива using для определения границ текущего
+            контекста для избежания ошибки ObjectDisposedException.
+            Происходит создание экземпляра LinkModel, в который
+            записывается результат перебора таблицы Links
+            базы данных на предмет совпадения принимаемого id
+            с id ссылки с помощью метода FirstOrDefaultAsync.
+            При условии, что экземпляр link не равен нулю
+            из таблицы Links происходит удаление полученного
+            экземпляра link с помощью метода Remove с последующим
+            сохранением базы данных методом SaveChangesAsync.
+            </summary>
+            <param name="id"></param>
+        </member>
+        <member name="M:FinalProject_API.Data.LinkData.GetLinkByID(System.Int32)">
+            <summary>
+            Асинхронный метод поиска ссылки, принимающий int id
+            ссылки и возвращающий экземпляр ссылки LinkModel. 
+            Метод представлен лямбда выражением, в котором 
+            происходит перебор таблицы Links текущей базы данных
+            на предмет совпадения Id ссылки с принимаемым Id с 
+            помощью метода FirstOrDefaultAsync. В итоге происходит
+            возвращение полученного экземпляра LinkModel.
+            </summary>
+            <param name="id"></param>
+            <returns></returns>
+        </member>
+        <member name="T:FinalProject_API.Data.MenuNavigationAndTagData">
+            <summary>
+            Репозиторий-бизнес логика приложения, 
+            осуществляющая операции по взаимодействию 
+            с атрибутами меню навигации через БД
+            </summary>
+        </member>
+        <member name="M:FinalProject_API.Data.MenuNavigationAndTagData.#ctor(Microsoft.EntityFrameworkCore.DbContextOptions{FinalProject_API.ContextFolder.DataContext},FinalProject_API.ContextFolder.DataContext)">
+            <summary>
+            Инициализирует новый экземпляр класса <see cref="T:FinalProject_API.Data.ServiceData"/> с инжекцией 
+            зависимостей для <see cref="T:FinalProject_API.ContextFolder.DataContext"/>.
+            </summary>
+            <param name="context">Экземпляр <see cref="T:FinalProject_API.ContextFolder.DataContext"/>, используемый 
+            для взаимодействия с базой данных.</param>
+            <param name="options">Экземпляр <see cref="T:Microsoft.EntityFrameworkCore.DbContextOptions`1"/>, 
+            используемый для для взаимодействия с базой данных</param>
+        </member>
+        <member name="M:FinalProject_API.Data.MenuNavigationAndTagData.GetTitle">
+            <summary>
+            Метод, возаращающий экземпляр TitleModel. Происходит
+            создание нового экземпляра TitleModel. Далее
+            происходит перебор таблицы Title в цикле foreach 
+            в котором происходит кеширование полученной страницы 
+            в ранее созданный экземпляр TitleModel (условия в цикле 
+            отсутствуют, так как в таблице содержится только один
+            элемент, а создание других не предусмотрено логикой
+            программы). По окончанию происходит возврат модели
+            ключевым словом return.
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:FinalProject_API.Data.MenuNavigationAndTagData.ChangeTitle(FinalProject_API.Models.TitleModel)">
+            <summary>
+            Метод изменения титульных данных, принимающий модель 
+            TitleModel. В методе Создаётся экземпляр TitleModel. Далее,
+            в директиве using происходит перебор таблицы Title
+            базы данных в цикле foreach, в котором происходит 
+            кеширование полученного в цикле титульного листа в ранее
+            созданный экземпляр TitleModel (условия в цикле 
+            отсутствуют, так как в таблице содержится только один
+            элемент, а создание других не предусмотрено логикой
+            программы). Параметры полученного экземпляра перезаписываются 
+            на параметры принимаемой методом модели.
+            По окончанию производится сохранение методом SaveChanges.
+            </summary>
+            <param name="title"></param>
+        </member>
+        <member name="M:FinalProject_API.Data.MenuNavigationAndTagData.GetRandomTag">
+            <summary>
+            Метод, возаращающий последовательность коллекции объектов, 
+            реализующих интерфейс ITagModel с помощью интерфейса 
+            IEnumberable
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:FinalProject_API.Data.MenuNavigationAndTagData.GetTags">
+            <summary>
+            Метод, возаращающий последовательность коллекции объектов, 
+            реализующих интерфейс ITagModel с помощью интерфейса 
+            IEnumberable
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:FinalProject_API.Data.MenuNavigationAndTagData.AddTag(FinalProject_API.Models.TagModel)">
+            <summary>
+            Метод добавления тэга, посредством
+            обращения к методу Add datacontext TagModel.
+            По окончанию производится сохранение методом
+            SaveChanges.
+            </summary>
+            <param name="tag"></param>
+        </member>
+        <member name="M:FinalProject_API.Data.MenuNavigationAndTagData.DeleteTag(System.Int32)">
+            <summary>
+            Асинхронный метод удаления тэга невозвращаемого
+            типа, который принимает в себя int значение Id 
+            удаляемого тэга. В методе используется
+            директива using для определения границ текущего
+            контекста для избежания ошибки ObjectDisposedException.
+            Происходит создание экземпляра TagModel, в которую
+            записывается результат перебора таблицы Tags
+            базы данных на предмет совпадения принимаемого id
+            с id тэга с помощью метода FirstOrDefaultAsync.
+            При условии, что экземпляр tag не равен нулю
+            из таблицы Tags происходит удаление полученного
+            экземпляра тэга с помощью метода Remove с последующим
+            сохранением базы данных методом SaveChangesAsync.
+            </summary>
+            <param name="id"></param>
+        </member>
+        <member name="T:FinalProject_API.Data.ProjectData">
+            <summary>
+            Репозиторий-бизнес логика приложения, 
+            осуществляющая операции по
+            взаимодействию с проектами через БД
+            </summary>
+        </member>
+        <member name="M:FinalProject_API.Data.ProjectData.#ctor(Microsoft.EntityFrameworkCore.DbContextOptions{FinalProject_API.ContextFolder.DataContext},FinalProject_API.Data.ImageData,FinalProject_API.ContextFolder.DataContext)">
+            <summary>
+            Инициализирует новый экземпляр класса <see cref="T:FinalProject_API.Data.ServiceData"/> с инжекцией 
+            зависимостей для <see cref="T:FinalProject_API.ContextFolder.DataContext"/>.
+            </summary>
+            <param name="context">Экземпляр <see cref="T:FinalProject_API.ContextFolder.DataContext"/>, используемый 
+            для взаимодействия с базой данных.</param>
+            <param name="options">Экземпляр <see cref="T:Microsoft.EntityFrameworkCore.DbContextOptions`1"/>, 
+            используемый для для взаимодействия с базой данных</param>
+            <param name="imageData">Экземпляр <see cref="T:FinalProject_API.Data.ImageData"/>, используемый 
+            для взаимодействия с репозиторием-логикой обработки изображений ImageData.</param>
+        </member>
+        <member name="M:FinalProject_API.Data.ProjectData.AddProjects(FinalProject_API.Models.CommonWithImageModel{FinalProject_API.Models.ProjectModel})">
+            <summary>
+            Метод добавления проекта, посредством
+            обращения к методу Add datacontext ProjectModel.
+            По окончанию производится сохранение методом
+            SaveChanges.
+            </summary>
+            <param name="project"></param>
+        </member>
+        <member name="M:FinalProject_API.Data.ProjectData.ChangeProjects(FinalProject_API.Models.CommonWithImageModel{FinalProject_API.Models.ProjectModel})">
+            <summary>
+            Метод изменения проекта, принимающий модель проекта
+            ProjectModel. В методе используется директива using 
+            для определения границ текущего контекста для избежания 
+            ошибки ObjectDisposedException. В директиве создаётся
+            экземпляр ProjectModel, в который асинхронно, с помощью
+            метода FirstOrDefaultAsync, записывается результат
+            перебора таблицы Projects на предмет совпадения id
+            принимаемой модели и id хранящегося в базе данных проекта.
+            Параметры полученного экземпляра перезаписываются на 
+            параметры принимаемой методом модели.
+            По окончанию производится сохранение методом
+            SaveChanges.
+            </summary>
+            <param name="project"></param>
+        </member>
+        <member name="M:FinalProject_API.Data.ProjectData.GetProjects">
+            <summary>
+            Метод, возаращающий последовательность коллекции объектов, 
+            реализующих интерфейс IProjectModel с помощью интерфейса 
+            IEnumberable
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:FinalProject_API.Data.ProjectData.DeleteProject(System.Int32)">
+            <summary>
+            Асинхронный метод удаления проекта невозвращаемого
+            типа, который принимает в себя int значение Id 
+            удаляемого проекта. В методе используется
+            директива using для определения границ текущего
+            контекста для избежания ошибки ObjectDisposedException.
+            Происходит создание экземпляра ProjectModel, в который
+            записывается результат перебора таблицы Projects
+            базы данных на предмет совпадения принимаемого id
+            с id проекта с помощью метода FirstOrDefaultAsync.
+            При условии, что экземпляр ProjectModel не равен нулю
+            из таблицы Projects происходит удаление полученного
+            экземпляра с помощью метода Remove с последующим
+            сохранением базы данных методом SaveChangesAsync.
+            </summary>
+            <param name="id"></param>
+        </member>
+        <member name="M:FinalProject_API.Data.ProjectData.GetProjectByID(System.Int32)">
+            <summary>
+            Асинхронный метод поиска проекта, принимающий int id
+            проекта и возвращающий экземпляр проекта ProjectModel. 
+            Метод представлен лямбда выражением, в котором 
+            происходит перебор таблицы Projects текущей базы данных
+            на предмет совпадения Id проекта с принимаемым Id с 
+            помощью метода FirstOrDefaultAsync. В итоге происходит
+            возвращение полученного экземпляра ProjectModel.
+            </summary>
+            <param name="id"></param>
+            <returns></returns>
+        </member>
+        <member name="T:FinalProject_API.Data.ServiceData">
+            <summary>
+            Репозиторий-бизнес логика приложения, 
+            осуществляющая операции по
+            взаимодействию с услугами через БД
+            </summary>
+        </member>
+        <member name="M:FinalProject_API.Data.ServiceData.#ctor(Microsoft.EntityFrameworkCore.DbContextOptions{FinalProject_API.ContextFolder.DataContext},FinalProject_API.ContextFolder.DataContext)">
+            <summary>
+            Инициализирует новый экземпляр класса <see cref="T:FinalProject_API.Data.ServiceData"/> с инжекцией зависимостей для <see cref="T:FinalProject_API.ContextFolder.DataContext"/>.
+            </summary>
+            <param name="context">Экземпляр <see cref="T:FinalProject_API.ContextFolder.DataContext"/>, используемый для взаимодействия с базой данных.</param>
+            <param name="options">Экземпляр <see cref="T:Microsoft.EntityFrameworkCore.DbContextOptions`1"/>, 
+            используемый для для взаимодействия с базой данных</param>
+        </member>
+        <member name="M:FinalProject_API.Data.ServiceData.AddService(FinalProject_API.Models.Service)">
+            <summary>
+            Метод добавления услуги, посредством
+            обращения к методу Add datacontext Service.
+            По окончанию производится сохранение методом
+            SaveChanges.
+            </summary>
+            <param name="service"></param>
+        </member>
+        <member name="M:FinalProject_API.Data.ServiceData.ChangeService(FinalProject_API.Models.Service)">
+            <summary>
+            Метод изменения услуги, принимающий модель услуги
+            Service. В методе используется директива using 
+            для определения границ текущего контекста для избежания 
+            ошибки ObjectDisposedException. Внутри директивы создаётся
+            экземпляр Service, в которой асинхронно, с помощью
+            метода FirstOrDefaultAsync, происходит перебор таблицы Services
+            на предмет совпадения id принимаемой модели и id хранящейся в 
+            базе данных услуги. Результат перебора сохраняется в ранее
+            созданный экземпляр Service. Параметры полученного экземпляра 
+            перезаписываются на параметры принимаемой методом модели.
+            По окончанию производится сохранение методом SaveChanges.
+            </summary>
+            <param name="service"></param>
+        </member>
+        <member name="M:FinalProject_API.Data.ServiceData.GetServices">
+            <summary>
+            Метод, возаращающий последовательность коллекции объектов, 
+            реализующих интерфейс IService с помощью интерфейса 
+            IEnumberable
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:FinalProject_API.Data.ServiceData.DeleteService(System.Int32)">
+            <summary>
+            Асинхронный метод удаления услуги невозвращаемого
+            типа, который принимает в себя int значение Id 
+            удаляемой услуги. В методе используется
+            директива using для определения границ текущего
+            контекста для избежания ошибки ObjectDisposedException.
+            Происходит создание экземпляра Service, в который
+            записывается результат перебора таблицы Services
+            базы данных на предмет совпадения принимаемого id
+            с id услуги с помощью метода FirstOrDefaultAsync.
+            При условии, что экземпляр Service не равен нулю
+            из таблицы Services происходит удаление полученного
+            экземпляра с помощью метода Remove с последующим
+            сохранением базы данных методом SaveChangesAsync.
+            </summary>
+            <param name="id"></param>
+        </member>
+        <member name="M:FinalProject_API.Data.ServiceData.GetServiceByID(System.Int32)">
+            <summary>
+            Асинхронный метод поиска заявки, принимающий int id
+            заявки и возвращающий экземпляр заявки Service. 
+            Метод представлен лямбда выражением, в котором 
+            происходит перебор таблицы Services текущей базы данных
+            на предмет совпадения Id заявки с принимаемым Id с 
+            помощью метода FirstOrDefaultAsync. В итоге происходит
+            возвращение полученного экземпляра Service.
+            </summary>
+            <param name="id"></param>
+            <returns></returns>
+        </member>
+        <member name="T:FinalProject_API.Migrations.InitialAPIDb">
+            <inheritdoc />
+        </member>
+        <member name="M:FinalProject_API.Migrations.InitialAPIDb.Up(Microsoft.EntityFrameworkCore.Migrations.MigrationBuilder)">
+            <inheritdoc />
+        </member>
+        <member name="M:FinalProject_API.Migrations.InitialAPIDb.Down(Microsoft.EntityFrameworkCore.Migrations.MigrationBuilder)">
+            <inheritdoc />
+        </member>
+        <member name="M:FinalProject_API.Migrations.InitialAPIDb.BuildTargetModel(Microsoft.EntityFrameworkCore.ModelBuilder)">
+            <inheritdoc />
+        </member>
+        <member name="M:FinalProject_API.Temporary.TemporaryDatabase.AddOrUpdate(System.String,System.Object)">
+            <summary>
+            Метод добавления ключа идемпотентности в кэш
+            </summary>
+            <param name="requestId"></param>
+        </member>
+        <member name="M:FinalProject_API.Temporary.TemporaryDatabase.Get(System.String)">
+            <summary>
+            Получение объекта (ключа) по совпадению Id
+            </summary>
+            <param name="requestId"></param>
+            <returns></returns>
+        </member>
+    </members>
+</doc>

@@ -1,0 +1,45 @@
+﻿@model Models.AuthModels.LoginViewModel
+@{
+    ViewData["Tittle"] = "Login";
+}
+
+<div class="login-container">
+    <div class="login-container-row">
+        <div class="login-container-class">
+            <h3 class="text-center">Вход</h3>
+
+            <form asp-action="LoginPost" asp-antiforgery="true">
+                <div asp-validation-summary="All" class="text-danger"></div>
+
+                <div class="login-container-class-form">
+                    <div class="form-group">
+                        <input asp-for="UserLogin.LoginProp" placeholder="Логин" />
+                        <input asp-for="UserLogin.Password" placeholder="Пароль" />
+                    </div>
+                    <input type="hidden" asp-for="LayoutViewModel.IsAdmin" />
+                    <input type="hidden" asp-for="LayoutViewModel.IsRedactWindow" />
+                    <input type="hidden" asp-for="LayoutViewModel.IsEditMode" />
+                    <input type="hidden" asp-for="LayoutViewModel.TitleModel.Title" />
+                    <input type="hidden" asp-for="LayoutViewModel.TitleModel.MainTitle" />
+                    <input type="hidden" asp-for="LayoutViewModel.TitleModel.ContactsTitle" />
+                    <input type="hidden" asp-for="LayoutViewModel.TitleModel.BlogTitle" />
+                    <input type="hidden" asp-for="LayoutViewModel.TitleModel.Id" />
+                    <input type="hidden" asp-for="LayoutViewModel.TitleModel.ProjectsTitle" />
+                    <input type="hidden" asp-for="LayoutViewModel.TitleModel.ServicesTitle" />
+                    <input type="hidden" asp-for="LayoutViewModel.UserName" />
+                    <input type="hidden" asp-for="LayoutViewModel.IsAuth" />
+                    <input type="hidden" asp-for="LayoutViewModel.RedactButtonText" />
+                    <input type="hidden" asp-for="LayoutViewModel.TagModel.Tag" />
+                    <button type="submit" style="width:200px" class="styled-button">Войти</button>
+                </div>
+            </form>
+            @if (TempData["AlertLogin"]!=null)
+            {
+                <div class="alert">@TempData["AlertLogin"]</div>
+            }
+        </div>
+    </div>
+</div>
+
+<br />
+<br />

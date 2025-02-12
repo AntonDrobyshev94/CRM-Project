@@ -1,0 +1,91 @@
+﻿@{
+    ViewData["Title"] = "Контакты";
+    Layout = "_Layout";
+}
+@model CompositeViewNumerableModel<LinkModel>
+<link href="~/css/StyleSheet.css" rel="stylesheet" />
+@{
+    var layoutModel = Model.LayoutViewModel;
+    var linkModel = Model.ContentViewModel;
+    Contacts contacts = ViewBag.Contacts;
+    
+    bool isEditMode = layoutModel.IsEditMode;
+    string str = "";
+}
+
+<div class="block">
+    <div class="block-common">
+        <h1>Контакты</h1>
+        <div class="block-common-contacts">
+            <div class="block-header-contact">
+                <div class="block-header-contact-info">
+                    @if(contacts !=null)
+                    {
+                        <p>Адрес: @contacts.Address</p>
+                        <p>Телефон: @contacts.Telephone</p>
+                        <p>Факс: @contacts.Fax</p>
+                        <p>e-Mail: @contacts.Email</p>
+                    }
+                    else
+                    {
+                        <p>Адрес:</p>
+                        <p>Телефон: </p>
+                        <p>Факс: </p>
+                        <p>e-Mail: </p>
+                    }
+                    @if (isEditMode)
+                    {
+                        <div class="form-button" style="height:40px; margin-bottom:10px">
+                            <a class="styled-button" href="~/Contact/ChangeContactWindow">Изменить контактные данные</a>
+                        </div>
+                    }
+                </div>
+                <div class="block-header-contact-logo">
+                @if (Model != null)
+                {
+                    @foreach (var link in linkModel)
+                    {
+                        str = "https://localhost:7037/api/image/LinkModel/" + link.ImageName;
+                        <div class="block-header-contact-logo-concreteLogo">
+                            <a href="@link.Url">
+                                <img style="width:30px" src=@str />
+                            </a>
+                            @if (isEditMode)
+                            {
+                                <div class="form-button" style="height:30px;">
+                                    <img src="https://localhost:7037/api/image/editButton.png" alt="Изменить" class="button-ic" onclick="location.href='@Url.Action("ChangeLinkWindow", "Link", new { id = link.Id})'" />
+                                </div>
+                                <div class="form-button" style="height:30px;">
+                                    <img src="https://localhost:7037/api/image/delete.png" alt="Удалить" class="button-ic" onclick="location.href='@Url.Action("DeleteLink", "Link", new { id = link.Id})'" />
+                                </div>
+                            }
+                        </div> 
+                    }
+                }
+                </div>
+            </div>
+            <div class="block-common-logo">
+                @if(contacts !=null)
+                {
+                    <a>
+                        <img style="width:500px" src="https://localhost:7037/api/image/ContactsMap.png" />
+                    </a>
+                }
+                else
+                {
+                    <a>
+                        <img style="width:500px" src="https://localhost:7037/api/image/ContactsMap.png" />
+                    </a>
+                }
+            </div>
+        </div>
+    </div>
+</div>
+<div class="block-footer">
+    @if (isEditMode)
+    {
+        <div class="form-button" style="height:40px">
+            <a class="styled-button" href="~/Link/AddLinkWindow">Добавить ссылку</a>
+        </div>
+    }
+</div>

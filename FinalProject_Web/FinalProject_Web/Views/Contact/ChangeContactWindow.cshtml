@@ -1,0 +1,35 @@
+﻿@{
+    ViewData["Title"] = "Изменение контактных данных";
+    Layout = "_Layout";
+}
+<link href="~/css/IndexStyle.css" rel="stylesheet" />
+@model CompositeViewNumerableModel<LinkModel>
+@{
+    var layoutModel = Model.LayoutViewModel;
+    bool isAdmin = layoutModel.IsAdmin;
+    Contacts contacts = ViewBag.Contacts;
+}
+@if (isAdmin)
+{
+    <div class="form-container">
+
+        <div class="request-form center">
+            <div>
+                <form action="~/Contact/ChangeContact" method="post" enctype="multipart/form-data" id="uploadForm" data-redirect-url="/Contact/Contacts">
+                    <input type="file" name="imageFile" accept="image/*" id="uploadInput" />
+                    <input type="hidden" name="fileName" value="ContactsMap.png">
+                    <label>Адрес</label>
+                    <input type="text" name="address" value="@contacts.Address"/><br />
+                    <label>e-Mail</label><br />
+                    <input type="text" name="email" value="@contacts.Email" /><br />
+                    <label>Факс</label><br />
+                    <input type="text" name="fax" value="@contacts.Fax" /><br />
+                    <label>Телефон</label><br />
+                    <input type="text" name="telephone" value="@contacts.Telephone" /><br />
+                    <p><input type="submit" style="margin-top:20px" class="styled-button" value="Подтвердить изменения" /></p>
+                </form>
+            </div>
+        </div>
+    </div>
+    <script src="~/js/exception_script.js"></script>
+}

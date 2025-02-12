@@ -1,0 +1,95 @@
+﻿@model IBaseViewModel
+<!DOCTYPE html>
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title>@ViewData["Title"]</title>
+    <link href="~/css/StyleSheet.css" rel="stylesheet" />
+    <link href="~/css/FooterStyle.css" rel="stylesheet" />
+</head>
+    @{
+        var layoutModel = Model.LayoutViewModel;
+        bool isAdmin = layoutModel.IsAdmin;
+        bool isRedactWindow = layoutModel.IsRedactWindow;
+        string redact = layoutModel.IsEditMode ? "Закончить редактирование" : "Редактировать";
+        var titleModel = layoutModel.TitleModel;
+    }
+<body style="margin:0px">
+    <div class="wrapper">
+        <div class="BG">
+            <div class="head"> @await Component.InvokeAsync("LogoutView") </div>
+            <div>
+                @if (isAdmin)
+                {
+                    <main style="margin-left:200px; margin-right:30px">
+                        @RenderBody()
+                        <div style="display:flex; margin-top:10px; justify-content:center">
+                            @if (isRedactWindow)
+                            {
+                                <div class="form-button">
+                                    <form method="post" style="margin-bottom:30px" action="~/Navigation/EditModeMethod">
+                                        <input type="hidden" name="controllerName" value="@ViewContext.RouteData.Values["controller"]">
+                                        <input type="hidden" name="actionName" value="@ViewContext.RouteData.Values["action"]">
+                                        <button class="styled-button" type="submit">@redact</button>
+                                    </form>
+                                </div>
+                            }
+                        </div>
+                    </main>
+                }
+                else
+                {
+                    <main style="margin-right:30px; margin-left:30px">
+                        @RenderBody()
+                    </main>
+                }
+            </div>
+        </div>
+    </div>
+    @if(isAdmin)
+    {
+        <div class="footer-wrapper">
+            <section class="footer">
+                <nav>
+                    @if (titleModel != null)
+                    {
+                        <a href="~/">@titleModel.MainTitle</a>
+                        <a href="/Service/Services">@titleModel.ServicesTitle</a>
+                        <a href="/Project/Projects">@titleModel.ProjectsTitle</a>
+                        <a href="/Blog/Blog">@titleModel.BlogTitle</a>
+                        <a href="/Contact/Contacts">@titleModel.ContactsTitle</a>
+                    }
+
+                    <a><p></p></a>
+                    <a href="~/">
+                        <img src="https://localhost:7037/api/image/ApplicationLogo.png" />
+                    </a>
+                </nav>
+            </section>
+        </div>
+    }
+    else
+    {
+        <div class="footer-wrapper-else">
+            <section class="footer">
+                <nav style="margin-left:30px">
+                    @if (titleModel != null)
+                    {
+                        <a href="~/">@titleModel.MainTitle</a>
+                        <a href="/Service/Services">@titleModel.ServicesTitle</a>
+                        <a href="/Project/Projects">@titleModel.ProjectsTitle</a>
+                        <a href="/Blog/Blog">@titleModel.BlogTitle</a>
+                        <a href="/Contact/Contacts">@titleModel.ContactsTitle</a>
+                    }
+
+                    <a><p></p></a>
+                    <a href="~/">
+                        <img src="https://localhost:7037/api/image/ApplicationLogo.png" />
+                    </a>
+                </nav>
+            </section>
+        </div>
+    }
+    
+</body>
+</html>

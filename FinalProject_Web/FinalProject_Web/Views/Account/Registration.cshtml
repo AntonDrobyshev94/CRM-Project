@@ -1,0 +1,50 @@
+﻿@model Models.AuthModels.RegistrationViewModel
+@{
+    ViewData["Tittle"] = "Регистрация";
+}
+
+<div class="login-container">
+    <div class="login-container-row">
+        <div class="login-container-class">
+            <h3 class="text-center">Регистрация</h3>
+            <form asp-action="Registration" asp-antiforgery="true" class="form">
+                <div asp-validation-summary="All" class="text-danger"></div>
+                <div class="login-container-class-form">
+                    <div class="form-group">
+                        <input asp-for="UserRegistration.LoginProp" class="login-container-class-form-input" placeholder="Логин" />
+                    </div>
+                </div>
+
+                <div class="login-container-class-form">
+                    <div class="form-group">
+                        <input asp-for="UserRegistration.Password" class="login-container-class-form-input" placeholder="Пароль" />
+                    </div>
+                </div>
+                <div class="login-container-class-form">
+                    <div class="form-group">
+                        <input asp-for="UserRegistration.ConfirmPassword" class="login-container-class-form-input" placeholder="Продублируйте пароль" />
+                    </div>
+                </div>
+                <input type="hidden" asp-for="LayoutViewModel.IsAdmin" />
+                <input type="hidden" asp-for="LayoutViewModel.IsRedactWindow" />
+                <input type="hidden" asp-for="LayoutViewModel.IsEditMode" />
+                <input type="hidden" asp-for="LayoutViewModel.TitleModel.Title" />
+                <input type="hidden" asp-for="LayoutViewModel.TitleModel.MainTitle" />
+                <input type="hidden" asp-for="LayoutViewModel.TitleModel.ContactsTitle" />
+                <input type="hidden" asp-for="LayoutViewModel.TitleModel.BlogTitle" />
+                <input type="hidden" asp-for="LayoutViewModel.TitleModel.Id" />
+                <input type="hidden" asp-for="LayoutViewModel.TitleModel.ProjectsTitle" />
+                <input type="hidden" asp-for="LayoutViewModel.TitleModel.ServicesTitle" />
+                <input type="hidden" asp-for="LayoutViewModel.UserName" />
+                <input type="hidden" asp-for="LayoutViewModel.IsAuth" />
+                <input type="hidden" asp-for="LayoutViewModel.RedactButtonText" />
+                <input type="hidden" asp-for="LayoutViewModel.TagModel.Tag" />
+                <input type="hidden" id="requestId" asp-for="UserRegistration.RequestId" />
+                <div class="login-container-class-form">
+                    <button type="submit" class="styled-button">Зарегистрироваться</button>
+                </div>
+            </form>
+        </div>
+    </div>
+</div>
+<script src="~/js/requestId_script.js"></script>

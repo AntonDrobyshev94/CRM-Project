@@ -1,0 +1,62 @@
+﻿@{
+    ViewData["Title"] = "Блог";
+    Layout = "_Layout";
+}
+@model CompositeViewNumerableModel<BlogModel>
+<link href="~/css/StyleSheet.css" rel="stylesheet" />
+@{
+    var layoutModel = Model.LayoutViewModel;
+    var blogModel = Model.ContentViewModel;
+    bool isEditMode = layoutModel.IsEditMode;
+    string str = "";
+}
+<div class="block">
+    <div class="block-header">
+        <h1>Блог</h1>
+    </div>
+    <div class="project-container">
+        @if (Model != null)
+        {
+            @foreach (var blog in blogModel)
+            {
+                str = "https://localhost:7037/api/image/BlogModel/" + blog.ImageName;
+                <div class="block-container-items">
+                    <div class="block-container-blog">
+                        <div style="margin-left:5px">
+                            <a>@blog.DateTimePublication.ToString("dd MMMM yyyy")</a>
+                        </div>
+                        <div class="block-item-blog">
+                            <div class="form-picture-blog">
+                                <a href="~/Blog/BlogPostDetails?id=@blog.Id">
+                                    <img src="@str" />
+                                </a>
+                            </div>
+                            <a>@blog.Name</a>
+                            <div class="block-text-blog">@blog.Description</div>
+                        </div>
+                    </div>
+                    @if (isEditMode)
+                    {
+                        <div class="form-button" style="height:40px; display: inline-block; margin-left:5px; margin-right: 5px">
+                            <img src="https://localhost:7037/api/image/editButton.png" alt="Изменить" class="button-ic" onclick="location.href='@Url.Action("ChangeBlogPostWindow", "Blog", new { id = blog.Id })'" />
+                        </div>
+                        <div class="form-button" style="height:40px; display: inline-block; margin-right: 10px">
+                            <img src="https://localhost:7037/api/image/delete.png" alt="Удалить" class="button-ic" onclick="location.href='@Url.Action("DeleteBlogPost", "Blog", new { id = blog.Id})'" />
+                        </div>
+                    }
+                </div>
+            }
+        }
+    </div>
+</div>
+<div class="block-footer">
+    @if (isEditMode)
+    {
+        <div class="form-button" style="height:40px">
+            <a class="styled-button" href="~/Blog/AddBlogWindow">Добавить проект</a>
+        </div>
+    }
+</div>
+
+<script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+<script src="~/js/slider_script.js"></script>

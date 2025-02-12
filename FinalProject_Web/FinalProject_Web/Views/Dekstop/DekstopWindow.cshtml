@@ -1,0 +1,175 @@
+﻿@{
+    ViewData["Title"] = "Рабочий стол";
+    Layout = "_Layout";
+}
+<link href="~/css/IndexStyle.css" rel="stylesheet" />
+<div class="block-desktop">
+    <div class="block-desktop-header">
+        <div class="form-header">
+            <h2>Всего заявок: <span id="allRequestCounter"></span></h2>
+        </div>
+        <div class="form-time">
+            <header class="form-time-header">
+                <nav>
+                    <ul class="form-time-header-menu">
+                        <li>
+                            <div class="date-container">
+                                <input type="button" name="today" value="Сегодня" onclick="setPeriod('today')" />
+                                <input type="button" name="yesterday" value="Вчера" onclick="setPeriod('yesterday')" />
+                                <input type="button" name="week" value="Неделя" onclick="setPeriod('week')" />
+                                <input type="button" name="month" value="Месяц" onclick="setPeriod('month')" />
+
+                                <form id="dateForm" class="date-container-form">
+                                    <input type="date" name="startDate" id="startDate" />
+                                    <input type="date" name="endDate" id="endDate" />
+                                </form>
+                            </div>
+                        </li>
+                    </ul>
+                </nav>
+            </header>
+        </div>
+    </div>
+    <div class="application-container">
+        <h2 id="periodInfo">Рассматриваемый период не выбран.</h2>
+        <div id="applicationListContainer">
+            <table class="custom-table">
+                <thead>
+                    <tr class="custom-table-header">
+                        <th width="100">Номер заявки</th>
+                        <th width="200">Время заявки</th>
+                        <th width="200">Имя</th>
+                        <th width="400">Текст заявки</th>
+                        <th width="200">Контакты</th>
+                        <th width="200">Статус</th>
+                        <th width="200">Изменить статус</th>
+                    </tr>
+                </thead>
+                <tbody id="applicationList"></tbody>
+            </table>
+        </div>
+    </div>
+
+<script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+<script>
+    function setPeriod(period) {
+        var startDate;
+        var endDate;
+        switch (period) {
+            case 'today':
+                startDate = new Date();
+                endDate = new Date();
+                break;
+            case 'yesterday':
+                startDate = new Date();
+                startDate.setDate(startDate.getDate() - 1);
+                endDate = new Date(startDate);
+                break;
+            case 'week':
+                endDate = new Date();
+                startDate = new Date();
+                startDate.setDate(startDate.getDate() - 7);
+                break;
+            case 'month':
+                endDate = new Date();
+                startDate = new Date();
+                startDate.setMonth(startDate.getMonth() - 1);
+                break;
+            default:
+                console.error("Неизвестный период:", period);
+                return;
+        }
+
+        var isoStartDate = startDate.toISOString().split('T')[0];
+        var isoEndDate = endDate.toISOString().split('T')[0];
+
+        $.post('@Url.Action("SetPeriodFilter", "Dekstop")', { period : period })
+            .done(function () {
+                loadApplications(isoStartDate, isoEndDate);
+            });
+    }
+
+    function filterByDate() {
+        var startDate = $('#startDate').val();
+        var endDate = $('#endDate').val();
+
+        $.post('@Url.Action("SetDateFilter", "Dekstop")', { startDate: startDate, endDate: endDate })
+            .done(function () {
+                loadApplications(startDate, endDate);
+            });
+    }
+
+    function changeStatus(status, id) {
+        var startDate = startDate;
+        $.post('@Url.Action("ChangeRequestStatus", "Dekstop")', { status: status, id: id })
+            .done(function (response) {
+                if (response.redirectToUrl) {
+                    window.location.href = response.redirectToUrl;
+                } else {
+                    console.log("Изменение статуса успешно");
+                        loadApplications(currentStartDate, currentEndDate);
+                }
+            })
+            .fail(function (xhr, status, error) {
+                console.log("Возникла ошибка " + error);
+            });
+    }
+
+        let currentStartDate = '1900-01-01';
+        let currentEndDate = '2200-01-01';
+
+    function loadApplications(startDate, endDate) {
+            currentStartDate = startDate;
+            currentEndDate = endDate;
+        $.get('@Url.Action("GetFilteredRequests", "Dekstop")', { startDate: startDate, endDate: endDate })
+            .done(function (data) {
+                $('#allRequestCounter').text(data.allRequestCounter);
+                var minStartDate = new Date('2012-01-01');
+                var maxEndDate = new Date('2060-12-31');
+                var start = new Date(startDate);
+                var end = new Date(endDate);
+                if (start >= minStartDate && end <= maxEndDate) {
+                    $('#periodInfo').text(`В период с ${startDate} по ${endDate} поступило: ${data.currentRequestCounter} заявок`);
+                } else {
+                    $('#periodInfo').text('');
+                }
+                var applicationList = $('#applicationList');
+                applicationList.empty();
+                data.applications.forEach(function (application) {
+                    applicationList.append(`
+                            <tr class="custom-table-cell">
+                            <td>${application.id}</td>
+                            <td>${application.date}</td>
+                            <td>${application.name}</td>
+                            <td>${application.message}</td>
+                            <td>${application.eMail}</td>
+                            <td>${application.status}</td>
+                            <td>
+                                <select class="status-select">
+                                    <option value="${application.status}">${application.status}</option>
+                                    <option value="Получена">Получена</option>
+                                    <option value="В работе">В работе</option>
+                                    <option value="Выполнена">Выполнена</option>
+                                    <option value="Отклонена">Отклонена</option>
+                                    <option value="Отменена">Отменена</option>
+                                </select>
+                                    <button class="change-status-btn" id="uploadForm" data-id="${application.id}">Изменить статус</button>
+                            </td>
+                        </tr>
+                        `);
+                });
+                $('.change-status-btn').click(function () {
+                    var newStatus = $(this).siblings('.status-select').val();
+                    var id = $(this).data('id');
+                    changeStatus(newStatus, id);
+                });
+            });
+    }
+    $(document).ready(function () {
+        loadApplications('1900-01-01','2200-01-01');
+            $('#endDate').change(filterByDate);
+            $('#startDate').change(filterByDate);
+    });
+</script>
+
+

@@ -1,0 +1,111 @@
+is_global = true
+build_property.TargetFramework = net8.0
+build_property.TargetPlatformMinVersion = 
+build_property.UsingMicrosoftNETSdkWeb = true
+build_property.ProjectTypeGuids = 
+build_property.InvariantGlobalization = 
+build_property.PlatformNeutralAssembly = 
+build_property.EnforceExtendedAnalyzerRules = 
+build_property._SupportedPlatformList = Linux,macOS,Windows
+build_property.RootNamespace = FinalProject_Web
+build_property.RootNamespace = FinalProject_Web
+build_property.ProjectDir = F:\C#\CRM\FinalProject_Web\FinalProject_Web\
+build_property.EnableComHosting = 
+build_property.EnableGeneratedComInterfaceComImportInterop = 
+build_property.RazorLangVersion = 8.0
+build_property.SupportLocalizedComponentNames = 
+build_property.GenerateRazorMetadataSourceChecksumAttributes = 
+build_property.MSBuildProjectDirectory = F:\C#\CRM\FinalProject_Web\FinalProject_Web
+build_property._RazorSourceGeneratorDebug = 
+
+[F:/C\#/CRM/FinalProject_Web/FinalProject_Web/Views/Account/Login.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWNjb3VudFxMb2dpbi5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[F:/C\#/CRM/FinalProject_Web/FinalProject_Web/Views/Account/Registration.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWNjb3VudFxSZWdpc3RyYXRpb24uY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[F:/C\#/CRM/FinalProject_Web/FinalProject_Web/Views/Blog/AddBlogWindow.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQmxvZ1xBZGRCbG9nV2luZG93LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[F:/C\#/CRM/FinalProject_Web/FinalProject_Web/Views/Blog/Blog.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQmxvZ1xCbG9nLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[F:/C\#/CRM/FinalProject_Web/FinalProject_Web/Views/Blog/BlogPostDetails.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQmxvZ1xCbG9nUG9zdERldGFpbHMuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[F:/C\#/CRM/FinalProject_Web/FinalProject_Web/Views/Blog/ChangeBlogPostWindow.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQmxvZ1xDaGFuZ2VCbG9nUG9zdFdpbmRvdy5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[F:/C\#/CRM/FinalProject_Web/FinalProject_Web/Views/Contact/ChangeContactWindow.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ29udGFjdFxDaGFuZ2VDb250YWN0V2luZG93LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[F:/C\#/CRM/FinalProject_Web/FinalProject_Web/Views/Contact/Contacts.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ29udGFjdFxDb250YWN0cy5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[F:/C\#/CRM/FinalProject_Web/FinalProject_Web/Views/Dekstop/DekstopWindow.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRGVrc3RvcFxEZWtzdG9wV2luZG93LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[F:/C\#/CRM/FinalProject_Web/FinalProject_Web/Views/Link/AddLinkWindow.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTGlua1xBZGRMaW5rV2luZG93LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[F:/C\#/CRM/FinalProject_Web/FinalProject_Web/Views/Link/ChangeLinkWindow.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTGlua1xDaGFuZ2VMaW5rV2luZG93LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[F:/C\#/CRM/FinalProject_Web/FinalProject_Web/Views/Project/AddProjectWindow.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUHJvamVjdFxBZGRQcm9qZWN0V2luZG93LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[F:/C\#/CRM/FinalProject_Web/FinalProject_Web/Views/Project/ChangeProjectWindow.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUHJvamVjdFxDaGFuZ2VQcm9qZWN0V2luZG93LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[F:/C\#/CRM/FinalProject_Web/FinalProject_Web/Views/Project/ProjectDetails.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUHJvamVjdFxQcm9qZWN0RGV0YWlscy5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[F:/C\#/CRM/FinalProject_Web/FinalProject_Web/Views/Project/Projects.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUHJvamVjdFxQcm9qZWN0cy5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[F:/C\#/CRM/FinalProject_Web/FinalProject_Web/Views/Service/AddServiceWindow.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2VydmljZVxBZGRTZXJ2aWNlV2luZG93LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[F:/C\#/CRM/FinalProject_Web/FinalProject_Web/Views/Service/ChangeServiceWindow.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2VydmljZVxDaGFuZ2VTZXJ2aWNlV2luZG93LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[F:/C\#/CRM/FinalProject_Web/FinalProject_Web/Views/Service/Services.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2VydmljZVxTZXJ2aWNlcy5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[F:/C\#/CRM/FinalProject_Web/FinalProject_Web/Views/Shared/Components/LogoutView/Default.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXENvbXBvbmVudHNcTG9nb3V0Vmlld1xEZWZhdWx0LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[F:/C\#/CRM/FinalProject_Web/FinalProject_Web/Views/Shared/_Layout.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9MYXlvdXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[F:/C\#/CRM/FinalProject_Web/FinalProject_Web/Views/Web/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcV2ViXEluZGV4LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[F:/C\#/CRM/FinalProject_Web/FinalProject_Web/Views/_ViewImports.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[F:/C\#/CRM/FinalProject_Web/FinalProject_Web/Views/_ViewStart.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdTdGFydC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 

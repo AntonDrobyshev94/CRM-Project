@@ -1,0 +1,36 @@
+﻿@{
+    ViewData["Title"] = "Изменение поста";
+    Layout = "_Layout";
+}
+<link href="~/css/IndexStyle.css" rel="stylesheet" />
+@model CompositeViewModel<BlogModel>
+@{
+    var blogModel = Model.ContentViewModel;
+    bool isAdmin = Model.LayoutViewModel.IsAdmin;
+}
+@if (isAdmin)
+{
+    <div class="form-container">
+
+        <div class="request-form center">
+            <div>
+                <form action="~/Blog/ChangeBlogPost" method="post" enctype="multipart/form-data" id="uploadForm" data-redirect-url="/Blog/Blog">
+                    <input type="file" name="imageFile" accept="image/*" id="uploadInput" />
+                    <input type="hidden" name="imageName" value="@blogModel.ImageName">
+                    <input type="hidden" name="id" value="@blogModel.Id">
+                    <label>Заголовок</label>
+                    <input maxlength="33" type="text" name="name" value="@blogModel.Name" /><br />
+                    <label>Краткое описание</label><br />
+                    <textarea maxlength="245" name="description" rows="3" class="description">@blogModel.Description</textarea><br /><br />
+                    <label>Содержимое поста</label><br />
+                    <textarea name="blogPost" rows="7" class="description">@blogModel.BlogPost</textarea><br /><br />
+                    <input type="hidden" id="requestId" name="requestId" />
+                    <p><input type="submit" style="margin-top:20px" class="styled-button" value="Подтвердить изменения" /></p>
+                </form>
+            </div>
+        </div>
+    </div>
+    <script src="~/js/exception_script.js"></script>
+    <script src="~/js/requestId_script.js"></script>
+}
+
