@@ -1,9 +1,9 @@
 Версия без Docker на MSSQL (в разработке развёртывание на Docker и postgresql)
 Для правильной работы необходимо выполнить следующий порядок действий:
-1. В папке kafka_2.12-3.8.0, в файле RunKafka.bat изменить пути к файлам.
-2. Перейти в папку kafka_2.12-3.8.0 -> config -> заменить путь к zookeeper в файле zookeeper.properties.
+1. В папке kafka, в файле RunKafka.bat изменить пути к файлам.
+2. Перейти в папку kafka -> config -> заменить путь к zookeeper в файле zookeeper.properties.
 3. В FinalProject_API и в AuthService сделать update-database (обновление БД) через консоль диспетчера пакетов Nuget.
-4. В папке kafka_2.12-3.8.0 убедиться что папки kafka-logs и logs пустые (удалить содержимое) и запустить RunKafka.bat
+4. В папке kafka убедиться что папки kafka-logs и logs пустые (удалить содержимое) и запустить RunKafka.bat
 5. Запустить FinalProject_API, AuthService и FinalProject_Web. По умолчанию создан пользователь admin,
 пароль admin (с правами администратора) и user, пароль user (с правами пользователя).
 
